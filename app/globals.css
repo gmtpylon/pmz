@@ -228,6 +228,10 @@ body.menu-open .mobile-menu {
    <html> (it has overflow-x: clip), so locking <body> alone isn't enough. */
 body.menu-open { overflow: hidden; }
 html:has(body.menu-open) { overflow: hidden; }
+/* Locking the root scroller disables the header's position:sticky, so if the
+   menu is opened after scrolling, the header (and its close button) would slide
+   off-screen. Pin it to the top while the menu is open. */
+body.menu-open .header { position: fixed; top: 0; left: 0; right: 0; }
 .mm-nav { display: flex; flex-direction: column; }
 
 /* Top-level row: standalone link (history/buy/contacts) or section header */
