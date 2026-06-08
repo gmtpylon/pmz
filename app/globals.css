@@ -232,6 +232,36 @@ html:has(body.menu-open) { overflow: hidden; }
    menu is opened after scrolling, the header (and its close button) would slide
    off-screen. Pin it to the top while the menu is open. */
 body.menu-open .header { position: fixed; top: 0; left: 0; right: 0; }
+
+/* Floating "back to top" button — mobile only, fades in after scrolling. */
+.scrolltop {
+  position: fixed;
+  right: 16px;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  z-index: 40;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 6px 20px -6px color-mix(in oklab, var(--ink) 65%, transparent);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+}
+.scrolltop svg { width: 22px; height: 22px; }
+@media (max-width: 900px) { .scrolltop { display: flex; } }
+.scrolltop.is-visible { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+/* Don't overlap the open mobile menu */
+body.menu-open .scrolltop { opacity: 0; visibility: hidden; pointer-events: none; }
+
 .mm-nav { display: flex; flex-direction: column; }
 
 /* Top-level row: standalone link (history/buy/contacts) or section header */

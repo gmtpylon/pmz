@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 import { RevealObserver } from "@/components/RevealObserver";
 import { PageTransition } from "@/components/PageTransition";
+import { ScrollTop } from "@/components/ScrollTop";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -30,6 +31,7 @@ export default async function LocaleLayout({
       <Header />
       <PageTransition>{children}</PageTransition>
       <Footer />
+      <ScrollTop />
       <CookieBanner />
       <RevealObserver />
     </NextIntlClientProvider>
