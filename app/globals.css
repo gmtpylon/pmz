@@ -778,10 +778,12 @@ body.menu-open .header { position: fixed; top: 0; left: 0; right: 0; }
 
 /* Mobile: tighten directorate cards so they don't overflow narrow viewports */
 @media (max-width: 600px) {
-  .dir { padding: 24px; min-height: 0; gap: 20px; }
-  .dir-head { gap: 12px; }
+  /* clip the decorative illustration so it can't spill past the card edge */
+  .dir { padding: 24px; min-height: 0; gap: 20px; overflow: hidden; }
+  /* stack title + CTA so the flex row can't force the card wider than screen */
+  .dir-head { gap: 12px; flex-direction: column; align-items: flex-start; }
   .dir-illus { height: 180px; }
-  .dir-title { font-size: 22px; }
+  .dir-title { font-size: 22px; overflow-wrap: break-word; }
   .dir-list { gap: 6px 0; }
   .dir-list li { font-size: 12px; padding: 4px 10px 4px 0; margin-right: 10px; }
 }
@@ -828,12 +830,17 @@ body.menu-open .header { position: fixed; top: 0; left: 0; right: 0; }
   border: 1px solid var(--d-line);
 }
 @media (max-width: 900px) { .big-numbers { grid-template-columns: repeat(2, 1fr); } }
+/* Below ~560px the big nowrap numbers + padding no longer fit two-up and the
+   second column gets clipped — drop to one column with tighter padding. */
+@media (max-width: 560px) { .big-numbers { grid-template-columns: 1fr; } }
 
 .big-numbers .cell {
   background: var(--d-bg);
   padding: 48px 32px;
   color: var(--d-ink);
+  min-width: 0;
 }
+@media (max-width: 560px) { .big-numbers .cell { padding: 32px 20px; } }
 .big-numbers .v {
   font-size: clamp(40px, 4.4vw, 76px);
   line-height: 0.95;
