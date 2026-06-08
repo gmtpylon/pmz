@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ПМЗ — Пушкинский машиностроительный завод</title>
+<link rel="stylesheet" href="styles.css" />
+
+<template id="__bundler_thumbnail" data-bg-color="#fbfaf6">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#fbfaf6"/>
+    <g stroke="#1a1c20" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <!-- Lattice mast -->
+      <line x1="540" y1="180" x2="540" y2="540"/>
+      <line x1="660" y1="180" x2="660" y2="540"/>
+      <line x1="540" y1="180" x2="660" y2="180"/>
+      <line x1="540" y1="240" x2="660" y2="240"/>
+      <line x1="540" y1="300" x2="660" y2="300"/>
+      <line x1="540" y1="360" x2="660" y2="360"/>
+      <line x1="540" y1="420" x2="660" y2="420"/>
+      <line x1="540" y1="480" x2="660" y2="480"/>
+      <line x1="540" y1="540" x2="660" y2="540"/>
+      <line x1="540" y1="180" x2="660" y2="240"/>
+      <line x1="660" y1="180" x2="540" y2="240"/>
+      <line x1="540" y1="240" x2="660" y2="300"/>
+      <line x1="660" y1="240" x2="540" y2="300"/>
+      <line x1="540" y1="300" x2="660" y2="360"/>
+      <line x1="660" y1="300" x2="540" y2="360"/>
+      <line x1="540" y1="360" x2="660" y2="420"/>
+      <line x1="660" y1="360" x2="540" y2="420"/>
+      <line x1="540" y1="420" x2="660" y2="480"/>
+      <line x1="660" y1="420" x2="540" y2="480"/>
+      <line x1="540" y1="480" x2="660" y2="540"/>
+      <line x1="660" y1="480" x2="540" y2="540"/>
+      <!-- Crown -->
+      <rect x="520" y="140" width="160" height="36"/>
+      <line x1="600" y1="140" x2="600" y2="90"/>
+      <!-- Ground -->
+      <line x1="120" y1="620" x2="1080" y2="620" stroke-width="4"/>
+      <!-- Drill rod -->
+      <line x1="600" y1="540" x2="600" y2="720"/>
+    </g>
+    <!-- Gold elements -->
+    <g fill="#c69d4a" stroke="#a37c2c" stroke-width="2">
+      <circle cx="600" cy="100" r="14"/>
+      <rect x="500" y="350" width="200" height="34"/>
+      <polygon points="580,720 620,720 600,760"/>
+    </g>
+  </svg>
+</template>
+<script>
+  // Apply persisted theme BEFORE paint to avoid flicker
+  (function(){
+    try {
+      var t = localStorage.getItem('pmz-theme');
+      if (t !== 'dark' && t !== 'light') t = 'light';
+      document.documentElement.setAttribute('data-theme', t);
+      var a = localStorage.getItem('pmz-accent');
+      if (a) document.documentElement.style.setProperty('--accent', a);
+      var ah = localStorage.getItem('pmz-accent-hi');
+      if (ah) document.documentElement.style.setProperty('--accent-hi', ah);
+      var d = localStorage.getItem('pmz-density');
+      if (d) document.documentElement.style.setProperty('--density', d);
+    } catch(e) {}
+  })();
+</script>
+</head>
+<body>
+
+<!-- ============================== TOP STRIP ============================== -->
+<div class="topstrip">
+  <div class="wrap">
+    <div class="row">
+      <span><span class="dot"></span>Производство · смена 2/2 · работаем</span>
+      <span class="spacer"></span>
+      <a href="#contacts">196608, Санкт-Петербург, г. Пушкин, Новодеревенская ул., 17</a>
+      <a href="tel:+78126407995">+7 (812) 640‑79‑95</a>
+      <span>RU / EN</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================== HEADER ============================== -->
+<header class="header">
+  <div class="wrap">
+    <div class="row">
+      <a class="brand" href="#top" aria-label="ПМЗ — Пушкинский машиностроительный завод">
+        <img class="brand-logo" src="img/logo-pmz.svg" alt="ПМЗ" />
+      </a>
+      <nav class="nav">
+        <div class="nav-item">
+          <a href="#plant" class="nav-link">Завод</a>
+          <div class="mega" data-mega="plant">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Компания</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="О заводе">О&nbsp;заводе</a></li>
+                    <li style="--i: 1"><a href="history.html">История компании</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Руководство">Руководство</a></li>
+                    <li style="--i: 3"><a href="#" data-stub="Социальная ответственность">Социальная ответственность</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Качество</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Сертификаты и награды">Награды и&nbsp;сертификаты</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="ОТК и контроль качества">ОТК и&nbsp;контроль качества</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="ISO 9001">ISO&nbsp;9001 · НАКС</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Контакты</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#contacts">Адрес и&nbsp;реквизиты</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Карьера">Карьера на&nbsp;ПМЗ</a></li>
+                    <li style="--i: 2"><a href="#news">Пресс-центр</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="history.html">
+                <span class="mf-tag">/ Хроника</span>
+                <span class="mf-yr">1919&nbsp;—&nbsp;2026</span>
+                <span class="mf-title">Сто шесть&nbsp;лет<br/>на&nbsp;металле</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#directions" class="nav-link">Продукция</a>
+          <div class="mega" data-mega="products">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Геотехника</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Анкерные системы">Анкерные системы GEOIZOL‑MP</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Винтовые штанги">Винтовые штанги</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Грунтовые анкеры">Грунтовые анкеры</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Буровой инструмент</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Буровое оборудование">Буровое оборудование</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Шнеки CFA">Шнеки CFA</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Обсадные трубы">Обсадные и&nbsp;бетонолитные трубы</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Машиностроение</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Машиностроение">Машиностроение под&nbsp;заказ</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="МБГУ-200">МБГУ‑200 · буровые установки</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Металлоконструкции">Металлоконструкции</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="#directions">
+                <span class="mf-tag">/ Каталог</span>
+                <span class="mf-yr">4&nbsp;800&nbsp;т/год</span>
+                <span class="mf-title">Четыре направления<br/>производства</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#services" class="nav-link">Услуги</a>
+          <div class="mega" data-mega="services">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Обработка</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Прокатка">Прокатка</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Механическая обработка">Механическая обработка металла</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Резка металла">Резка металла</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Формообразование</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Гибка и вальцовка">Гибка, вальцовка листа</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Сварочные работы">Сварочные работы (НАКС)</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Металлообработка">Металлообработка под&nbsp;ТЗ</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Спецпроцессы</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Термодиффузионное цинкование">Термодиффузионное цинкование</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Термообработка ТВЧ">Термообработка ТВЧ</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Механические испытания">Механические испытания</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="#cta">
+                <span class="mf-tag">/ Заявка</span>
+                <span class="mf-yr">1&nbsp;день</span>
+                <span class="mf-title">Расчёт по&nbsp;чертежу<br/>под ваш проект</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#projects" class="nav-link">Объекты</a>
+          <div class="mega" data-mega="customers">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Промышленность</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Нефтегазовое строительство">Нефтегазовое строительство</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Гидротехническое строительство">Гидротехническое строительство</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Специальное строительство">Специальное строительство</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Инфраструктура</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Дорожное строительство">Дорожное строительство</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Жилищное строительство">Жилищное строительство</a></li>
+                    <li style="--i: 2"><a href="#" data-stub="Здравоохранение">Здравоохранение</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Флагман</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="#" data-stub="Ракетно-космическая отрасль">Ракетно-космическая отрасль</a></li>
+                    <li style="--i: 1"><a href="#" data-stub="Спортивно-туристический кластер">Спорт и&nbsp;туризм</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat mega-feat-gold" href="#projects">
+                <span class="mf-tag">/ Флагман · 2016</span>
+                <span class="mf-yr">1&nbsp;280 анкеров</span>
+                <span class="mf-title">Космодром<br/>«Восточный»</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="history.html" class="nav-link">История</a>
+        <a href="#cta" class="nav-link">Как купить</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+      </nav>
+
+      <div class="head-actions">
+        <button class="icon-btn theme-btn" id="themeToggle" aria-label="Сменить тему" title="Сменить тему">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuToggle" aria-label="Меню" title="Меню" aria-expanded="false">
+          <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+          <svg class="xmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </button>
+        <a href="#cta" class="btn">
+          Заявка
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Mobile slide-out menu (sibling of header to escape backdrop-filter containing block) -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mm-nav">
+      <a href="#plant">Завод</a>
+      <a href="#directions">Продукция</a>
+      <a href="#services">Услуги</a>
+      <a href="#projects">Объекты</a>
+      <a href="history.html">История</a>
+      <a href="#cta">Как купить</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="mm-foot">
+      <a href="tel:+78126407995" class="mm-phone">+7 (812) 640‑79‑95</a>
+      <div class="mm-addr">196608, Санкт-Петербург,<br/>г. Пушкин, Новодеревенская ул., 17</div>
+    </div>
+  </div>
+
+<!-- "Раздел в разработке" modal -->
+<dialog class="stub-modal" id="stubModal">
+  <div class="stub-card">
+    <div class="stub-tag">/ Раздел в&nbsp;разработке</div>
+    <h3 class="stub-title">Скоро здесь&nbsp;будет<br/><span class="stub-target" id="stubTarget">контент</span></h3>
+    <p class="stub-text">Мы&nbsp;уже работаем над&nbsp;этим разделом — он&nbsp;появится в&nbsp;ближайшем обновлении сайта. А&nbsp;пока — оставьте заявку или&nbsp;свяжитесь с&nbsp;отделом сбыта напрямую.</p>
+    <div class="stub-actions">
+      <a href="#cta" class="btn" id="stubCta">
+        Оставить заявку
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+      </a>
+      <a href="tel:+78126407995" class="btn btn-ghost">+7 (812) 640‑79‑95</a>
+    </div>
+    <button class="stub-close" id="stubClose" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+    </button>
+  </div>
+</dialog>
+
+<!-- ============================== HERO ============================== -->
+<section class="hero" id="top" data-screen-label="Hero">
+  <div class="blueprint"></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Пушкинский Машиностроительный Завод</span>
+        <h1>
+          Тяжёлый металл и&nbsp;точная механика<br/>
+          <span class="ital" data-comment-anchor="4ca6e7f36b-span">под ваш проект.</span>
+        </h1>
+        <p class="hero-lead">
+          Геотехнические системы, буровой инструмент, металлоконструкции и&nbsp;тяжёлое машиностроение. Полный цикл от чертежа до отгрузки на современном станочном парке с&nbsp;собственным КБ и&nbsp;контролем качества по&nbsp;ГОСТ&nbsp;и&nbsp;ISO.
+        </p>
+        <div class="hero-cta">
+          <a href="#cta" class="btn">
+            Получить расчёт
+            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+          </a>
+          <a href="#directions" class="btn btn-ghost">Каталог продукции</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <span class="corner-tl"></span>
+        <span class="corner-br"></span>
+        <span class="tag">/ ELEVATION 01 · БУРОВАЯ УСТАНОВКА · МБГУ-200</span>
+
+        <svg class="hero-schem" viewBox="0 0 540 720" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+          <defs>
+            <pattern id="hero-soil" patternUnits="userSpaceOnUse" width="14" height="14" patternTransform="rotate(45)">
+              <line x1="0" y1="0" x2="0" y2="14" stroke="currentColor" stroke-width="0.4" opacity="0.25"/>
+            </pattern>
+            <pattern id="hero-rock" patternUnits="userSpaceOnUse" width="22" height="22">
+              <path d="M0 11 L11 0 M11 22 L22 11 M-11 11 L0 22 M11 -11 L22 0" stroke="currentColor" stroke-width="0.5" opacity="0.3" fill="none"/>
+              <circle cx="11" cy="11" r="1.2" fill="currentColor" opacity="0.18"/>
+            </pattern>
+            <pattern id="hero-track" patternUnits="userSpaceOnUse" width="14" height="10">
+              <rect x="0" y="0" width="14" height="10" fill="none"/>
+              <line x1="0" y1="0" x2="0" y2="10" stroke="currentColor" stroke-width="0.6"/>
+            </pattern>
+          </defs>
+
+          <!-- Title block (top-right) -->
+          <g font-family="SF Mono, monospace" font-size="9" letter-spacing="0.8" fill="currentColor" opacity="0.55">
+            <text x="520" y="30" text-anchor="end">SHEET 01 / 04</text>
+            <text x="520" y="44" text-anchor="end">SCALE 1 : 50</text>
+            <text x="520" y="58" text-anchor="end" fill="var(--gold-deep)" opacity="0.95">REV. A · 2026</text>
+          </g>
+
+          <!-- Compass (top-left) -->
+          <g transform="translate(36 42)" class="hs-compass">
+            <circle r="22" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.35"/>
+            <g class="hs-rot">
+              <line x1="0" y1="-22" x2="0" y2="-16" stroke="var(--gold)" stroke-width="1.4"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(45)"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(90)"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(135)"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(180)"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(225)"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(270)"/>
+              <line x1="0" y1="-22" x2="0" y2="-19" stroke="currentColor" stroke-width="0.4" transform="rotate(315)"/>
+            </g>
+            <text font-size="7" text-anchor="middle" y="-28" fill="currentColor" opacity="0.5">N</text>
+            <circle r="1.5" fill="var(--gold)"/>
+          </g>
+
+          <!-- ============ CROWN BLOCK (top of mast) ============ -->
+          <g stroke="currentColor" fill="none" stroke-width="1.1">
+            <!-- Top platform / crown -->
+            <rect x="252" y="76" width="60" height="14"/>
+            <line x1="252" y1="83" x2="312" y2="83" stroke-width="0.5" opacity="0.5"/>
+            <!-- Pulley / sheave -->
+            <circle class="crown-pulley" cx="282" cy="68" r="8" stroke-width="1.2"/>
+            <line x1="282" y1="60" x2="282" y2="76" class="crown-axle"/>
+            <!-- Antenna / mast warning -->
+            <line x1="282" y1="60" x2="282" y2="44" stroke-width="0.8"/>
+            <circle class="mast-light" cx="282" cy="42" r="3" fill="var(--gold)" stroke="var(--gold-deep)" stroke-width="0.6"/>
+            <!-- Mast nameplate -->
+            <text x="318" y="86" font-family="SF Mono, monospace" font-size="8" fill="var(--gold-deep)" opacity="0.95" stroke="none">МБГУ-200</text>
+          </g>
+
+          <!-- ============ MAST / LATTICE TOWER ============ -->
+          <g stroke="currentColor" fill="none" stroke-width="0.9" class="mast">
+            <!-- Vertical chord members (4 of them, 2 visible in elevation) -->
+            <line x1="262" y1="90" x2="262" y2="430"/>
+            <line x1="302" y1="90" x2="302" y2="430"/>
+
+            <!-- Mast widens at the bottom (A-frame transition) -->
+            <line x1="262" y1="430" x2="250" y2="450"/>
+            <line x1="302" y1="430" x2="314" y2="450"/>
+
+            <!-- Horizontal cross members every 34 -->
+            <line x1="262" y1="124" x2="302" y2="124"/>
+            <line x1="262" y1="158" x2="302" y2="158"/>
+            <line x1="262" y1="192" x2="302" y2="192"/>
+            <line x1="262" y1="226" x2="302" y2="226"/>
+            <line x1="262" y1="260" x2="302" y2="260"/>
+            <line x1="262" y1="294" x2="302" y2="294"/>
+            <line x1="262" y1="328" x2="302" y2="328"/>
+            <line x1="262" y1="362" x2="302" y2="362"/>
+            <line x1="262" y1="396" x2="302" y2="396"/>
+
+            <!-- X-bracing in each panel -->
+            <line x1="262" y1="90"  x2="302" y2="124"/>
+            <line x1="302" y1="90"  x2="262" y2="124"/>
+            <line x1="262" y1="124" x2="302" y2="158"/>
+            <line x1="302" y1="124" x2="262" y2="158"/>
+            <line x1="262" y1="158" x2="302" y2="192"/>
+            <line x1="302" y1="158" x2="262" y2="192"/>
+            <line x1="262" y1="192" x2="302" y2="226"/>
+            <line x1="302" y1="192" x2="262" y2="226"/>
+            <line x1="262" y1="226" x2="302" y2="260"/>
+            <line x1="302" y1="226" x2="262" y2="260"/>
+            <line x1="262" y1="260" x2="302" y2="294"/>
+            <line x1="302" y1="260" x2="262" y2="294"/>
+            <line x1="262" y1="294" x2="302" y2="328"/>
+            <line x1="302" y1="294" x2="262" y2="328"/>
+            <line x1="262" y1="328" x2="302" y2="362"/>
+            <line x1="302" y1="328" x2="262" y2="362"/>
+            <line x1="262" y1="362" x2="302" y2="396"/>
+            <line x1="302" y1="362" x2="262" y2="396"/>
+            <line x1="262" y1="396" x2="302" y2="430"/>
+            <line x1="302" y1="396" x2="262" y2="430"/>
+
+            <!-- Power swivel / rotary head sliding on mast (gold) -->
+            <g class="rotary-head">
+              <rect x="246" y="208" width="72" height="22" fill="var(--gold)" stroke="var(--gold-deep)" stroke-width="0.8" opacity="0.95"/>
+              <line x1="252" y1="214" x2="312" y2="214" stroke="var(--gold-deep)" stroke-width="0.5" opacity="0.6"/>
+              <line x1="252" y1="220" x2="312" y2="220" stroke="var(--gold-deep)" stroke-width="0.5" opacity="0.6"/>
+              <line x1="252" y1="226" x2="312" y2="226" stroke="var(--gold-deep)" stroke-width="0.5" opacity="0.6"/>
+              <!-- chuck / kelly attachment -->
+              <rect x="276" y="228" width="14" height="14" fill="var(--gold)" stroke="var(--gold-deep)" stroke-width="0.6"/>
+            </g>
+
+            <!-- Vertical drill string going down through the rig and ground -->
+            <line class="drill-rod" x1="282" y1="242" x2="282" y2="572" stroke="currentColor" stroke-width="2.4"/>
+          </g>
+
+          <!-- Annotation: MAST -->
+          <g class="hs-annot" stroke="currentColor" stroke-width="0.5" opacity="0.55" font-family="SF Mono, monospace" font-size="9">
+            <line class="hs-ln" x1="302" y1="270" x2="378" y2="270"/>
+            <circle cx="302" cy="270" r="1.5" fill="var(--gold)"/>
+            <text x="382" y="266" fill="currentColor">01 · Мачта решётчатая</text>
+            <text x="382" y="276" fill="var(--gold-deep)" opacity="0.95">H = 14 м</text>
+          </g>
+
+          <!-- ============ CHASSIS — main deck ============ -->
+          <g stroke="currentColor" fill="none" stroke-width="1.2" class="chassis">
+            <!-- Main deck outline -->
+            <path d="M 60 480 L 60 432 L 130 432 L 130 408 L 200 408 L 200 432 L 250 432 L 250 450 L 314 450 L 314 432 L 410 432 L 410 408 L 470 408 L 470 480 Z"/>
+            <!-- ledge -->
+            <line x1="60" y1="468" x2="470" y2="468" stroke-width="0.6" opacity="0.6"/>
+
+            <!-- CABIN (left) -->
+            <g class="cabin">
+              <rect x="68" y="412" width="58" height="56" stroke-width="1.1"/>
+              <!-- Windows -->
+              <rect x="74" y="418" width="46" height="26" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="0.6"/>
+              <line x1="74" y1="431" x2="120" y2="431" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
+              <line x1="97" y1="418" x2="97" y2="444" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
+              <!-- Door handle -->
+              <rect x="113" y="450" width="6" height="14" stroke="currentColor" stroke-width="0.5"/>
+              <text x="97" y="404" text-anchor="middle" font-family="SF Mono, monospace" font-size="7" fill="currentColor" opacity="0.55">КАБИНА</text>
+            </g>
+
+            <!-- ENGINE / HYDRAULIC PUMP (center-left) -->
+            <g class="engine">
+              <rect x="134" y="436" width="64" height="32" stroke-width="1.1"/>
+              <line x1="142" y1="442" x2="190" y2="442" stroke="currentColor" stroke-width="0.5"/>
+              <line x1="142" y1="448" x2="190" y2="448" stroke="currentColor" stroke-width="0.5"/>
+              <line x1="142" y1="454" x2="190" y2="454" stroke="currentColor" stroke-width="0.5"/>
+              <line x1="142" y1="460" x2="190" y2="460" stroke="currentColor" stroke-width="0.5"/>
+              <!-- Exhaust stack -->
+              <rect x="180" y="412" width="8" height="24" stroke-width="0.8"/>
+              <path class="exhaust" d="M 184 412 q -2 -6 0 -10 q 2 -4 0 -10" stroke-width="0.6" opacity="0.5"/>
+            </g>
+
+            <!-- DIESEL TANK (right side) -->
+            <g class="tank">
+              <rect x="324" y="436" width="78" height="32" stroke-width="1.1"/>
+              <rect x="332" y="442" width="62" height="20" fill="currentColor" opacity="0.08" stroke="currentColor" stroke-width="0.5"/>
+              <text x="363" y="458" text-anchor="middle" font-family="SF Mono, monospace" font-size="7" fill="currentColor" opacity="0.7">DSL 400 L</text>
+            </g>
+
+            <!-- HYDRAULIC ARM / OUTRIGGER (right) -->
+            <g class="outrigger">
+              <rect x="418" y="412" width="48" height="14" stroke-width="0.9"/>
+              <line x1="442" y1="426" x2="442" y2="476" stroke-width="1.2"/>
+              <rect x="436" y="476" width="12" height="8" stroke-width="0.9" fill="currentColor" opacity="0.2"/>
+            </g>
+          </g>
+
+          <!-- Annotation: CHASSIS -->
+          <g class="hs-annot" stroke="currentColor" stroke-width="0.5" opacity="0.55" font-family="SF Mono, monospace" font-size="9">
+            <line class="hs-ln" x1="60" y1="450" x2="20" y2="450"/>
+            <circle cx="60" cy="450" r="1.5" fill="var(--gold)"/>
+            <text x="16" y="446" text-anchor="end" fill="currentColor">02 · Шасси гусеничное</text>
+            <text x="16" y="456" text-anchor="end" fill="var(--gold-deep)" opacity="0.95">M = 28 т</text>
+          </g>
+
+          <!-- ============ TRACKED CRAWLER BASE ============ -->
+          <g stroke="currentColor" fill="none" stroke-width="1" class="tracks">
+            <!-- Track frame -->
+            <path d="M 70 482 L 460 482 L 470 494 L 470 530 L 460 542 L 70 542 L 60 530 L 60 494 Z" stroke-width="1.2"/>
+            <!-- Inner track pattern -->
+            <line x1="60" y1="500" x2="470" y2="500" stroke-width="0.5" opacity="0.4"/>
+            <line x1="60" y1="524" x2="470" y2="524" stroke-width="0.5" opacity="0.4"/>
+
+            <!-- Sprocket / drive wheel (rear-left) -->
+            <circle class="sprocket sprocket-l" cx="85" cy="512" r="14" stroke-width="1"/>
+            <circle cx="85" cy="512" r="6" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="0.5"/>
+            <g class="sprocket-teeth" transform="translate(85 512)">
+              <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="12s" repeatCount="indefinite" additive="sum"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(45)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(90)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(135)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(180)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(225)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(270)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(315)"/>
+            </g>
+
+            <!-- Sprocket front-right -->
+            <circle class="sprocket sprocket-r" cx="445" cy="512" r="14" stroke-width="1"/>
+            <circle cx="445" cy="512" r="6" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="0.5"/>
+            <g class="sprocket-teeth" transform="translate(445 512)">
+              <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="12s" repeatCount="indefinite" additive="sum"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(45)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(90)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(135)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(180)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(225)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(270)"/>
+              <rect x="-1.2" y="-15" width="2.4" height="2.4" fill="currentColor" transform="rotate(315)"/>
+            </g>
+
+            <!-- Road wheels -->
+            <circle cx="135" cy="528" r="8" stroke-width="0.8"/>
+            <circle cx="180" cy="528" r="8" stroke-width="0.8"/>
+            <circle cx="225" cy="528" r="8" stroke-width="0.8"/>
+            <circle cx="270" cy="528" r="8" stroke-width="0.8"/>
+            <circle cx="315" cy="528" r="8" stroke-width="0.8"/>
+            <circle cx="360" cy="528" r="8" stroke-width="0.8"/>
+            <circle cx="395" cy="528" r="8" stroke-width="0.8"/>
+            <!-- Return rollers (top) -->
+            <circle cx="180" cy="496" r="4" stroke-width="0.6"/>
+            <circle cx="290" cy="496" r="4" stroke-width="0.6"/>
+            <circle cx="395" cy="496" r="4" stroke-width="0.6"/>
+
+            <!-- Track plates (hatched bottom) -->
+            <g class="track-plates" stroke-width="0.6" opacity="0.7">
+              <line x1="75" y1="544" x2="75" y2="554"/>
+              <line x1="90" y1="544" x2="90" y2="554"/>
+              <line x1="105" y1="544" x2="105" y2="554"/>
+              <line x1="120" y1="544" x2="120" y2="554"/>
+              <line x1="135" y1="544" x2="135" y2="554"/>
+              <line x1="150" y1="544" x2="150" y2="554"/>
+              <line x1="165" y1="544" x2="165" y2="554"/>
+              <line x1="180" y1="544" x2="180" y2="554"/>
+              <line x1="195" y1="544" x2="195" y2="554"/>
+              <line x1="210" y1="544" x2="210" y2="554"/>
+              <line x1="225" y1="544" x2="225" y2="554"/>
+              <line x1="240" y1="544" x2="240" y2="554"/>
+              <line x1="255" y1="544" x2="255" y2="554"/>
+              <line x1="270" y1="544" x2="270" y2="554"/>
+              <line x1="285" y1="544" x2="285" y2="554"/>
+              <line x1="300" y1="544" x2="300" y2="554"/>
+              <line x1="315" y1="544" x2="315" y2="554"/>
+              <line x1="330" y1="544" x2="330" y2="554"/>
+              <line x1="345" y1="544" x2="345" y2="554"/>
+              <line x1="360" y1="544" x2="360" y2="554"/>
+              <line x1="375" y1="544" x2="375" y2="554"/>
+              <line x1="390" y1="544" x2="390" y2="554"/>
+              <line x1="405" y1="544" x2="405" y2="554"/>
+              <line x1="420" y1="544" x2="420" y2="554"/>
+              <line x1="435" y1="544" x2="435" y2="554"/>
+              <line x1="450" y1="544" x2="450" y2="554"/>
+            </g>
+            <line x1="70" y1="554" x2="455" y2="554" stroke-width="0.6"/>
+          </g>
+
+          <!-- ============ GROUND LINE ============ -->
+          <line x1="0" y1="554" x2="540" y2="554" stroke="currentColor" stroke-width="1.4" opacity="0.6"/>
+          <text x="14" y="550" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">±0.000</text>
+
+          <!-- ============ SOIL LAYERS ============ -->
+          <rect x="0" y="554" width="540" height="50" fill="url(#hero-soil)"/>
+          <line x1="0" y1="604" x2="540" y2="604" stroke="currentColor" stroke-width="0.4" opacity="0.35" stroke-dasharray="3 3"/>
+          <text x="14" y="584" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.45">Грунт</text>
+          <text x="525" y="601" text-anchor="end" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">-2.5 м</text>
+
+          <rect x="0" y="604" width="540" height="60" fill="currentColor" opacity="0.04"/>
+          <g stroke="currentColor" stroke-width="0.4" opacity="0.35">
+            <line x1="30" y1="622" x2="55" y2="624"/>
+            <line x1="110" y1="624" x2="140" y2="622"/>
+            <line x1="200" y1="626" x2="230" y2="624"/>
+            <line x1="320" y1="622" x2="350" y2="625"/>
+            <line x1="420" y1="624" x2="450" y2="622"/>
+            <line x1="60" y1="644" x2="90" y2="646"/>
+            <line x1="170" y1="646" x2="200" y2="644"/>
+            <line x1="290" y1="644" x2="320" y2="647"/>
+            <line x1="400" y1="646" x2="430" y2="644"/>
+          </g>
+          <line x1="0" y1="664" x2="540" y2="664" stroke="currentColor" stroke-width="0.4" opacity="0.35" stroke-dasharray="3 3"/>
+          <text x="14" y="632" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.45">Глина</text>
+          <text x="525" y="661" text-anchor="end" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">-7.0 м</text>
+
+          <rect x="0" y="664" width="540" height="56" fill="url(#hero-rock)"/>
+          <text x="14" y="688" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">Скальное основание</text>
+
+          <!-- ============ DRILL STRING below ground (animated) ============ -->
+          <line class="drill-rod" x1="282" y1="554" x2="282" y2="672" stroke="currentColor" stroke-width="2.4"/>
+
+          <!-- Auger flutes around drill rod (animated rotation) -->
+          <g class="drill-auger" stroke="currentColor" stroke-width="0.9" fill="none">
+            <ellipse cx="282" cy="572" rx="14" ry="3.5"/>
+            <ellipse cx="282" cy="588" rx="14" ry="3.5"/>
+            <ellipse cx="282" cy="604" rx="14" ry="3.5"/>
+            <ellipse cx="282" cy="620" rx="14" ry="3.5"/>
+            <ellipse cx="282" cy="636" rx="14" ry="3.5"/>
+            <ellipse cx="282" cy="652" rx="14" ry="3.5"/>
+          </g>
+
+          <!-- Drill bit / coronka (gold) -->
+          <g class="drill-bit-gold">
+            <polygon points="270,668 294,668 282,696" fill="var(--gold)" stroke="var(--gold-deep)" stroke-width="0.8"/>
+            <line x1="276" y1="672" x2="282" y2="688" stroke="var(--gold-deep)" stroke-width="0.6" opacity="0.7"/>
+            <line x1="288" y1="672" x2="282" y2="688" stroke="var(--gold-deep)" stroke-width="0.6" opacity="0.7"/>
+          </g>
+
+          <!-- Gold cuttings rising up the auger -->
+          <circle class="cutting cutting-1" cx="278" cy="652" r="1.4"/>
+          <circle class="cutting cutting-2" cx="286" cy="652" r="1.4"/>
+          <circle class="cutting cutting-3" cx="282" cy="652" r="1.4"/>
+
+          <!-- Annotation: DRILL TOOL -->
+          <g class="hs-annot" stroke="currentColor" stroke-width="0.5" opacity="0.55" font-family="SF Mono, monospace" font-size="9">
+            <line class="hs-ln" x1="296" y1="608" x2="378" y2="608"/>
+            <circle cx="296" cy="608" r="1.5" fill="var(--gold)"/>
+            <text x="382" y="604" fill="currentColor">03 · Шнековый бур</text>
+            <text x="382" y="614" fill="var(--gold-deep)" opacity="0.95">ø 200 мм · L до 24 м</text>
+          </g>
+
+          <!-- Right vertical dimension: total mast height -->
+          <g stroke="currentColor" stroke-width="0.4" opacity="0.4">
+            <line x1="500" y1="80" x2="500" y2="430" stroke-dasharray="2 3"/>
+            <line x1="496" y1="80" x2="504" y2="80"/>
+            <line x1="496" y1="430" x2="504" y2="430"/>
+          </g>
+          <text font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.55"
+                transform="rotate(-90 512 255)" x="512" y="255" text-anchor="middle">H = 14 м · OAH</text>
+
+          <!-- Right vertical dimension: depth -->
+          <g stroke="currentColor" stroke-width="0.4" opacity="0.4">
+            <line x1="500" y1="554" x2="500" y2="696" stroke-dasharray="2 3"/>
+            <line x1="496" y1="554" x2="504" y2="554"/>
+            <line x1="496" y1="696" x2="504" y2="696"/>
+          </g>
+          <text font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.55"
+                transform="rotate(-90 512 625)" x="512" y="625" text-anchor="middle">d = 24 м</text>
+
+          <!-- Horizontal width dimension at bottom -->
+          <g stroke="currentColor" stroke-width="0.4" opacity="0.4">
+            <line x1="60" y1="566" x2="470" y2="566" stroke-dasharray="2 3"/>
+            <line x1="60" y1="562" x2="60" y2="570"/>
+            <line x1="470" y1="562" x2="470" y2="570"/>
+          </g>
+          <text x="265" y="578" text-anchor="middle" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.55">L = 6,2 м · ШАССИ</text>
+
+          <!-- Bottom corner stamp -->
+          <g transform="translate(20 712)" font-family="SF Mono, monospace" font-size="8" letter-spacing="0.6" fill="currentColor" opacity="0.45">
+            <text>ПМЗ / МБГУ-200 / R03 / ШНЕК CFA / DRAFT</text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="hero-stats" style="grid-column: 1 / -1;">
+        <div class="stat">
+          <div class="stat-value">1919<span class="unit"></span></div>
+          <div class="stat-label">Год основания / 106 лет непрерывного производства</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value"><span class="count-up" data-to="14200">0</span><span class="unit">м²</span></div>
+          <div class="stat-label">Производственных площадей</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value"><span class="count-up" data-to="62">0</span><span class="unit">ед.</span></div>
+          <div class="stat-label">Единиц обрабатывающего оборудования</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value"><span class="count-up" data-to="68">0</span><span class="unit">регионов</span></div>
+          <div class="stat-label">География поставок по РФ&nbsp;и&nbsp;СНГ</div>
+        </div>
+      </div>
+
+      <div class="hero-marquee" aria-hidden="true" style="grid-column: 1 / -1;">
+        <div class="track">
+          <span>Геотехнические системы <i>·</i> Буровой инструмент <i>·</i> Металлоконструкции <i>·</i> Машиностроение <i>·</i> Mazak ЧПУ <i>·</i> Плазменная резка <i>·</i> Термодиффузионное цинкование <i>·</i> Сварные металлоконструкции <i>·</i> Винтовые сваи <i>·</i></span>
+          <span>Геотехнические системы <i>·</i> Буровой инструмент <i>·</i> Металлоконструкции <i>·</i> Машиностроение <i>·</i> Mazak ЧПУ <i>·</i> Плазменная резка <i>·</i> Термодиффузионное цинкование <i>·</i> Сварные металлоконструкции <i>·</i> Винтовые сваи <i>·</i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PUSHKIN — местоположение ============================== -->
+<section class="pushkin" data-screen-label="Пушкин" data-comment-anchor="4cc51714a6-section">
+  <div class="wrap">
+    <div class="pushkin-grid">
+      <div class="pushkin-text">
+        <h2>
+          Производим <span class="gold-word">в&nbsp;Царском&nbsp;Селе</span>.<br/>
+          С&nbsp;1919&nbsp;года.
+        </h2>
+
+        <p>
+          Производственная площадка ПМЗ расположена в&nbsp;Пушкине&nbsp;— исторической промышленной зоне Петербурга. Прямой выезд на&nbsp;трассу М-10 и&nbsp;кольцевую КАД, 30&nbsp;минут до&nbsp;Морского порта и&nbsp;15&nbsp;минут до&nbsp;аэропорта Пулково.
+        </p>
+
+        <div class="pushkin-facts">
+          <div class="fact">
+            <div class="fact-v">24<span style="font-size:0.6em;color:var(--ink-3);"> км</span></div>
+            <div class="fact-l">до центра<br/>Санкт-Петербурга</div>
+          </div>
+          <div class="fact">
+            <div class="fact-v">М-10</div>
+            <div class="fact-l">прямой выезд<br/>на трассу</div>
+          </div>
+          <div class="fact">
+            <div class="fact-v">3<span style="font-size:0.6em;color:var(--ink-3);"> мин</span></div>
+            <div class="fact-l">до ж/д станции<br/>Пушкин</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="facade reveal">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <span class="facade-label">/ архитектурный мотив · г. Пушкин</span>
+
+        <svg viewBox="0 0 1000 420" stroke="currentColor" stroke-width="1" fill="none" aria-hidden="true">
+          <!-- Ground -->
+          <line class="ln" x1="0" y1="380" x2="1000" y2="380" stroke-width="1.4"/>
+          <line class="ln short" x1="0" y1="386" x2="1000" y2="386" stroke-width="0.5" opacity="0.4"/>
+
+          <!-- Plinth -->
+          <line class="ln" x1="40" y1="340" x2="960" y2="340" stroke-width="1.2"/>
+          <line class="ln short" x1="40" y1="346" x2="960" y2="346" stroke-width="0.5" opacity="0.5"/>
+
+          <!-- Left wing -->
+          <line class="ln" x1="40" y1="240" x2="40" y2="340"/>
+          <line class="ln" x1="40" y1="240" x2="290" y2="240"/>
+          <line class="ln short" x1="40" y1="248" x2="290" y2="248" stroke-width="0.6"/>
+
+          <!-- Right wing -->
+          <line class="ln" x1="960" y1="240" x2="960" y2="340"/>
+          <line class="ln" x1="710" y1="240" x2="960" y2="240"/>
+          <line class="ln short" x1="710" y1="248" x2="960" y2="248" stroke-width="0.6"/>
+
+          <!-- Wing windows: arched openings -->
+          <g stroke-width="0.9">
+            <path class="ln short" d="M 65 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 115 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 165 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 215 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 759 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 809 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 859 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+            <path class="ln short" d="M 909 320 v -36 a 14 14 0 0 1 28 0 v 36 z"/>
+          </g>
+
+          <!-- Central portico back wall -->
+          <line class="ln" x1="290" y1="240" x2="710" y2="240" stroke-width="1.2"/>
+
+          <!-- 7 columns -->
+          <g stroke-width="0.9">
+            <!-- column shafts -->
+            <line class="ln short" x1="320" y1="240" x2="320" y2="340"/>
+            <line class="ln short" x1="320.5" y1="240" x2="320.5" y2="340"/>
+            <line class="ln short" x1="380" y1="240" x2="380" y2="340"/>
+            <line class="ln short" x1="380.5" y1="240" x2="380.5" y2="340"/>
+            <line class="ln short" x1="440" y1="240" x2="440" y2="340"/>
+            <line class="ln short" x1="440.5" y1="240" x2="440.5" y2="340"/>
+            <line class="ln short" x1="500" y1="240" x2="500" y2="340"/>
+            <line class="ln short" x1="500.5" y1="240" x2="500.5" y2="340"/>
+            <line class="ln short" x1="560" y1="240" x2="560" y2="340"/>
+            <line class="ln short" x1="560.5" y1="240" x2="560.5" y2="340"/>
+            <line class="ln short" x1="620" y1="240" x2="620" y2="340"/>
+            <line class="ln short" x1="620.5" y1="240" x2="620.5" y2="340"/>
+            <line class="ln short" x1="680" y1="240" x2="680" y2="340"/>
+            <line class="ln short" x1="680.5" y1="240" x2="680.5" y2="340"/>
+          </g>
+
+          <!-- Column capitals & bases -->
+          <g stroke-width="0.8">
+            <line class="ln short" x1="313" y1="240" x2="327" y2="240"/>
+            <line class="ln short" x1="313" y1="338" x2="327" y2="338"/>
+            <line class="ln short" x1="373" y1="240" x2="387" y2="240"/>
+            <line class="ln short" x1="373" y1="338" x2="387" y2="338"/>
+            <line class="ln short" x1="433" y1="240" x2="447" y2="240"/>
+            <line class="ln short" x1="433" y1="338" x2="447" y2="338"/>
+            <line class="ln short" x1="493" y1="240" x2="507" y2="240"/>
+            <line class="ln short" x1="493" y1="338" x2="507" y2="338"/>
+            <line class="ln short" x1="553" y1="240" x2="567" y2="240"/>
+            <line class="ln short" x1="553" y1="338" x2="567" y2="338"/>
+            <line class="ln short" x1="613" y1="240" x2="627" y2="240"/>
+            <line class="ln short" x1="613" y1="338" x2="627" y2="338"/>
+            <line class="ln short" x1="673" y1="240" x2="687" y2="240"/>
+            <line class="ln short" x1="673" y1="338" x2="687" y2="338"/>
+          </g>
+
+          <!-- Entablature -->
+          <line class="ln" x1="280" y1="218" x2="720" y2="218" stroke-width="1.2"/>
+          <line class="ln" x1="280" y1="240" x2="720" y2="240" stroke-width="1.1"/>
+          <line class="ln short" x1="280" y1="228" x2="720" y2="228" stroke-width="0.6"/>
+
+          <!-- Pediment -->
+          <path class="ln" d="M 280 218 L 500 130 L 720 218" stroke-width="1.2"/>
+          <line class="ln short" x1="380" y1="218" x2="620" y2="218" stroke-width="0.6"/>
+
+          <!-- Central tower -->
+          <line class="ln" x1="475" y1="100" x2="475" y2="130"/>
+          <line class="ln" x1="525" y1="100" x2="525" y2="130"/>
+          <line class="ln" x1="475" y1="100" x2="525" y2="100"/>
+          <line class="ln" x1="475" y1="130" x2="525" y2="130"/>
+
+          <!-- Drum (cylindrical base of dome) -->
+          <line class="ln" x1="478" y1="72" x2="478" y2="100"/>
+          <line class="ln" x1="522" y1="72" x2="522" y2="100"/>
+          <line class="ln" x1="478" y1="72" x2="522" y2="72"/>
+
+          <!-- Arched opening in drum -->
+          <path class="ln short" d="M 488 100 v -14 a 12 12 0 0 1 24 0 v 14 z"/>
+
+          <!-- ONION DOME (gold) -->
+          <path class="gold-fill gleam"
+                d="M 478 72
+                   C 478 56, 488 44, 500 40
+                   C 512 44, 522 56, 522 72 Z"
+                stroke="var(--gold-deep)" stroke-width="0.8"/>
+
+          <!-- Spire base -->
+          <line class="ln" x1="500" y1="40" x2="500" y2="20"/>
+          <!-- Cross -->
+          <line class="ln" x1="500" y1="20" x2="500" y2="6"/>
+          <line class="ln" x1="494" y1="13" x2="506" y2="13"/>
+          <line class="ln short" x1="497" y1="9" x2="503" y2="9"/>
+
+          <!-- Side flagpoles -->
+          <line class="ln short" x1="290" y1="218" x2="290" y2="190"/>
+          <line class="ln short" x1="710" y1="218" x2="710" y2="190"/>
+
+          <!-- Stairs -->
+          <line class="ln short" x1="380" y1="340" x2="620" y2="340"/>
+          <line class="ln short" x1="370" y1="350" x2="630" y2="350"/>
+          <line class="ln short" x1="360" y1="360" x2="640" y2="360"/>
+          <line class="ln short" x1="350" y1="370" x2="650" y2="370"/>
+
+          <!-- Dimension lines -->
+          <g stroke-width="0.6" opacity="0.45">
+            <line class="ln short" x1="40" y1="395" x2="40" y2="405" stroke-dasharray="2 2"/>
+            <line class="ln short" x1="960" y1="395" x2="960" y2="405" stroke-dasharray="2 2"/>
+            <line class="ln short" x1="40" y1="400" x2="960" y2="400"/>
+          </g>
+          <text class="dim" x="500" y="412" text-anchor="middle">L = 325 м · ELEVATION 01</text>
+
+          <!-- Vertical dim -->
+          <text class="dim" x="14" y="55" transform="rotate(-90 14 55)">h ≈ 56 м · OAH</text>
+
+          <!-- Bottom-left coordinate tag -->
+          <g transform="translate(56, 70)">
+            <text class="dim" x="0" y="0">CATHERINE PALACE / PUSHKIN</text>
+            <text class="dim" x="0" y="12">59°43′ N — 30°25′ E</text>
+          </g>
+        </svg>
+
+        <span class="facade-scale">SCALE 1:600 · DRAFT</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== HISTORY ============================== -->
+<section class="history" id="history" data-screen-label="История">
+  <div class="hist-grain"></div>
+  <div class="wrap">
+
+    <div class="sect-head reveal">
+      <span class="num"><b>С&nbsp;1919&nbsp;ГОДА</b> — Хроника</span>
+      <h2>Сто шесть лет на металле</h2>
+    </div>
+
+    <!-- Decade ribbon: horizontal time axis -->
+    <div class="hist-ribbon reveal">
+      <div class="ribbon-rail">
+        <div class="ribbon-line"></div>
+        <div class="ribbon-progress"></div>
+
+        <div class="ribbon-marker" style="--x: 0%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1919</span>
+          <span class="rm-l">основание</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 22%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1941</span>
+          <span class="rm-l">война</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 35%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1953</span>
+          <span class="rm-l">серия</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 58%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1979</span>
+          <span class="rm-l">мировой рынок</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 79%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">2011</span>
+          <span class="rm-l">модернизация</span>
+        </div>
+        <div class="ribbon-marker now" style="--x: 100%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">2026</span>
+          <span class="rm-l">сегодня</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Three highlight cards -->
+    <div class="hist-highlights reveal">
+      <a class="hh" href="history.html">
+        <div class="hh-photo">
+          <img src="data:image/svg+xml,%3Csvg/%3E" onerror="this.closest('.hh-photo,figure')?.classList.add('no-img'); this.style.display='none'"
+               alt="Завод. Вид с улицы Коммунаров"
+               loading="lazy"
+               onerror="this.closest('.hh-photo').classList.add('no-img')" />
+        </div>
+        <div class="hh-yr">1919</div>
+        <div class="hh-title">Основание<br/>в&nbsp;Детском&nbsp;Селе</div>
+        <div class="hh-text">Петроградский Дорожный Отдел открыл мастерские для&nbsp;ремонта дорожных машин — позже завод переехал в&nbsp;Пушкин.</div>
+      </a>
+      <a class="hh featured" href="history.html">
+        <div class="hh-photo">
+          <img src="data:image/svg+xml,%3Csvg/%3E" onerror="this.closest('.hh-photo,figure')?.classList.add('no-img'); this.style.display='none'"
+               alt="Мостовые фермы 1943 года"
+               loading="lazy"
+               onerror="this.closest('.hh-photo').classList.add('no-img')" />
+        </div>
+        <div class="hh-yr">1943</div>
+        <div class="hh-title">Мостовые фермы<br/>для&nbsp;реки&nbsp;Луги</div>
+        <div class="hh-text">В&nbsp;блокадном Ленинграде завод собирал узлы для&nbsp;«Катюши» и&nbsp;мостовые фермы — не&nbsp;останавливался ни&nbsp;на&nbsp;один день.</div>
+      </a>
+      <a class="hh" href="history.html">
+        <div class="hh-photo">
+          <img src="data:image/svg+xml,%3Csvg/%3E" onerror="this.closest('.hh-photo,figure')?.classList.add('no-img'); this.style.display='none'"
+               alt="Завод сегодня"
+               loading="lazy"
+               onerror="this.closest('.hh-photo').classList.add('no-img')" />
+        </div>
+        <div class="hh-yr">2026</div>
+        <div class="hh-title">Mazak ·&nbsp;ISO&nbsp;9001<br/>14&thinsp;200&nbsp;м²</div>
+        <div class="hh-text">Современный станочный парк с&nbsp;5-осевыми обрабатывающими центрами, аттестация НАКС, поставки в&nbsp;68&nbsp;регионов.</div>
+      </a>
+    </div>
+
+    <!-- CTA -->
+    <div class="hist-cta reveal">
+      <a href="history.html" class="btn btn-accent">
+        Подробнее об&nbsp;истории завода
+        <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 4 DIRECTIONS ============================== -->
+<section id="directions" data-screen-label="Направления">
+  <div class="wrap" data-comment-anchor="543bdaaff6-div">
+    <div class="sect-head reveal">
+      <span class="num"><b>/ 01</b> — Продукция</span>
+      <h2>Четыре направления производства</h2>
+    </div>
+
+    <div class="dir-grid reveal">
+
+      <!-- 1. Геотехника -->
+      <div class="dir">
+        <div class="dir-head">
+          <div>
+            <div class="dir-no">D-01</div>
+            <div class="dir-title">Геотехнические<br/>системы</div>
+          </div>
+          <a href="#" class="dir-cta">Подробнее
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+          </a>
+        </div>
+        <div class="dir-illus">
+          <!-- Screw pile -->
+          <svg viewBox="0 0 300 240" fill="none" stroke="currentColor" stroke-width="1">
+            <!-- dimension lines -->
+            <line x1="20" y1="20" x2="20" y2="220" stroke-dasharray="2 3" opacity="0.4"/>
+            <line x1="280" y1="20" x2="280" y2="220" stroke-dasharray="2 3" opacity="0.4"/>
+            <text x="22" y="16" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">ø 89 мм</text>
+            <text x="22" y="232" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">L = 3000 мм</text>
+
+            <!-- shaft -->
+            <rect x="140" y="40" width="20" height="160" stroke-width="1.2"/>
+            <!-- top -->
+            <path d="M130 40 H170 L165 30 H135 Z" stroke-width="1.2"/>
+            <line x1="135" y1="35" x2="165" y2="35" stroke-width="0.6" opacity="0.6"/>
+            <!-- threads (helical) -->
+            <g stroke-width="1" class="helix-grp">
+              <ellipse cx="150" cy="90" rx="32" ry="6"/>
+              <ellipse cx="150" cy="110" rx="32" ry="6"/>
+              <ellipse cx="150" cy="130" rx="32" ry="6"/>
+              <ellipse cx="150" cy="150" rx="32" ry="6"/>
+              <ellipse cx="150" cy="170" rx="32" ry="6"/>
+              <ellipse cx="150" cy="190" rx="32" ry="6"/>
+            </g>
+            <!-- tip -->
+            <path d="M140 200 L150 220 L160 200 Z" class="accent" stroke="currentColor" stroke-width="1.2"/>
+
+            <!-- annotation -->
+            <line x1="182" y1="130" x2="220" y2="130" stroke-width="0.6"/>
+            <circle cx="182" cy="130" r="1.5" fill="currentColor"/>
+            <text x="224" y="127" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.7">резьба</text>
+            <text x="224" y="138" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.7">самозабурная</text>
+          </svg>
+        </div>
+        <ul class="dir-list">
+          <li>винтовые штанги</li>
+          <li>муфты</li>
+          <li>буровые коронки</li>
+          <li>опорные пластины</li>
+          <li>центраторы</li>
+        </ul>
+      </div>
+
+      <!-- 2. Буровой инструмент -->
+      <div class="dir">
+        <div class="dir-head">
+          <div>
+            <div class="dir-no">D-02</div>
+            <div class="dir-title">Буровой инструмент<br/>и оснастка</div>
+          </div>
+          <a href="#" class="dir-cta">Подробнее
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+          </a>
+        </div>
+        <div class="dir-illus">
+          <!-- Auger / CFA -->
+          <svg viewBox="0 0 300 240" fill="none" stroke="currentColor" stroke-width="1">
+            <line x1="20" y1="30" x2="20" y2="220" stroke-dasharray="2 3" opacity="0.4"/>
+            <text x="22" y="26" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">CFA · непрерывный шнек</text>
+
+            <!-- central tube -->
+            <rect x="148" y="30" width="6" height="180" fill="currentColor" opacity="0.9"/>
+            <!-- helical flutes -->
+            <g stroke-width="1.2" class="auger-helix">
+              <path d="M154 50 Q200 55 200 70 Q200 85 154 95"/>
+              <path d="M148 95 Q102 100 102 115 Q102 130 148 140"/>
+              <path d="M154 95 Q200 100 200 115 Q200 130 154 140"/>
+              <path d="M148 140 Q102 145 102 160 Q102 175 148 185"/>
+              <path d="M154 140 Q200 145 200 160 Q200 175 154 185"/>
+              <path d="M148 50 Q102 55 102 70 Q102 85 148 95"/>
+            </g>
+            <!-- tip -->
+            <path d="M140 210 L151 235 L162 210 Z" class="accent" stroke="currentColor" stroke-width="1.2"/>
+            <line x1="145" y1="215" x2="158" y2="215" stroke-width="0.6"/>
+
+            <!-- annotations -->
+            <line x1="200" y1="115" x2="240" y2="115" stroke-width="0.6"/>
+            <circle cx="200" cy="115" r="1.5" fill="currentColor"/>
+            <text x="244" y="112" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.7">шаг 320</text>
+            <text x="244" y="123" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.7">ø 600 мм</text>
+          </svg>
+        </div>
+        <ul class="dir-list">
+          <li>шнековые буры</li>
+          <li>CFA</li>
+          <li>раскатчики DDS/Atlas/Fundex</li>
+          <li>обсадные трубы</li>
+          <li>бетонолитные трубы</li>
+          <li>Келли-штанги</li>
+        </ul>
+      </div>
+
+      <!-- 3. Металлоконструкции -->
+      <div class="dir">
+        <div class="dir-head">
+          <div>
+            <div class="dir-no">D-03</div>
+            <div class="dir-title">Сварные<br/>металлоконструкции</div>
+          </div>
+          <a href="#" class="dir-cta">Подробнее
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+          </a>
+        </div>
+        <div class="dir-illus">
+          <!-- Truss / I-beam frame -->
+          <svg viewBox="0 0 300 240" fill="none" stroke="currentColor" stroke-width="1" data-comment-anchor="52bbe882e5-svg">
+            <line x1="40" y1="170" x2="260" y2="170" stroke-width="1.2"/>
+            <line x1="40" y1="60" x2="260" y2="60" stroke-width="1.2"/>
+            <!-- truss zigzag -->
+            <g stroke-width="1.1" class="truss-grp">
+              <line x1="40" y1="60" x2="40" y2="170"/>
+              <line x1="80" y1="60" x2="80" y2="170"/>
+              <line x1="120" y1="60" x2="120" y2="170"/>
+              <line x1="160" y1="60" x2="160" y2="170"/>
+              <line x1="200" y1="60" x2="200" y2="170"/>
+              <line x1="240" y1="60" x2="240" y2="170"/>
+              <line x1="260" y1="60" x2="260" y2="170"/>
+
+              <line x1="40" y1="60" x2="80" y2="170"/>
+              <line x1="120" y1="60" x2="80" y2="170"/>
+              <line x1="120" y1="60" x2="160" y2="170"/>
+              <line x1="200" y1="60" x2="160" y2="170"/>
+              <line x1="200" y1="60" x2="240" y2="170"/>
+            </g>
+            <!-- I-beam profile cross section -->
+            <g transform="translate(40,190)">
+              <rect x="0" y="0" width="36" height="3" class="accent" fill="currentColor"/>
+              <rect x="16" y="3" width="4" height="20" class="accent" fill="currentColor"/>
+              <rect x="0" y="23" width="36" height="3" class="accent" fill="currentColor"/>
+            </g>
+            <text x="84" y="208" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.7">профиль I-25</text>
+
+            <!-- dimensions -->
+            <line class="truss-dim" x1="40" y1="40" x2="260" y2="40" stroke-dasharray="2 3" opacity="0.4"/>
+            <text x="140" y="36" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">L = 12 000 мм</text>
+
+            <!-- node -->
+            <circle cx="120" cy="60" r="3" fill="currentColor"/>
+            <circle cx="160" cy="170" r="3" fill="currentColor"/>
+          </svg>
+        </div>
+        <ul class="dir-list">
+          <li>колонны и фермы</li>
+          <li>балки и ригели</li>
+          <li>армокаркасы</li>
+          <li>опоры трубопроводов</li>
+          <li>ёмкости до 120 м³</li>
+        </ul>
+      </div>
+
+      <!-- 4. Машиностроение -->
+      <div class="dir">
+        <div class="dir-head">
+          <div>
+            <div class="dir-no">D-04</div>
+            <div class="dir-title">Машиностроение<br/>и спецтехника</div>
+          </div>
+          <a href="#" class="dir-cta">Подробнее
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+          </a>
+        </div>
+        <div class="dir-illus">
+          <!-- Drilling rig schematic -->
+          <svg viewBox="0 0 300 260" fill="none" stroke="currentColor" stroke-width="1" data-comment-anchor="73352dcba6-svg" style="overflow: visible;">
+            <!-- base / tracks -->
+            <rect x="40" y="190" width="220" height="22" stroke-width="1.2"/>
+            <g stroke-width="0.7" opacity="0.6">
+              <line x1="50" y1="190" x2="50" y2="212"/>
+              <line x1="70" y1="190" x2="70" y2="212"/>
+              <line x1="90" y1="190" x2="90" y2="212"/>
+              <line x1="110" y1="190" x2="110" y2="212"/>
+              <line x1="130" y1="190" x2="130" y2="212"/>
+              <line x1="150" y1="190" x2="150" y2="212"/>
+              <line x1="170" y1="190" x2="170" y2="212"/>
+              <line x1="190" y1="190" x2="190" y2="212"/>
+              <line x1="210" y1="190" x2="210" y2="212"/>
+              <line x1="230" y1="190" x2="230" y2="212"/>
+              <line x1="250" y1="190" x2="250" y2="212"/>
+            </g>
+            <!-- cab -->
+            <rect x="55" y="155" width="60" height="35" stroke-width="1.2"/>
+            <rect x="62" y="162" width="20" height="14" stroke-width="0.8" class="accent" fill="currentColor" opacity="0.85"/>
+            <!-- mast -->
+            <g stroke-width="1.2">
+              <line x1="180" y1="30" x2="180" y2="190"/>
+              <line x1="210" y1="30" x2="210" y2="190"/>
+              <line x1="180" y1="40" x2="210" y2="60"/>
+              <line x1="180" y1="60" x2="210" y2="80"/>
+              <line x1="180" y1="80" x2="210" y2="100"/>
+              <line x1="180" y1="100" x2="210" y2="120"/>
+              <line x1="180" y1="120" x2="210" y2="140"/>
+              <line x1="180" y1="140" x2="210" y2="160"/>
+              <line x1="210" y1="40" x2="180" y2="60"/>
+              <line x1="210" y1="60" x2="180" y2="80"/>
+              <line x1="210" y1="80" x2="180" y2="100"/>
+              <line x1="210" y1="100" x2="180" y2="120"/>
+              <line x1="210" y1="120" x2="180" y2="140"/>
+              <line x1="210" y1="140" x2="180" y2="160"/>
+              <line x1="180" y1="40" x2="210" y2="40"/>
+              <line x1="180" y1="60" x2="210" y2="60"/>
+              <line x1="180" y1="80" x2="210" y2="80"/>
+              <line x1="180" y1="100" x2="210" y2="100"/>
+              <line x1="180" y1="120" x2="210" y2="120"/>
+              <line x1="180" y1="140" x2="210" y2="140"/>
+              <line x1="180" y1="160" x2="210" y2="160"/>
+              <line x1="180" y1="180" x2="210" y2="180"/>
+            </g>
+            <!-- drill -->
+            <g class="drill-bit">
+              <rect x="193" y="190" width="4" height="40" fill="currentColor"/>
+              <path d="M188 230 L195 245 L202 230 Z" class="accent" stroke="currentColor" stroke-width="1.2"/>
+            </g>
+
+            <text x="44" y="24" font-family="SF Mono, monospace" font-size="9" fill="currentColor" opacity="0.5">МБГУ-200 · буровая установка</text>
+          </svg>
+        </div>
+        <ul class="dir-list">
+          <li>МБГУ-200</li>
+          <li>илосос, силос</li>
+          <li>автоэвакуатор</li>
+          <li>кабельные барабаны</li>
+          <li>остуживающие барабаны</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PROJECTS / INDUSTRIES ============================== -->
+<section id="projects" class="projects" data-screen-label="Объекты">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <span class="num"><b>/ 02</b> — Объекты и заказчики</span>
+      <h2>Где работают изделия завода</h2>
+    </div>
+
+    <p class="proj-intro reveal">От&nbsp;Космодрома&nbsp;«Восточный» до&nbsp;портовых причалов и&nbsp;нефтегазовых месторождений. Анкерные системы GEOIZOL-MP, металлоконструкции и&nbsp;буровой инструмент завода — на&nbsp;флагманских объектах России.</p>
+
+    <div class="proj-grid reveal">
+
+      <!-- FLAGSHIP: Vostochny -->
+      <a class="proj proj-hero" href="#" style="grid-column: span 2; grid-row: span 2;">
+        <div class="proj-img">
+          <img src="img/project-cosmodrome.jpg"
+               alt="Космодром Восточный"
+               loading="lazy"
+               onerror="this.closest('.proj-img').classList.add('no-img')" />
+        </div>
+        <div class="proj-overlay">
+          <span class="proj-tag">/ Флагман · 2016</span>
+          <h3>Космодром «Восточный»</h3>
+          <p>Многофункциональная геотехническая система <b>GEOIZOL-MP</b> для&nbsp;усиления стартового стола ракетоносителя «Союз-2». 1 280 анкерных тяг, термодиффузионное цинкование, ресурс — 100&nbsp;лет.</p>
+          <div class="proj-meta">
+            <span>Амурская область</span><span>·</span><span>Ракетно-космическая отрасль</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="proj" href="#">
+        <div class="proj-img">
+          <img src="img/project-oilgas.jpg"
+               alt="Нефтегазовое строительство"
+               loading="lazy"
+               onerror="this.closest('.proj-img').classList.add('no-img')" />
+        </div>
+        <div class="proj-overlay">
+          <span class="proj-tag">/ Нефтегаз</span>
+          <h3>Терминал «Усть-Луга»</h3>
+          <p>Анкерные системы и&nbsp;обсадные трубы для&nbsp;морских причальных сооружений.</p>
+        </div>
+      </a>
+
+      <a class="proj" href="#">
+        <div class="proj-img">
+          <img src="img/project-port.jpg"
+               alt="Гидротехническое строительство"
+               loading="lazy"
+               onerror="this.closest('.proj-img').classList.add('no-img')" />
+        </div>
+        <div class="proj-overlay">
+          <span class="proj-tag">/ Гидротехника</span>
+          <h3>Усиление берегоукрепления</h3>
+          <p>Винтовые сваи и&nbsp;шпунтовые ограждения для&nbsp;ГЭС и&nbsp;портов.</p>
+        </div>
+      </a>
+
+      <a class="proj" href="#">
+        <div class="proj-img">
+          <img src="img/project-ski.jpg"
+               alt="Спортивно-туристический кластер"
+               loading="lazy"
+               onerror="this.closest('.proj-img').classList.add('no-img')" />
+        </div>
+        <div class="proj-overlay">
+          <span class="proj-tag">/ Спорт-туризм</span>
+          <h3>Горнолыжный кластер «Архыз»</h3>
+          <p>Опорные конструкции канатных дорог, удержание склонов.</p>
+        </div>
+      </a>
+
+      <a class="proj" href="#">
+        <div class="proj-img">
+          <img src="img/project-bridge.jpg"
+               alt="Дорожное строительство"
+               loading="lazy"
+               onerror="this.closest('.proj-img').classList.add('no-img')" />
+        </div>
+        <div class="proj-overlay">
+          <span class="proj-tag">/ Дороги</span>
+          <h3>Эстакады трассы М-11</h3>
+          <p>Армокаркасы и&nbsp;ригели опор для&nbsp;мостовых переходов.</p>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================== BIG NUMBERS ============================== -->
+<section class="numbers" id="plant" data-screen-label="Цифры завода">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <span class="num"><b>/ 03</b> — Завод</span>
+      <h2>Парк и компетенции</h2>
+    </div>
+    <div class="big-numbers reveal">
+      <div class="cell">
+        <div class="v"><span class="count-up" data-to="14200" data-comment-anchor="ca295f858e-span">0</span><span class="unit">м²</span></div>
+        <div class="l">Производственные площади</div>
+        <div class="d">Два корпуса, крытое хранение проката, открытая площадка отгрузки.</div>
+      </div>
+      <div class="cell">
+        <div class="v"><span class="count-up" data-to="62">0</span><span class="unit">ед.</span></div>
+        <div class="l">Станочный парк</div>
+        <div class="d">Обрабатывающие центры Mazak, плазменная резка, гидропрессы, термоучасток.</div>
+      </div>
+      <div class="cell">
+        <div class="v"><span class="count-up" data-to="4800">0</span><span class="unit">т / год</span></div>
+        <div class="l">Выпуск металлоконструкций</div>
+        <div class="d">Поставки от единичных партий до серийных контрактов.</div>
+      </div>
+      <div class="cell">
+        <div class="v"><span class="count-up" data-to="280">0</span><span class="unit">чел.</span></div>
+        <div class="l">Сотрудников, включая собственное КБ</div>
+        <div class="d">Конструкторы, технологи, сварщики НАКС, операторы ЧПУ.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== EQUIPMENT ============================== -->
+<section id="equipment" data-screen-label="Станочный парк">
+  <div class="wrap" data-comment-anchor="4a1101b603-div">
+    <div class="sect-head reveal">
+      <span class="num"><b>/ 04</b> — Производство</span>
+      <h2>Станочный парк</h2>
+    </div>
+
+    <p class="equip-intro reveal">Полная программа технического перевооружения: уникальные прокатные станы по&nbsp;собственному ТЗ, 5-осевой обрабатывающий центр Mazak, станки с&nbsp;ЧПУ, установка термодиффузионного цинкования и&nbsp;термообработки токами высокой частоты, сертифицированный сварочный участок НАКС.</p>
+
+    <div class="equip-cards reveal">
+      <article class="ec">
+        <div class="ec-head">
+          <span class="ec-id">EQ-01</span>
+          <span class="ec-qty">собств.&nbsp;ТЗ</span>
+        </div>
+        <svg class="ec-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2">
+          <circle cx="22" cy="40" r="14"/>
+          <circle cx="58" cy="40" r="14"/>
+          <line x1="22" y1="40" x2="58" y2="40" stroke-width="0.6" opacity="0.5"/>
+          <rect x="32" y="36" width="16" height="8" fill="currentColor" opacity="0.2"/>
+          <line x1="6" y1="40" x2="14" y2="40" stroke="var(--gold)" stroke-width="1.6"/>
+          <line x1="66" y1="40" x2="74" y2="40" stroke="var(--gold)" stroke-width="1.6"/>
+        </svg>
+        <div class="ec-body">
+          <h3>Прокатка</h3>
+          <p>Уникальные прокатные станы<br/>полностью автоматизированы, под&nbsp;автоматическим контролем</p>
+        </div>
+      </article>
+
+      <article class="ec">
+        <div class="ec-head">
+          <span class="ec-id">EQ-02</span>
+          <span class="ec-qty">5&nbsp;осей</span>
+        </div>
+        <svg class="ec-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2">
+          <rect x="10" y="14" width="60" height="8"/>
+          <rect x="14" y="22" width="6" height="36" fill="currentColor" opacity="0.12"/>
+          <rect x="60" y="22" width="6" height="36" fill="currentColor" opacity="0.12"/>
+          <rect x="28" y="28" width="24" height="20"/>
+          <line x1="40" y1="48" x2="40" y2="56"/>
+          <circle cx="40" cy="60" r="4" fill="var(--gold)" opacity="0.4"/>
+          <rect x="14" y="58" width="52" height="10"/>
+          <line x1="14" y1="63" x2="66" y2="63" stroke-width="0.5" opacity="0.5"/>
+        </svg>
+        <div class="ec-body">
+          <h3>Механическая обработка металла</h3>
+          <p>Mazak Integrex · 5-осевой<br/>ø до&nbsp;1050&nbsp;мм · H до&nbsp;1000&nbsp;мм</p>
+        </div>
+      </article>
+
+      <article class="ec">
+        <div class="ec-head">
+          <span class="ec-id">EQ-03</span>
+          <span class="ec-qty">плазма</span>
+        </div>
+        <svg class="ec-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M10 50h12l5-12 8 26 6-18 4 8h25"/>
+          <line x1="10" y1="60" x2="65" y2="60" stroke-width="0.6" opacity="0.5"/>
+          <line x1="14" y1="20" x2="22" y2="28" stroke="var(--gold)" stroke-width="1.6"/>
+          <circle cx="22" cy="28" r="2" fill="var(--gold)"/>
+        </svg>
+        <div class="ec-body">
+          <h3>Резка металла</h3>
+          <p>Плазменная и&nbsp;газовая резка<br/>ленточнопильные станки для&nbsp;труб</p>
+        </div>
+      </article>
+
+      <article class="ec">
+        <div class="ec-head">
+          <span class="ec-id">EQ-04</span>
+          <span class="ec-qty">НАКС</span>
+        </div>
+        <svg class="ec-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M20 60 L40 28 L60 60 Z"/>
+          <line x1="20" y1="60" x2="60" y2="60" stroke-width="0.6" opacity="0.5"/>
+          <circle cx="40" cy="28" r="3" fill="var(--gold)"/>
+          <circle cx="40" cy="28" r="6" fill="var(--gold)" opacity="0.25"/>
+          <path d="M40 16 L42 22 L48 22 L43 26 L45 32 L40 28 L35 32 L37 26 L32 22 L38 22 Z" fill="var(--gold)" opacity="0.5"/>
+        </svg>
+        <div class="ec-body">
+          <h3>Сварочные работы</h3>
+          <p>Сварочные полуавтоматы Hobart, Lincoln<br/>МИГ/МАГ · TIG · дуговая · НАКС</p>
+        </div>
+      </article>
+
+      <article class="ec">
+        <div class="ec-head">
+          <span class="ec-id">EQ-05</span>
+          <span class="ec-qty">600&nbsp;т</span>
+        </div>
+        <svg class="ec-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2">
+          <rect x="14" y="18" width="52" height="10"/>
+          <rect x="14" y="52" width="52" height="10"/>
+          <line x1="20" y1="28" x2="20" y2="52"/>
+          <line x1="60" y1="28" x2="60" y2="52"/>
+          <path d="M20 40 Q40 32 60 40" stroke="var(--gold)" stroke-width="1.5"/>
+          <line x1="40" y1="32" x2="40" y2="40" stroke="var(--gold)" stroke-width="1"/>
+        </svg>
+        <div class="ec-body">
+          <h3>Гибка и&nbsp;вальцовка</h3>
+          <p>Листогибочные и&nbsp;трубогибочные прессы<br/>усилие до&nbsp;600&nbsp;т</p>
+        </div>
+      </article>
+
+      <article class="ec">
+        <div class="ec-head">
+          <span class="ec-id">EQ-06</span>
+          <span class="ec-qty">ТВЧ</span>
+        </div>
+        <svg class="ec-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M28 60 a12 12 0 0 1 24 0"/>
+          <path d="M22 60 a18 18 0 0 1 36 0"/>
+          <path d="M40 14 q-3 6 0 12 q3 6 0 12 q-3 6 0 12" stroke="var(--gold)" stroke-width="1.4"/>
+          <path d="M30 22 q-2 4 0 8 q2 4 0 8 q-2 4 0 8" opacity="0.5"/>
+          <path d="M50 22 q-2 4 0 8 q2 4 0 8 q-2 4 0 8" opacity="0.5"/>
+        </svg>
+        <div class="ec-body">
+          <h3>Спецпроцессы</h3>
+          <p>Термодиффузионное цинкование<br/>термообработка ТВЧ · механические испытания</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SERVICES ============================== -->
+<section id="services" style="padding-top: 0;" data-screen-label="Услуги">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <span class="num"><b>/ 05</b> — Услуги</span>
+      <h2>Услуги металлообработки</h2>
+    </div>
+
+    <div class="services-list reveal">
+      <div class="service">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="20" cy="20" r="12"/><circle cx="20" cy="20" r="3" fill="currentColor"/><path d="M20 4v6M20 30v6M4 20h6M30 20h6M8.5 8.5l4.2 4.2M27.3 27.3l4.2 4.2M8.5 31.5l4.2-4.2M27.3 12.7l4.2-4.2"/></svg>
+        <div>
+          <div class="svc-title">Токарные и фрезерные работы</div>
+          <div class="svc-desc">Обработка деталей ø&nbsp;до&nbsp;1050&nbsp;мм и высотой до 1000&nbsp;мм. Серийные и единичные партии.</div>
+        </div>
+        <div class="svc-meta"><span>ЧПУ · 5 осей</span><span>S-01</span></div>
+      </div>
+
+      <div class="service">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 22h6l3-6 5 12 4-10 3 4h7"/><line x1="6" y1="32" x2="34" y2="32" stroke-width="0.8"/></svg>
+        <div>
+          <div class="svc-title">Плазменная и газовая резка</div>
+          <div class="svc-desc">Раскрой листовой стали до 60&nbsp;мм. Программная подготовка по DXF.</div>
+        </div>
+        <div class="svc-meta"><span>лист 60 мм</span><span>S-02</span></div>
+      </div>
+
+      <div class="service">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="6" y="14" width="28" height="12"/><line x1="6" y1="10" x2="34" y2="10"/><line x1="6" y1="30" x2="34" y2="30"/><line x1="6" y1="14" x2="34" y2="26" opacity="0.5"/><line x1="34" y1="14" x2="6" y2="26" opacity="0.5"/></svg>
+        <div>
+          <div class="svc-title">Термодиффузионное цинкование</div>
+          <div class="svc-desc">Антикоррозионное покрытие крепежа и метизов по ТУ. Покрытие 6–100&nbsp;мкм.</div>
+        </div>
+        <div class="svc-meta"><span>6–100 мкм</span><span>S-03</span></div>
+      </div>
+
+      <div class="service">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 6v28"/><path d="M14 12c4 0 4 4 0 4s-4 4 0 4 4 4 0 4 4 4 0 4"/><path d="M26 12c-4 0-4 4 0 4s4 4 0 4-4 4 0 4-4 4 0 4"/></svg>
+        <div>
+          <div class="svc-title">Сварочно-сборочные работы</div>
+          <div class="svc-desc">Сертифицированный участок НАКС: МИГ/МАГ, TIG, дуговая. УЗК и&nbsp;РК.</div>
+        </div>
+        <div class="svc-meta"><span>НАКС · ГОСТ</span><span>S-04</span></div>
+      </div>
+
+      <div class="service">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="20" cy="20" r="14"/><line x1="20" y1="6" x2="20" y2="14"/><line x1="20" y1="26" x2="20" y2="34"/><path d="M14 14c4-2 8-2 12 0M14 26c4 2 8 2 12 0"/></svg>
+        <div>
+          <div class="svc-title">Вальцовка и трубогибка</div>
+          <div class="svc-desc">Гибка листа и труб, изготовление обечаек резервуаров до 120&nbsp;м³.</div>
+        </div>
+        <div class="svc-meta"><span>до 120 м³</span><span>S-05</span></div>
+      </div>
+
+      <div class="service">
+        <svg class="svc-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="6" y="6" width="28" height="28"/><line x1="6" y1="14" x2="34" y2="14"/><line x1="14" y1="6" x2="14" y2="34"/><circle cx="24" cy="24" r="3" fill="currentColor"/></svg>
+        <div>
+          <div class="svc-title">Ремонт бурового оборудования</div>
+          <div class="svc-desc">Восстановление бурового инструмента и оборудования любого производителя.</div>
+        </div>
+        <div class="svc-meta"><span>гарантия 12 мес.</span><span>S-06</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== NEWS ============================== -->
+<section id="news" data-screen-label="Новости" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <span class="num"><b>/ 06</b> — Пресс-центр</span>
+      <h2>Новости завода</h2>
+    </div>
+    <div class="news-grid reveal">
+      <article class="news-card">
+        <div class="img" data-tag="Производство">
+          <img class="news-img" src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=80&auto=format&fit=crop"
+               alt="Плазменная резка"
+               loading="lazy"
+               onerror="this.style.display='none'" />
+        </div>
+        <div class="meta"><span>14 мая 2026</span><span>3 мин</span></div>
+        <h3 class="nh">Запуск второй линии плазменной резки увеличил выпуск раскроя на&nbsp;38%</h3>
+        <p class="nx">Новая установка с ЧПУ обрабатывает лист толщиной до 60&nbsp;мм при сниженной погрешности кромки.</p>
+        <a class="read" href="#">Читать <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </article>
+
+      <article class="news-card">
+        <div class="img" data-tag="Поставка">
+          <img class="news-img" src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=900&q=80&auto=format&fit=crop"
+               alt="Отгрузка металлоконструкций"
+               loading="lazy"
+               onerror="this.style.display='none'" />
+        </div>
+        <div class="meta"><span>02 мая 2026</span><span>2 мин</span></div>
+        <h3 class="nh">Отгружена партия винтовых свай для&nbsp;инфраструктуры порта в&nbsp;Усть-Луге</h3>
+        <p class="nx">320 тонн геотехнических систем для усиления грунтов причальной стенки.</p>
+        <a class="read" href="#">Читать <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </article>
+
+      <article class="news-card">
+        <div class="img" data-tag="Сертификация">
+          <img class="news-img" src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900&q=80&auto=format&fit=crop"
+               alt="Сварочный участок НАКС"
+               loading="lazy"
+               onerror="this.style.display='none'" />
+        </div>
+        <div class="meta"><span>21 апр 2026</span><span>4 мин</span></div>
+        <h3 class="nh">Подтверждение ISO&nbsp;9001 и аттестация НАКС по&nbsp;трём типам сварки</h3>
+        <p class="nx">Завод прошёл плановый аудит системы качества и расширил перечень допусков.</p>
+        <a class="read" href="#">Читать <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CTA / FORM ============================== -->
+<section class="cta" id="cta" data-screen-label="Заявка">
+  <div class="wrap">
+    <div class="cta-grid">
+      <div>
+        <span class="num"><b>/ 07</b> — Как купить</span>
+        <h2>Опишите задачу — подготовим расчёт и спецификацию.</h2>
+        <p class="lead">Менеджер обработает заявку и пришлёт спецификацию, сроки и&nbsp;цену. Прикрепите чертёж или ТЗ, если есть — это ускорит расчёт.</p>
+
+        <div class="contact-info">
+          <div>
+            <div class="ci-l">Отдел сбыта</div>
+            <div class="ci-v">+7 (812) 640‑79‑95<small>пн–пт · 09:00–18:00</small></div>
+          </div>
+          <div>
+            <div class="ci-l">Электронная почта</div>
+            <div class="ci-v">sales@pmz.spb.ru<small>ответ в течение 4 часов</small></div>
+          </div>
+          <div>
+            <div class="ci-l">Адрес производства</div>
+            <div class="ci-v">г. Пушкин<small>Новодеревенская ул., 17</small></div>
+          </div>
+          <div>
+            <div class="ci-l">Режим работы</div>
+            <div class="ci-v">24/7<small>две производственные смены</small></div>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" onsubmit="event.preventDefault(); alert('Заявка отправлена. Менеджер свяжется в течение 4 часов.');">
+        <h3>Online-заявка</h3>
+        <div class="field">
+          <label>Ваше имя</label>
+          <input type="text" placeholder="Иван Петров" required />
+        </div>
+        <div class="field">
+          <label>Телефон или E-mail</label>
+          <input type="text" placeholder="+7 (___) ___‑__‑__ или name@company.ru" required />
+        </div>
+        <div class="field">
+          <label>Опишите задачу</label>
+          <textarea placeholder="Что нужно изготовить, объём, сроки…" rows="3"></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          Отправить заявку
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+        </button>
+        <div class="form-note">Нажимая «Отправить», вы соглашаетесь с&nbsp;обработкой персональных данных.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer id="contacts" data-screen-label="Футер">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#top" aria-label="ПМЗ">
+          <img class="brand-logo brand-logo-foot" src="img/logo-pmz.svg" alt="ПМЗ" />
+        </a>
+        <p>Производство геотехнических систем, бурового инструмента, металлоконструкций и тяжёлого машиностроения. Полный цикл от&nbsp;чертежа до отгрузки.</p>
+        <div class="foot-seal">сделано в Пушкине · с 1919</div>
+      </div>
+
+      <div class="foot-col">
+        <h4>Продукция</h4>
+        <ul>
+          <li><a href="#">Геотехнические системы</a></li>
+          <li><a href="#">Буровой инструмент</a></li>
+          <li><a href="#">Металлоконструкции</a></li>
+          <li><a href="#">Машиностроение</a></li>
+          <li><a href="#">Услуги металлообработки</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="#">О заводе</a></li>
+          <li><a href="history.html">История компании</a></li>
+          <li><a href="#">Руководство</a></li>
+          <li><a href="#">Сертификаты и награды</a></li>
+          <li><a href="#">Карьера</a></li>
+          <li><a href="#">Пресс-центр</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Заказчики</h4>
+        <ul>
+          <li><a href="#projects">Ракетно-космическая отрасль</a></li>
+          <li><a href="#projects">Нефтегазовое строительство</a></li>
+          <li><a href="#projects">Гидротехническое строительство</a></li>
+          <li><a href="#projects">Дорожное строительство</a></li>
+          <li><a href="#projects">Специальное строительство</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+78126407995">+7 (812) 640‑79‑95</a></li>
+          <li><a href="mailto:sales@pmz.spb.ru">sales@pmz.spb.ru</a></li>
+          <li><a href="#">196608, СПб, г. Пушкин,<br/>Новодеревенская ул., 17</a></li>
+          <li><a href="#">Реквизиты и схема проезда</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>© 1919–2026 ООО «Пушкинский машиностроительный завод»</span>
+      <span>ОГРН 1027810231142 · ИНН 7820300041</span>
+      <span>Политика конфиденциальности · Карта сайта</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================== TWEAKS PANEL ============================== -->
+<div id="tweaks-root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks.jsx"></script>
+
+<script>
+  // Theme toggle (header button)
+  const themeBtn = document.getElementById('themeToggle');
+  function applyTheme(t){
+    if (t === 'system') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.removeItem('pmz-theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', t);
+      localStorage.setItem('pmz-theme', t);
+    }
+  }
+  themeBtn?.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const sys = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    const next = (cur || sys) === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+  });
+
+  // Mobile menu toggle
+  const menuBtn = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  function setMenu(open) {
+    document.body.classList.toggle('menu-open', open);
+    mobileMenu?.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menuBtn?.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  menuBtn?.addEventListener('click', () => {
+    const open = !document.body.classList.contains('menu-open');
+    setMenu(open);
+  });
+  mobileMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // Mega menu — hover with header-level close detection
+  let megaTimer = null;
+  function openMega(item) {
+    clearTimeout(megaTimer);
+    document.querySelectorAll('.nav-item.is-open').forEach(n => { if (n !== item) n.classList.remove('is-open'); });
+    item.classList.add('is-open');
+  }
+  function closeMega() {
+    document.querySelectorAll('.nav-item.is-open').forEach(n => n.classList.remove('is-open'));
+  }
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('mouseenter', () => openMega(item));
+    item.addEventListener('focusin', () => openMega(item));
+  });
+  // Close only when cursor leaves the WHOLE header (which contains the mega panel via DOM)
+  const headerEl = document.querySelector('.header');
+  headerEl?.addEventListener('mouseleave', () => {
+    megaTimer = setTimeout(closeMega, 220);
+  });
+  headerEl?.addEventListener('mouseenter', () => clearTimeout(megaTimer));
+  // Also close when a non-nav-item link in header is hovered (e.g. plain nav-links)
+  document.querySelectorAll('.nav > .nav-link').forEach(a => {
+    a.addEventListener('mouseenter', () => { clearTimeout(megaTimer); closeMega(); });
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMega(); });
+
+  // Stub "in development" modal
+  const stubModal = document.getElementById('stubModal');
+  const stubTarget = document.getElementById('stubTarget');
+  document.addEventListener('click', (e) => {
+    const stub = e.target.closest('[data-stub]');
+    if (!stub) return;
+    e.preventDefault();
+    closeMega();
+    setMenu(false);
+    if (stubTarget) stubTarget.textContent = stub.dataset.stub || 'этот раздел';
+    if (typeof stubModal?.showModal === 'function') stubModal.showModal();
+    else stubModal?.setAttribute('open', '');
+  });
+  document.getElementById('stubClose')?.addEventListener('click', () => stubModal?.close());
+  stubModal?.addEventListener('click', (e) => {
+    if (e.target === stubModal) stubModal.close();
+  });
+  document.getElementById('stubCta')?.addEventListener('click', () => stubModal?.close());
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -60px 0px', threshold: 0.05 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Count-up for big numbers / hero stats
+  function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+  function animateNumber(el, to, duration = 1400, isFloat = false) {
+    const start = performance.now();
+    function tick(now) {
+      const p = Math.min(1, (now - start) / duration);
+      const v = to * easeOut(p);
+      el.textContent = isFloat
+        ? v.toFixed(1)
+        : Math.round(v).toLocaleString('ru-RU').replace(',', ' ');
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+  const countIo = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const target = parseFloat(e.target.dataset.to || '0');
+      const float = e.target.dataset.float === '1';
+      animateNumber(e.target, target, 1400, float);
+      countIo.unobserve(e.target);
+    });
+  }, { rootMargin: '0px 0px -80px 0px', threshold: 0.4 });
+  document.querySelectorAll('.count-up').forEach(el => {
+    el.textContent = '0';
+    countIo.observe(el);
+  });
+</script>
+
+</body>
+</html>

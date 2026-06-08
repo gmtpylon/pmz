@@ -1,0 +1,3504 @@
+{
+  "site": {
+    "title": "PMZ — Pushkin Machine-Building Plant",
+    "tagline": "Manufacturing of ground anchor systems, drilling tools, steel structures and heavy machinery. Full cycle from drawing to shipment.",
+    "seal": "made in Pushkin · since 1919",
+    "since": "© 1919–2026 LLC «Pushkin Machine-Building Plant»",
+    "regNumbers": "OGRN 1027810231142 · INN 7820300041",
+    "privacy": "Privacy policy"
+  },
+  "topStrip": {
+    "status": "Production · shift 2/2 · running",
+    "address": "196608, St. Petersburg, Pushkin, Novoderevenskaya str., 17",
+    "phone": "+7 (812) 640‑79‑95",
+    "phoneHref": "tel:+78126407995"
+  },
+  "nav": {
+    "plant": "Plant",
+    "products": "Products",
+    "services": "Services",
+    "customers": "Projects",
+    "history": "History",
+    "buy": "How to buy",
+    "contacts": "Contacts",
+    "menu": "Menu",
+    "request": "Request",
+    "back": "back · to home",
+    "home": "Home"
+  },
+  "mega": {
+    "plant": {
+      "company": "Company",
+      "quality": "Quality",
+      "contacts": "Contacts",
+      "feat": {
+        "tag": "/ Chronicle",
+        "yr": "1919 — 2026",
+        "title": "One hundred and six years on steel"
+      },
+      "links": {
+        "about": "About the plant",
+        "history": "Company history",
+        "leadership": "Leadership",
+        "social": "Social responsibility",
+        "awards": "Awards & certificates",
+        "qc": "QC department",
+        "iso": "ISO 9001 · NAKS",
+        "kontakty": "Address & legal info",
+        "career": "Careers at PMZ",
+        "press": "Press centre"
+      }
+    },
+    "products": {
+      "geotech": "Geotechnics",
+      "drilling": "Drilling tools",
+      "machinery": "Machinery",
+      "feat": {
+        "tag": "/ Catalogue",
+        "yr": "4,800 t/yr",
+        "title": "Four production lines"
+      },
+      "links": {
+        "anchors": "Ground anchor systems",
+        "rods": "Threaded bars",
+        "groundAnchors": "Ground anchors",
+        "drillingEq": "Drilling equipment",
+        "cfa": "CFA augers",
+        "casing": "Casing & tremie pipes",
+        "custom": "Custom machinery",
+        "mbgu": "MBGU‑200 · drilling rigs",
+        "metalwork": "Steel structures"
+      }
+    },
+    "services": {
+      "processing": "Processing",
+      "forming": "Forming",
+      "special": "Special processes",
+      "feat": {
+        "tag": "/ Request",
+        "yr": "1 day",
+        "title": "Quote from drawing for your project"
+      },
+      "links": {
+        "rolling": "Rolling",
+        "machining": "Metal machining",
+        "cutting": "Metal cutting",
+        "bending": "Sheet bending & roll-forming",
+        "welding": "Welding (NAKS)",
+        "metalwork": "Custom metalwork",
+        "galvanizing": "Thermal-diffusion galvanizing",
+        "hf": "HF heat treatment",
+        "tests": "Mechanical testing"
+      }
+    },
+    "customers": {
+      "industry": "Industry",
+      "infra": "Infrastructure",
+      "flagship": "Flagship",
+      "feat": {
+        "tag": "/ Flagship · 2016",
+        "yr": "1,280 anchors",
+        "title": "Vostochny Cosmodrome"
+      },
+      "links": {
+        "oilgas": "Oil & gas construction",
+        "hydro": "Hydraulic engineering",
+        "spec": "Special construction",
+        "roads": "Road construction",
+        "housing": "Residential construction",
+        "health": "Healthcare",
+        "space": "Space industry",
+        "sport": "Sport & tourism"
+      }
+    }
+  },
+  "footer": {
+    "products": "Products",
+    "company": "Company",
+    "contacts": "Contacts",
+    "addr": "196608, St. Petersburg, Pushkin,\nNovoderevenskaya str., 17",
+    "news": "News"
+  },
+  "stub": {
+    "eyebrow": "/ Content in progress",
+    "title": "This page is still being migrated from the design.",
+    "lead": "The design is ready in _design-source/, content will land in the next iteration. The structure and navigation are already in place.",
+    "cta": "Go to home"
+  },
+  "ctaCommon": {
+    "num": "/ 03",
+    "head": "How to buy",
+    "title": "Send your parameters — we'll prepare a quote.",
+    "lead": "Describe the task, attach a drawing or specs. Our manager will send the spec, price and lead time within 4 hours.",
+    "btn": "Send request"
+  },
+  "pages": {
+    "prokatka": {
+      "eyebrow": "/ Services · Processing · S-01",
+      "title": "Rolling",
+      "lead": "Custom rolling mills built to our own specs, fully automated, with continuous in-process control.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Capabilities",
+          "title": "What our rolling shop can do.",
+          "items": [
+            {
+              "ttl": "Profile rolling",
+              "dsc": "To individual calculations."
+            },
+            {
+              "ttl": "Geometry control",
+              "dsc": "Automated in-process inspection."
+            },
+            {
+              "ttl": "Batches and single parts",
+              "dsc": "From small runs to series."
+            },
+            {
+              "ttl": "In-house equipment specs",
+              "dsc": "Mills engineered for the plant's tasks."
+            },
+            {
+              "ttl": "Diameter range",
+              "dsc": "Tubular threaded bars ø 25–135 mm outer diameter."
+            },
+            {
+              "ttl": "Rolling force",
+              "dsc": "Up to 150 t, rigid stands."
+            },
+            {
+              "ttl": "Roll durability",
+              "dsc": "In-house technology — 5–8× longer service life."
+            },
+            {
+              "ttl": "Thread rolling",
+              "dsc": "With pre-calibration of the tube blank."
+            },
+            {
+              "ttl": "Memory & self-diagnostics",
+              "dsc": "Process settings stored, in-process control."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-04",
+              "ttl": "Rolling line",
+              "cat": "Bar line ø 25–135 mm",
+              "img": "/img/factory/services/prokat-04.webp"
+            },
+            {
+              "id": "EQ-01",
+              "ttl": "Rolling mill",
+              "cat": "Rolling shop",
+              "img": "/img/factory/prokat-01.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Mill stands",
+              "cat": "Force up to 150 t",
+              "img": "/img/factory/prokat-02.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Thread rolling",
+              "cat": "With pre-calibration",
+              "img": "/img/factory/prokat-03.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "S01"
+    },
+    "mehanicheskaya-obrabotka": {
+      "eyebrow": "/ Services · Processing · S-02",
+      "title": "Mechanical metal machining",
+      "lead": "Turning and milling, including on CNC machining centers. Mazak Integrex — 5-axis machining.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Capabilities",
+          "title": "What we do.",
+          "items": [
+            {
+              "ttl": "Turning and milling",
+              "dsc": "On CNC centers and universal machines."
+            },
+            {
+              "ttl": "Part dimensions",
+              "dsc": "ø up to 1050 mm, height up to 1000 mm."
+            },
+            {
+              "ttl": "Drilling up to 74 mm",
+              "dsc": "Precise positioning."
+            },
+            {
+              "ttl": "Boring operations",
+              "dsc": "For large diameters."
+            },
+            {
+              "ttl": "Grinding",
+              "dsc": "Workpieces 320 × 1500 × 200 mm."
+            },
+            {
+              "ttl": "Gear cutting",
+              "dsc": "ø up to 600 mm, module up to 12 mm."
+            },
+            {
+              "ttl": "Mazak INTEGREX i-630V/6",
+              "dsc": "5-axis twin-pallet center, since 2016. ø up to 1050 mm, H to 1000 mm, up to 1200 kg."
+            },
+            {
+              "ttl": "Goodway CNC turning-milling",
+              "dsc": "Series and one-off machining."
+            },
+            {
+              "ttl": "Turning",
+              "dsc": "ø up to 1000 mm, length up to 4 m."
+            },
+            {
+              "ttl": "Milling",
+              "dsc": "Workpieces 980 × 800 × 3200 mm."
+            },
+            {
+              "ttl": "Vertical-turret turning",
+              "dsc": "ø up to 2500 mm, height up to 1700 mm."
+            },
+            {
+              "ttl": "Boring",
+              "dsc": "Workpieces 1250 × 1250 × 1200 mm."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Mazak INTEGREX i-630V/6",
+              "cat": "5-axis center, ø up to 1050 mm",
+              "img": "/img/factory/services/mazak-integrex.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Turning shop",
+              "cat": "ø up to 1000 mm, length up to 4 m",
+              "img": "/img/factory/services/mechobr-tokarka.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "CNC machining centers",
+              "cat": "Goodway, multi-purpose",
+              "img": "/img/factory/services/mechobr-cnc-1.webp"
+            },
+            {
+              "id": "EQ-04",
+              "ttl": "Milling shop",
+              "cat": "Workpieces 980 × 800 × 3200 mm",
+              "img": "/img/factory/services/mechobr-cnc-2.webp"
+            },
+            {
+              "id": "EQ-05",
+              "ttl": "Mechanical shop",
+              "cat": "CNC turning-milling",
+              "img": "/img/factory/services/mechobr-cnc-3.webp"
+            }
+          ]
+        }
+      ],
+      "photoBand": {
+        "img": "/img/factory/services/mazak-integrex.webp",
+        "alt": "Mazak INTEGREX i-630V/6 machining center",
+        "capTag": "/ Equipment",
+        "capText": "Mazak INTEGREX i-630V/6 · since 2016"
+      },
+      "illustrationKey": "S02"
+    },
+    "rezka-metalla": {
+      "eyebrow": "/ Services · Processing · S-03",
+      "title": "Metal cutting",
+      "lead": "Plasma and gas cutting of sheet, pipe cutting, shearing of sheet blanks. High throughput and edge accuracy.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Cutting types",
+          "title": "What we cut.",
+          "items": [
+            {
+              "ttl": "Plasma cutting",
+              "dsc": "Steel up to 35 mm, aluminium up to 25 mm."
+            },
+            {
+              "ttl": "Gas cutting",
+              "dsc": "Up to 200 mm — straight / angled / radius / template."
+            },
+            {
+              "ttl": "Sheet shearing",
+              "dsc": "Series and batch."
+            },
+            {
+              "ttl": "Pipe cutting",
+              "dsc": "To precise angle and length."
+            },
+            {
+              "ttl": "Guillotine shears",
+              "dsc": "Up to 20 mm × 3 m or 12 mm × 2.5 m."
+            },
+            {
+              "ttl": "Band saws",
+              "dsc": "Workpieces up to 800 × 800 mm, length up to 4 m, angle −45°…+45°."
+            },
+            {
+              "ttl": "Sheet and coil",
+              "dsc": "Crosscut, slitting and contour cutting."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Plasma cutting",
+              "cat": "Steel up to 35 mm, CNC",
+              "img": "/img/factory/services/rezka-plazma.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Guillotine shears",
+              "cat": "Up to 20 mm × 3 m",
+              "img": "/img/factory/services/rezka-gilotina.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Band saw",
+              "cat": "Swiveling vise ±45°",
+              "img": "/img/factory/services/rezka-lentochno.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "S03"
+    },
+    "gibka-valcovka": {
+      "eyebrow": "/ Services · Forming · S-04",
+      "title": "Sheet metal bending and rolling",
+      "lead": "Sheet bending, pipe bending and rolling. Bending to calculated radii and angles.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Capabilities",
+          "title": "What we bend.",
+          "items": [
+            {
+              "ttl": "Sheet bending",
+              "dsc": "To customer drawing."
+            },
+            {
+              "ttl": "Pipe bending",
+              "dsc": "Precise route geometry."
+            },
+            {
+              "ttl": "Rolling",
+              "dsc": "Cylindrical and conical shells."
+            },
+            {
+              "ttl": "Sheet thickness",
+              "dsc": "Up to 14 mm."
+            },
+            {
+              "ttl": "Sheet width",
+              "dsc": "Up to 2000 mm."
+            },
+            {
+              "ttl": "Minimum bending radius",
+              "dsc": "From 150 mm."
+            },
+            {
+              "ttl": "Universal bender UGS-6",
+              "dsc": "Sections and structural shapes."
+            },
+            {
+              "ttl": "PSH edge press",
+              "dsc": "Precision bending to drawing."
+            },
+            {
+              "ttl": "3- and 4-roll plate rolls",
+              "dsc": "Including conical shells."
+            },
+            {
+              "ttl": "Rolling stock",
+              "dsc": "Rebar, round, square, angle, I-beam, channel."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Plate rolling machines",
+              "cat": "3- and 4-roll",
+              "img": "/img/factory/services/gibka-valcy.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "PSH edge press",
+              "cat": "Bending to drawing",
+              "img": "/img/factory/services/gibka-press.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Bending shop",
+              "cat": "Sheet up to 14 mm × 2000 mm",
+              "img": "/img/factory/services/gibka-list.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "S04"
+    },
+    "svarochnye-raboty": {
+      "eyebrow": "/ Services · Forming · S-05",
+      "title": "Welding works (NAKS)",
+      "lead": "Welding and assembly works. Welders and procedures are NAKS-certified, with regular recertification.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Work types",
+          "title": "Available welding methods.",
+          "items": [
+            {
+              "ttl": "Manual arc (SMAW)",
+              "dsc": "Standard steels and alloys."
+            },
+            {
+              "ttl": "Mechanized (GMAW)",
+              "dsc": "Semi-automatic in shielding gas."
+            },
+            {
+              "ttl": "Submerged arc welding",
+              "dsc": "Long seams, structural steelwork."
+            },
+            {
+              "ttl": "Assembly welding of units",
+              "dsc": "To drawing and specification."
+            },
+            {
+              "ttl": "NAKS certification",
+              "dsc": "Welders and equipment are recertified regularly."
+            },
+            {
+              "ttl": "Submerged-arc welding",
+              "dsc": "Long seams on steel structures."
+            },
+            {
+              "ttl": "Gas-shielded semi-automatic",
+              "dsc": "Inert-gas environment."
+            },
+            {
+              "ttl": "TIG welding",
+              "dsc": "Stainless, aluminium, non-ferrous alloys."
+            },
+            {
+              "ttl": "Welding robots",
+              "dsc": "Seam and repeat welding."
+            },
+            {
+              "ttl": "Welded assembly size",
+              "dsc": "Up to 5 t, length up to 15 m, ø up to 3 m."
+            },
+            {
+              "ttl": "Materials",
+              "dsc": "Structural, alloyed, heat- and corrosion-resistant steels, aluminium."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Welding & assembly area",
+              "cat": "Welded steel structures",
+              "img": "/img/factory/services/svarka-1.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Semi-automatic welding",
+              "cat": "Gas-shielded",
+              "img": "/img/factory/services/svarka-2.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Welding of large assemblies",
+              "cat": "Up to 5 t, up to 15 m",
+              "img": "/img/factory/services/svarka-3.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "S05"
+    },
+    "metalloobrabotka": {
+      "eyebrow": "/ Services · Forming · S-06",
+      "title": "Custom metalworking",
+      "lead": "Full-cycle metalworking — from blank to finished product. Series and one-off batches.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What is included",
+          "title": "Metalworking operations.",
+          "items": [
+            {
+              "ttl": "Shot blasting",
+              "dsc": "Scale removal and surface prep for coating."
+            },
+            {
+              "ttl": "Painting",
+              "dsc": "Anti-corrosion and finish coatings."
+            },
+            {
+              "ttl": "Stamping",
+              "dsc": "Serial parts."
+            },
+            {
+              "ttl": "Welding and assembly",
+              "dsc": "NAKS-certified shop."
+            },
+            {
+              "ttl": "Heat treatment",
+              "dsc": "Hardening, tempering."
+            },
+            {
+              "ttl": "Full cycle",
+              "dsc": "From blank to coating and assembly."
+            },
+            {
+              "ttl": "Welded assemblies",
+              "dsc": "Up to 5 t, length up to 15 m, ø up to 3 m."
+            },
+            {
+              "ttl": "Two-component coatings",
+              "dsc": "Including anti-corrosion and finish."
+            },
+            {
+              "ttl": "Hardening and tempering furnaces",
+              "dsc": "Parts ø up to 700 mm, length up to 1200 mm."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Capabilities",
+          "title": "Series and one-off batches.",
+          "body": "The plant processes metal from blank to finished product within a single site. This keeps deadlines and quality under control at every operation. We take on both serial orders and one-off products to drawing.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Equipment fleet",
+          "title": "What we work on.",
+          "items": [
+            {
+              "ttl": "CNC machines",
+              "dsc": "Turning and milling with high repeatability."
+            },
+            {
+              "ttl": "Universal equipment",
+              "dsc": "For one-off and non-standard products."
+            },
+            {
+              "ttl": "Welding stations",
+              "dsc": "Certified welders and weld inspection."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ],
+      "illustrationKey": "S06"
+    },
+    "termodiffuzionnoe-cinkovanie": {
+      "eyebrow": "/ Services · Special processes · S-07",
+      "title": "Thermal-diffusion galvanizing",
+      "lead": "Dry galvanizing method. A protective coating that penetrates the metal structure. Design service life of the protection — up to 100 years.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Advantages",
+          "title": "Why it pays off for the project.",
+          "items": [
+            {
+              "ttl": "Full coverage",
+              "dsc": "Threads, blind holes, complex geometry."
+            },
+            {
+              "ttl": "High adhesion",
+              "dsc": "Coating does not peel off."
+            },
+            {
+              "ttl": "No hydrogen embrittlement",
+              "dsc": "Dry process — no hydrogen."
+            },
+            {
+              "ttl": "Durability",
+              "dsc": "Design service life of the protection — up to 100 years."
+            },
+            {
+              "ttl": "Load size",
+              "dsc": "Up to 1000 kg, length up to 3000 mm."
+            },
+            {
+              "ttl": "Thread protection",
+              "dsc": "Guaranteed zinc layer on threaded joints."
+            },
+            {
+              "ttl": "Dry process",
+              "dsc": "No aggressive runoff or hydrogen embrittlement."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "TDG installation",
+              "cat": "Up to 1000 kg × 3000 mm",
+              "img": "/img/factory/services/tdc-cinkovanie.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "S07"
+    },
+    "termoobrabotka-tvch": {
+      "eyebrow": "/ Services · Special processes · S-08",
+      "title": "HF induction heat treatment",
+      "lead": "Heat treatment by high-frequency currents: hardening, tempering. Controlled surface and core properties.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Treatment types",
+          "title": "Available processes.",
+          "items": [
+            {
+              "ttl": "HF induction hardening",
+              "dsc": "Surface hardening of wear zones."
+            },
+            {
+              "ttl": "Tempering",
+              "dsc": "Relief of internal stress after welding or hardening."
+            },
+            {
+              "ttl": "Bulk heat treatment",
+              "dsc": "Part batches."
+            },
+            {
+              "ttl": "Three HF units",
+              "dsc": "Parallel processing of multiple batches."
+            },
+            {
+              "ttl": "HF part range",
+              "dsc": "ø 30–150 mm × up to 3000 mm long, or ø 250 mm × up to 250 mm."
+            },
+            {
+              "ttl": "General heat treatment",
+              "dsc": "Parts up to 100 kg, dimensions 500 × 500 × 2000 mm."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "HF induction unit",
+              "cat": "ø 30–150 mm, length up to 3000 mm",
+              "img": "/img/factory/services/tvch-ustanovka.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Heat-treatment area",
+              "cat": "Hardening and tempering",
+              "img": "/img/factory/services/tvch-pech.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "S08"
+    },
+    "mehanicheskie-ispytaniya": {
+      "eyebrow": "/ Services · Special processes · S-09",
+      "title": "Mechanical testing",
+      "lead": "Mechanical-property control of finished products and specimens. Documentation accompanying the batch.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we check",
+          "title": "Inspection parameters.",
+          "items": [
+            {
+              "ttl": "Tensile strength",
+              "dsc": "σu, σy, elongation at break."
+            },
+            {
+              "ttl": "Hardness",
+              "dsc": "HRC / HB on request."
+            },
+            {
+              "ttl": "Impact toughness",
+              "dsc": "KCV — for critical products."
+            },
+            {
+              "ttl": "Geometry and dimensions",
+              "dsc": "To customer drawing."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Laboratory",
+          "title": "Where testing happens.",
+          "body": "Testing is performed at our own mechanical-testing area. Tensile machines, hardness testers, impact pendulums — the full cycle from specimen preparation to report. Specimens are taken from the batch and machined to drawing.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Types of tests",
+          "title": "What we measure.",
+          "items": [
+            {
+              "ttl": "Tension",
+              "dsc": "Tensile and yield strength, elongation at break."
+            },
+            {
+              "ttl": "Hardness",
+              "dsc": "Brinell and Rockwell on finished products and specimens."
+            },
+            {
+              "ttl": "Impact toughness",
+              "dsc": "Pendulum impact testing, including at sub-zero temperatures."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ],
+      "illustrationKey": "S09"
+    },
+    "ankernye-sistemy": {
+      "eyebrow": "/ Products · Geotechnics · D-01",
+      "title": "Ground anchor systems",
+      "lead": "Multifunctional in-house anchor systems for soil reinforcement, slope and retaining-wall stabilization, and shoring of excavations and foundations.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Components",
+          "title": "What's in the system.",
+          "items": [
+            {
+              "ttl": "GEOIZOL-MP tubular threaded bars",
+              "dsc": "Bore diameters 30 to 135 mm, full length range."
+            },
+            {
+              "ttl": "Connection couplers",
+              "dsc": "Cross-batch compatibility."
+            },
+            {
+              "ttl": "Drilling bits",
+              "dsc": "Including carbide-tipped."
+            },
+            {
+              "ttl": "Bearing plates and washers",
+              "dsc": "Designed to load specifications."
+            },
+            {
+              "ttl": "Centralizers",
+              "dsc": "Centering rods in the borehole."
+            },
+            {
+              "ttl": "Injection grout",
+              "dsc": "Cement-based, working pressure 5–10 bar."
+            },
+            {
+              "ttl": "Thermal-diffusion galvanizing",
+              "dsc": "Corrosion protection, design life up to 100 years."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "num": "/ 02",
+          "head": "Supply geography",
+          "title": "Where our anchors work.",
+          "body": "Manufactured since 2012. The anchor systems have passed Russian state expert review and are used on federal-scale construction sites. Export: Germany, Spain, Belarus, Georgia, Kazakhstan."
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 03",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Flagship · 2016",
+            "title": "Vostochny Cosmodrome",
+            "body": "Launch complex for Soyuz-2. Retaining walls of the gas duct excavation. 1,280 anchor rods."
+          }
+        }
+      ],
+      "photoBand": {
+        "img": "/img/factory/mgts.webp",
+        "alt": "Области применения многофункциональной геотехнической системы",
+        "capTag": "/ Application",
+        "capText": "Anchor scheme used on real projects",
+        "fit": "contain"
+      },
+      "illustrationKey": "D01"
+    },
+    "vintovye-shtangi": {
+      "eyebrow": "/ Products · Geotechnics · D-01·a",
+      "title": "Tubular threaded bars",
+      "lead": "The load-bearing element of the ground anchor system. High-strength steel, thermal diffusion galvanizing for corrosion protection.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Parameters",
+          "title": "Technical specifications.",
+          "items": [
+            {
+              "ttl": "Material",
+              "dsc": "High-strength structural steel."
+            },
+            {
+              "ttl": "Corrosion protection",
+              "dsc": "Thermal diffusion galvanizing, design service life up to 100 years."
+            },
+            {
+              "ttl": "Diameters",
+              "dsc": "Sized to the project's design load."
+            },
+            {
+              "ttl": "Connections",
+              "dsc": "Coupler joints for repeated sections."
+            },
+            {
+              "ttl": "Application",
+              "dsc": "Anchor fastenings, ground anchors, slope soil nailing."
+            },
+            {
+              "ttl": "Sizes",
+              "dsc": "From 30/18 to 135/83 — outer/inner ø, mm."
+            },
+            {
+              "ttl": "Length",
+              "dsc": "Cut to length, joined with couplers per project."
+            },
+            {
+              "ttl": "Thread",
+              "dsc": "Left- and right-hand — per size."
+            },
+            {
+              "ttl": "Grout injection",
+              "dsc": "Through the bore, working pressure 5–10 bar."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Purpose",
+          "title": "The anchor's load-bearing element.",
+          "body": "The screw rod is the main load-bearing element of a ground-anchor system. It is made of high-strength steel with thread rolled along its full length, allowing it to be extended and cut on site. Thermal-diffusion zinc coating protects the thread from corrosion without losing geometry.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Advantages",
+          "title": "Why full-length thread.",
+          "items": [
+            {
+              "ttl": "Extension",
+              "dsc": "Coupling at any length without welding."
+            },
+            {
+              "ttl": "On-site cutting",
+              "dsc": "The rod is cut to size on the site."
+            },
+            {
+              "ttl": "Thread protection",
+              "dsc": "Zinc coating preserves the fit of joints."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ],
+      "illustrationKey": "D05"
+    },
+    "gruntovye-ankery": {
+      "eyebrow": "/ Products · Geotechnics · D-01·b",
+      "title": "Ground anchors",
+      "lead": "Full-cycle manufacturing of ground anchors: tendons, couplers, anchor heads, protective elements — engineered per project.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Components",
+          "title": "What's in the delivery package.",
+          "items": [
+            {
+              "ttl": "Anchor tendons",
+              "dsc": "Steel tendons in the required diameter."
+            },
+            {
+              "ttl": "Couplers",
+              "dsc": "Section splicing without loss of strength."
+            },
+            {
+              "ttl": "Bearing plates",
+              "dsc": "For distributing load to the soil or structure."
+            },
+            {
+              "ttl": "Anchor heads",
+              "dsc": "With re-tensioning capability."
+            },
+            {
+              "ttl": "Protective elements",
+              "dsc": "Anti-corrosion sheaths and coatings."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Purpose",
+          "title": "Where ground anchors are used.",
+          "body": "Ground anchors retain excavation walls, retaining structures and slopes, and protect structures against uplift. The plant manufactures load-bearing rods, coupled joints and protective elements to design load. Zinc coating ensures service life in wet and aggressive soils.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Configurations",
+          "title": "Supply options.",
+          "items": [
+            {
+              "ttl": "Temporary",
+              "dsc": "For excavation retention during construction."
+            },
+            {
+              "ttl": "Permanent",
+              "dsc": "With reinforced corrosion protection for the full service life."
+            },
+            {
+              "ttl": "Project-specific",
+              "dsc": "Length, thread and load to the designer's brief."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ],
+      "illustrationKey": "D06"
+    },
+    "burovoe-oborudovanie": {
+      "eyebrow": "/ Products · Drilling tools · D-02",
+      "title": "Drilling equipment and tools",
+      "lead": "Manufacturing and repair of drilling tools and equipment for geotechnical, foundation and civil engineering work.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Range",
+          "title": "What we manufacture.",
+          "items": [
+            {
+              "ttl": "Auger drill",
+              "dsc": "For small- and medium-diameter boreholes."
+            },
+            {
+              "ttl": "Continuous flight auger (CFA)",
+              "dsc": "Lead and transport sections, hex couplers."
+            },
+            {
+              "ttl": "Displacement tools",
+              "dsc": "DDS · Atlas · Fundex."
+            },
+            {
+              "ttl": "ATLAS drill pipes",
+              "dsc": "Standard sections for drilling work."
+            },
+            {
+              "ttl": "Drill rods",
+              "dsc": "For extending the drill string."
+            },
+            {
+              "ttl": "Core barrel and Kelly bars",
+              "dsc": "For matching rig types."
+            },
+            {
+              "ttl": "Tool joints, bits, connectors",
+              "dsc": "Consumable elements."
+            },
+            {
+              "ttl": "Drill tool repair",
+              "dsc": "High-quality repair of tools from any manufacturer."
+            },
+            {
+              "ttl": "Bucket augers and drilling buckets",
+              "dsc": "For foundation and geotechnical rigs."
+            },
+            {
+              "ttl": "DDS · Atlas · Fundex · Jet-1 · DTH",
+              "dsc": "Full part range per technology."
+            },
+            {
+              "ttl": "Containerised flushing modules",
+              "dsc": "Fluid storage and supply, heated for winter use."
+            },
+            {
+              "ttl": "Partners & customers",
+              "dsc": "GEOIZOL, KARST, Statika Engineering, NSK Mechanization, New Ground, Fundex BMGS."
+            }
+          ]
+        },
+        {
+          "num": "/ 02",
+          "head": "No-spoil technologies",
+          "title": "Piles by Fundex, DDS, Atlas.",
+          "body": "For Fundex — welded sacrificial tips and connectors E4, E6, E8, conical couplers. For DDS — displacement tools ø 540 and ø 600 mm. For Atlas — displacement tools, drilling pipes, heads, sacrificial shoes. European deep vibro-compaction technology adapted to Russian conditions in cooperation with GEOIZOL Group (since 2014).",
+          "kind": "text"
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 03",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Drilling tool connector",
+              "cat": "Drill string joint",
+              "img": "/img/factory/products/burovoe-konnektor.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Drill string assembly",
+              "cat": "Complete set per technology",
+              "img": "/img/factory/products/burovoe-instrument-01.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Drilling rig hardware",
+              "cat": "Shop and packaging",
+              "img": "/img/factory/products/burovoe-instrument-02.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "D02"
+    },
+    "shneki-cfa": {
+      "eyebrow": "/ Products · Drilling tools · D-02·a",
+      "title": "CFA augers",
+      "lead": "Continuous Flight Auger (CFA) sections for drilling boreholes for foundations, sheet piles and geotechnical structures.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Composition",
+          "title": "What's in the set.",
+          "items": [
+            {
+              "ttl": "Lead sections",
+              "dsc": "Starter augers with drill bit."
+            },
+            {
+              "ttl": "Transport sections",
+              "dsc": "Feed sections for extending the string."
+            },
+            {
+              "ttl": "Hex couplers",
+              "dsc": "Section joints with no loss of torque."
+            },
+            {
+              "ttl": "Refurbishment",
+              "dsc": "Repair and replacement of worn sections."
+            },
+            {
+              "ttl": "Diameters",
+              "dsc": "From ø 420 to ø 800 mm — continuous and leader augers."
+            },
+            {
+              "ttl": "Soil cutters",
+              "dsc": "Round rock or flat — to customer's choice."
+            },
+            {
+              "ttl": "Wear-resistant overlay",
+              "dsc": "On the most loaded sections — multiplies service life."
+            },
+            {
+              "ttl": "Purpose",
+              "dsc": "Soil removal and grouting in CFA technology."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "CFA leader auger",
+              "cat": "ø 420–800 mm",
+              "img": "/img/factory/products/shneki-cfa-01.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Drilling rotor with auger",
+              "cat": "On site",
+              "img": "/img/factory/products/shneki-cfa-02.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "D07"
+    },
+    "obsadnye-truby": {
+      "eyebrow": "/ Products · Drilling tools · D-02·b",
+      "title": "Casing and tremie pipes",
+      "lead": "Complete kit for borehole drilling and filling: casing, tremie string, accessories, transport cassette.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "In the range",
+          "title": "What we supply.",
+          "items": [
+            {
+              "ttl": "Casing pipes",
+              "dsc": "Standard diameters matched to the customer's rig."
+            },
+            {
+              "ttl": "Tremie pipes ø273 mm, ø219 mm",
+              "dsc": "Sections for the tremie string."
+            },
+            {
+              "ttl": "Loading hopper",
+              "dsc": "Mounted on top of the string."
+            },
+            {
+              "ttl": "Support beam, lifting link",
+              "dsc": "Process accessories."
+            },
+            {
+              "ttl": "Transport cassette",
+              "dsc": "Storage and shipment of the set."
+            },
+            {
+              "ttl": "Wedge retaining frames",
+              "dsc": "For casing pipes ø 620–1500 mm, including eccentric."
+            },
+            {
+              "ttl": "Tremie pipes",
+              "dsc": "ø 159 and ø 273 mm, sectional."
+            },
+            {
+              "ttl": "Full tremie kit",
+              "dsc": "Cassettes, frames, hoppers, eyes, cables."
+            },
+            {
+              "ttl": "Drilling rods",
+              "dsc": "Connections for DDS, Jet-1 and DTH (Down the Hole)."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Large-diameter casing pipes",
+              "cat": "ø 620–1500 mm",
+              "img": "/img/factory/products/obsadnye-truby-01.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "D08"
+    },
+    "mashinostroenie-pod-zakaz": {
+      "eyebrow": "/ Products · Machinery · D-04",
+      "title": "Custom machinery",
+      "lead": "Manufacturing of assemblies, parts and special-purpose vehicles to the customer's drawings. Full cycle — from design office to shipment of the finished product.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we do",
+          "title": "Machinery lines.",
+          "items": [
+            {
+              "ttl": "Machine assemblies and parts",
+              "dsc": "Batch and one-off production."
+            },
+            {
+              "ttl": "Special-purpose vehicles",
+              "dsc": "MBGU-200, sludge vacuum, silo, tow truck and others."
+            },
+            {
+              "ttl": "Cooling drum",
+              "dsc": "To individual specifications."
+            },
+            {
+              "ttl": "Reverse engineering",
+              "dsc": "Restoration of lost documentation."
+            },
+            {
+              "ttl": "Concrete mixer trucks",
+              "dsc": "Swing Stetter 2.5–10 m³ on various chassis including Volvo."
+            },
+            {
+              "ttl": "Cable drums",
+              "dsc": "For IZ-KARTEKS quarry excavators, refurbishment."
+            },
+            {
+              "ttl": "Tanker trucks and vacuum trucks",
+              "dsc": "Vacuum tankers — food-grade and oil."
+            },
+            {
+              "ttl": "Feed loaders, silos",
+              "dsc": "Custom agricultural machinery."
+            },
+            {
+              "ttl": "CH-5-M waste-neutralisation unit",
+              "dsc": "Including mercury-containing waste."
+            },
+            {
+              "ttl": "Spare parts for quarry excavators and cranes",
+              "dsc": "Manufacturing and reverse engineering."
+            },
+            {
+              "ttl": "Adaptation and refurbishment",
+              "dsc": "Fundex, Bauer, Casagrande and others."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Concrete mixer truck",
+              "cat": "On KAMAZ chassis, for GEOIZOL Group",
+              "img": "/img/factory/products/avtobetonosmesitel.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Feed loader",
+              "cat": "Custom agricultural machinery",
+              "img": "/img/factory/products/silos-zagruzchik.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Excavator attachments",
+              "cat": "Grabs and buckets",
+              "img": "/img/factory/products/kovshi-zahvaty.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "D10"
+    },
+    "mbgu-200": {
+      "eyebrow": "/ Products · Machinery · D-04·a",
+      "title": "MBGU-200",
+      "lead": "Compact hydraulic mobile drilling rig (MBGU-200). For work in confined conditions, on slopes and in underground workings.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Specifications",
+          "title": "Technical data.",
+          "items": [
+            {
+              "ttl": "Type",
+              "dsc": "Hydraulic, mobile."
+            },
+            {
+              "ttl": "Application",
+              "dsc": "Geotechnical work, engineering surveys, slopes."
+            },
+            {
+              "ttl": "Machine class",
+              "dsc": "Compact — designed for tight working conditions."
+            },
+            {
+              "ttl": "Features",
+              "dsc": "Built to PMZ's own design."
+            },
+            {
+              "ttl": "Operating weight",
+              "dsc": "1,300 kg."
+            },
+            {
+              "ttl": "Overall dimensions",
+              "dsc": "3110 × 2100 × 1350 mm."
+            },
+            {
+              "ttl": "Drilling depth",
+              "dsc": "Up to 40 lm (ø 40 mm anchor)."
+            },
+            {
+              "ttl": "Anchor diameter",
+              "dsc": "40 and 52 mm without changing clamp jaws."
+            },
+            {
+              "ttl": "Pile diameter",
+              "dsc": "≈ 130 mm in washed-out intervals."
+            },
+            {
+              "ttl": "Rotary head travel",
+              "dsc": "1,500 mm."
+            },
+            {
+              "ttl": "Max torque",
+              "dsc": "1,700 Nm."
+            },
+            {
+              "ttl": "Impact energy",
+              "dsc": "Up to 110 J, up to 3,300 blows/min."
+            },
+            {
+              "ttl": "Hydraulics",
+              "dsc": "Up to 200 bar, flow up to 120 l/min."
+            },
+            {
+              "ttl": "Mast tilt",
+              "dsc": "+90° to −30° (120°), side ±40°."
+            }
+          ]
+        },
+        {
+          "num": "/ 02",
+          "head": "Purpose",
+          "title": "Nail piles on steep slopes.",
+          "body": "MBGU-100 and MBGU-200 are designed for nail (anchor) pile installation in engineering protection of mountain slopes. Drilling on any slope, including vertical, with or without hydraulic hammer, in soils up to category 8 by drillability. Transport by any means including helicopter. In production since 2013 (MBGU-100) and 2015 (MBGU-200).",
+          "kind": "text"
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 03",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "MBGU-200 on a mountain slope",
+              "cat": "Nail piles, engineering protection",
+              "img": "/img/factory/products/mbgu-200-sklon.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "MBGU-200 in winter conditions",
+              "cat": "Drilling on a steep face",
+              "img": "/img/factory/products/mbgu-200-zima.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "D09"
+    },
+    "metallokonstrukcii": {
+      "eyebrow": "/ Products · Steel structures · D-03",
+      "title": "Welded steel structures",
+      "lead": "Structural steelwork and fasteners: from columns and trusses to embedded parts and pipeline supports. Welding shop certified by NAKS.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Range",
+          "title": "What we manufacture.",
+          "items": [
+            {
+              "ttl": "Columns, crossbeams, trusses, girders",
+              "dsc": "Load-bearing structures for buildings and facilities."
+            },
+            {
+              "ttl": "Half-timbering and crane runways",
+              "dsc": "For industrial buildings."
+            },
+            {
+              "ttl": "Stairs, tubular sheet piles, embedded parts",
+              "dsc": "Process and engineering elements."
+            },
+            {
+              "ttl": "Pipeline supports and hangers",
+              "dsc": "For heating networks and process pipelines."
+            },
+            {
+              "ttl": "Rebar cages",
+              "dsc": "For pile foundations and footings."
+            },
+            {
+              "ttl": "Fasteners: brackets, bolts, nuts, anchors",
+              "dsc": "Batch and series production."
+            },
+            {
+              "ttl": "Towers, masts, barriers",
+              "dsc": "For engineering structures."
+            },
+            {
+              "ttl": "Tanks up to 120 m³",
+              "dsc": "Vertical and horizontal layouts."
+            },
+            {
+              "ttl": "Output",
+              "dsc": "Up to 500 t of steel structures per month."
+            },
+            {
+              "ttl": "Bridge-inspection certified",
+              "dsc": "Welded bridge structures — WHSD experience."
+            },
+            {
+              "ttl": "Steel suppliers",
+              "dsc": "Over 30 — steady supply for production."
+            },
+            {
+              "ttl": "Welded girders",
+              "dsc": "From plate, crane-runway and roof-truss girders."
+            },
+            {
+              "ttl": "Tall structures",
+              "dsc": "Cell towers, floodlight masts, lightning arresters."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "On site",
+          "title": "Equipment in the shop and on site.",
+          "thumbs": [
+            {
+              "id": "EQ-01",
+              "ttl": "Welded girders",
+              "cat": "Series for road infrastructure",
+              "img": "/img/factory/products/svarnye-balki.webp"
+            },
+            {
+              "id": "EQ-02",
+              "ttl": "Pedestrian crossing",
+              "cat": "Enclosed steel structure",
+              "img": "/img/factory/products/pereshodnyy-tonnel.webp"
+            },
+            {
+              "id": "EQ-03",
+              "ttl": "Bridge structures",
+              "cat": "Highway interchange",
+              "img": "/img/factory/products/mostovye-konstrukcii.webp"
+            },
+            {
+              "id": "EQ-04",
+              "ttl": "Road barriers",
+              "cat": "Barrier sections, series",
+              "img": "/img/factory/products/dorozhnye-ograzhdeniya.webp"
+            }
+          ]
+        }
+      ],
+      "illustrationKey": "D03"
+    },
+    "about": {
+      "eyebrow": "Company · About the plant",
+      "title": "A modern Russian machine-building enterprise.",
+      "lead": "Pushkin Machine-Building Plant LLC combines large production capacity, qualified personnel and growth potential. One of Russia's leading producers of ground anchor systems, drilling equipment and tools, structural steelwork and machine-building assemblies.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Strengths",
+          "title": "Six reasons to work with PMZ.",
+          "items": [
+            {
+              "ttl": "Large production site",
+              "dsc": "Total site area over 6.5 ha — two production buildings and an open shipping yard."
+            },
+            {
+              "ttl": "Modern industrial base",
+              "dsc": "Full cycle from drawing to shipment: design, blanking, machining, assembly, inspection."
+            },
+            {
+              "ttl": "Up-to-date machine park",
+              "dsc": "5-axis Mazak machining centre, CNC machines, plasma cutting, heat-treatment area, NAKS-certified welding shop."
+            },
+            {
+              "ttl": "Qualified workforce",
+              "dsc": "Engineers, designers, process specialists, NAKS welders, CNC operators — 280 people in total."
+            },
+            {
+              "ttl": "Deep backlog of know-how",
+              "dsc": "Machine-building and construction equipment: serial products and bespoke items to customer specification."
+            },
+            {
+              "ttl": "Convenient location",
+              "dsc": "Pushkin · close to the M-10 highway and KAD ring road, 30 min to the Sea Port, 15 min to Pulkovo airport."
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "num": "/ 02",
+          "head": "Video tour",
+          "title": "The plant from the inside: shops, equipment, team.",
+          "youtubeId": "gJy5a3BnZ6k",
+          "caption": "Production site · Pushkin",
+          "durationLabel": "YouTube · HD"
+        },
+        {
+          "kind": "links",
+          "num": "/ 03",
+          "head": "What we make",
+          "title": "Four production lines.",
+          "cards": [
+            {
+              "ttl": "Ground anchor systems",
+              "body": "Geotechnics",
+              "href": "/#directions"
+            },
+            {
+              "ttl": "Drilling tools and accessories",
+              "body": "Drilling",
+              "href": "/#directions"
+            },
+            {
+              "ttl": "Welded steel structures",
+              "body": "Steel",
+              "href": "/#directions"
+            },
+            {
+              "ttl": "Machine-building and special equipment",
+              "body": "Machinery",
+              "href": "/#directions"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "num": "/ 04",
+          "head": "Location",
+          "title": "Where the plant is.",
+          "body": "196608, St. Petersburg, Pushkin, 17 Novoderevenskaya Street. Convenient location with quick access to major transport routes. Direct exit to the M-10 highway and the KAD ring road. 30 minutes to the Sea Port, 15 minutes to Pulkovo airport, 24 km to central St. Petersburg. The plant sits in Pushkin's historic industrial zone, close to transport routes, the seaport and the airport."
+        },
+        {
+          "kind": "links",
+          "num": "/ 05",
+          "head": "Next",
+          "title": "Where to look next.",
+          "cards": [
+            {
+              "ttl": "Leadership. Four directors, one team.",
+              "body": "Management",
+              "href": "/rukovodstvo"
+            },
+            {
+              "ttl": "Awards, certificates, workplace assessment (SOUT).",
+              "body": "Quality · ISO 9001",
+              "href": "/nagrady-sertifikaty"
+            },
+            {
+              "ttl": "Company history. One hundred and six years on metal.",
+              "body": "Chronicle · 1919–2026",
+              "href": "/history"
+            },
+            {
+              "ttl": "Where the plant's products are in service.",
+              "body": "Projects and customers",
+              "href": "/#projects"
+            },
+            {
+              "ttl": "Address, phone, company details.",
+              "body": "Contacts",
+              "href": "/kontakty"
+            },
+            {
+              "ttl": "Describe the task — we'll prepare a quote.",
+              "body": "Enquiry",
+              "href": "/#cta"
+            }
+          ]
+        }
+      ],
+      "photoBand": {
+        "img": "/img/factory/today.webp",
+        "alt": "Производственная площадка ПМЗ",
+        "capTag": "/ Plant today",
+        "capText": "Production site · 14,200 m² · 62 machines"
+      }
+    },
+    "rukovodstvo": {
+      "eyebrow": "/ Company · Management · C-04",
+      "title": "Leadership",
+      "lead": "PMZ's management team: the general director and three line directors. Production, development, operations.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Team",
+          "title": "PMZ management team.",
+          "items": [
+            {
+              "ttl": "Vyacheslav Yu. Smolenkov",
+              "dsc": "General Director"
+            },
+            {
+              "ttl": "Vitaly V. Vidavsky",
+              "dsc": "Executive Director"
+            },
+            {
+              "ttl": "Vasily V. Shestopalov",
+              "dsc": "Director of Production"
+            },
+            {
+              "ttl": "Alexey P. Popkov",
+              "dsc": "Director of Development"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Management principles",
+          "title": "How leadership is organised.",
+          "body": "The plant is run by a general director and three specialised directors — production, quality and development. Decisions are made closest to the process, without unnecessary approvals. This shortens the path from request to shipment.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Areas of responsibility",
+          "title": "Who is responsible for what.",
+          "items": [
+            {
+              "ttl": "Production",
+              "dsc": "Workload, process discipline, deadlines."
+            },
+            {
+              "ttl": "Quality",
+              "dsc": "QC, certification, batch documentation."
+            },
+            {
+              "ttl": "Development",
+              "dsc": "New directions, equipment, customer relations."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ],
+      "photoBand": {
+        "img": "/img/factory/today.webp",
+        "alt": "Производственная площадка ПМЗ",
+        "capTag": "/ Plant today",
+        "capText": "Production site · the team that runs it"
+      }
+    },
+    "socialnaya-otvetstvennost": {
+      "eyebrow": "/ Company · Social responsibility · C-01",
+      "title": "Social responsibility",
+      "lead": "Working conditions, staff training, support for local initiatives — the foundations of the plant's reputation.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we do",
+          "title": "Areas of social work.",
+          "items": [
+            {
+              "ttl": "Working conditions",
+              "dsc": "Annual workplace assessment (SOUT) 2020–2024. Certified workplaces, regulation workwear and personal protective equipment."
+            },
+            {
+              "ttl": "Training and qualifications",
+              "dsc": "In-house training room (opened 2024) — occupational safety, industrial safety, upskilling."
+            },
+            {
+              "ttl": "Support for the district",
+              "dsc": "Joint events with the administration of the Pushkinsky District of St. Petersburg."
+            },
+            {
+              "ttl": "Machine-Builder's Day",
+              "dsc": "A professional holiday with awards for top employees from the district administration and the plant."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Approach",
+          "title": "What our reputation rests on.",
+          "body": "Social responsibility at the plant means, above all, safe working conditions and staff development. We invest in training, occupational safety and support for local initiatives in Pushkin. A stable enterprise matters to the town as much as to the plant itself.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Directions",
+          "title": "Where efforts go.",
+          "items": [
+            {
+              "ttl": "Occupational safety",
+              "dsc": "Workplace assessment, protective equipment, briefings."
+            },
+            {
+              "ttl": "Training",
+              "dsc": "Upskilling and re-certification of staff."
+            },
+            {
+              "ttl": "Community",
+              "dsc": "Support for local initiatives and improvement projects."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ]
+    },
+    "otk": {
+      "eyebrow": "/ Company · Quality · C-02",
+      "title": "QC Department and quality control",
+      "lead": "Multi-stage inspection at every step: incoming — in-process — final. Documentation per GOST and ISO 9001.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Inspection stages",
+          "title": "How we control quality.",
+          "items": [
+            {
+              "ttl": "Incoming inspection",
+              "dsc": "Check of rolled stock, fasteners and consumables against supplier certificates."
+            },
+            {
+              "ttl": "In-process inspection",
+              "dsc": "Geometry, dimensions, hardness and weld quality checked during production."
+            },
+            {
+              "ttl": "Final inspection",
+              "dsc": "Final check against the drawing, with batch documentation."
+            },
+            {
+              "ttl": "NAKS welding",
+              "dsc": "Welders and equipment certified by NAKS (NAKS welding certification), with regular re-certification."
+            },
+            {
+              "ttl": "Mechanical testing",
+              "dsc": "Tensile strength, yield strength, hardness, impact toughness — for critical items."
+            },
+            {
+              "ttl": "Batch documentation",
+              "dsc": "Certificates, passports, test reports."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Principle",
+          "title": "Control at every stage.",
+          "body": "The plant's QC is built on through-control: incoming — in-process — acceptance. Defects are caught where they arise, not at final acceptance. Each batch is accompanied by a full set of documents.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Documents",
+          "title": "What the customer receives.",
+          "items": [
+            {
+              "ttl": "Material certificates",
+              "dsc": "Confirmation of steel origin and grade."
+            },
+            {
+              "ttl": "Product passport",
+              "dsc": "Geometry, coating, inspection results."
+            },
+            {
+              "ttl": "Test reports",
+              "dsc": "For products requiring mechanical control."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ]
+    },
+    "nagrady-sertifikaty": {
+      "eyebrow": "/ Company · Quality · C-05",
+      "title": "Awards and certificates",
+      "lead": "ISO 9001 quality management system, annual workplace assessment (SOUT), resident status at the St. Petersburg Import-Substitution Centre. Diplomas from federal and regional competitions.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Quality system",
+          "title": "Certification, workplace assessment, resident status.",
+          "items": [
+            {
+              "ttl": "ISO 9001 · Quality management system",
+              "dsc": "Implemented and certified. Active quality policy and scheduled audit."
+            },
+            {
+              "ttl": "SOUT · Workplace assessment",
+              "dsc": "2020 · 2021 · 2022 · 2023 · 2024"
+            },
+            {
+              "ttl": "Resident · St. Petersburg Import-Substitution and Localisation Centre",
+              "dsc": "Verified Russian production, NAKS-certified for welding."
+            }
+          ]
+        },
+        {
+          "kind": "thumbs",
+          "num": "/ 02",
+          "head": "Recognition",
+          "title": "Awards and diplomas.",
+          "thumbs": [
+            {
+              "id": "A-01 · 2020",
+              "ttl": "Construction Quality Leader",
+              "cat": "Grand Prix",
+              "img": "/img/factory/qwepng.webp"
+            },
+            {
+              "id": "A-02 · 2016",
+              "ttl": "Innovation Certificate",
+              "cat": "Laureate",
+              "img": "/img/factory/innov2016.webp"
+            },
+            {
+              "id": "A-03 · 2016",
+              "ttl": "Quality of Goods, Works and Services · St. Petersburg Government",
+              "cat": "Third place",
+              "img": "/img/factory/0-1.webp"
+            },
+            {
+              "id": "A-04",
+              "ttl": "100 Best Goods of Russia",
+              "cat": "Laureate",
+              "img": "/img/factory/0-2.webp"
+            },
+            {
+              "id": "A-05",
+              "ttl": "Made in Russia",
+              "cat": "Laureate",
+              "img": "/img/factory/783.webp"
+            },
+            {
+              "id": "A-06",
+              "ttl": "Made in St. Petersburg",
+              "cat": "Laureate",
+              "img": "/img/factory/zl5mfyteypw.webp"
+            },
+            {
+              "id": "CRT-01",
+              "ttl": "ISO 9001 certificate",
+              "cat": "Quality management",
+              "img": "/img/factory/sre.webp"
+            },
+            {
+              "id": "CRT-02",
+              "ttl": "Quality policy",
+              "cat": "Current revision",
+              "img": "/img/factory/p22.webp"
+            },
+            {
+              "id": "CRT-03",
+              "ttl": "Quality declaration",
+              "cat": "Declaration",
+              "img": "/img/factory/dekl-kach.webp"
+            },
+            {
+              "id": "CRT-04",
+              "ttl": "Made in St. Petersburg certificate",
+              "cat": "Regional",
+              "img": "/img/factory/madein.webp"
+            },
+            {
+              "id": "CRT-05",
+              "ttl": "Resident of the St. Petersburg Import-Substitution and Localisation Centre",
+              "cat": "Resident status",
+              "img": "/img/factory/rezident.webp"
+            },
+            {
+              "id": "CRT-06",
+              "ttl": "Workplace assessment (SOUT) · reports 2020–2024",
+              "cat": "Working conditions"
+            }
+          ]
+        }
+      ]
+    },
+    "neftegaz": {
+      "eyebrow": "/ Customers · Oil & gas · I-01",
+      "title": "Oil & gas construction",
+      "lead": "Anchor systems, casing pipes, steel structures for offshore and onshore oil & gas facilities.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we supply",
+          "title": "Plant products for the industry.",
+          "items": [
+            {
+              "ttl": "Anchor systems",
+              "dsc": "For supports, piers, engineering protection."
+            },
+            {
+              "ttl": "Casing and concreting pipes",
+              "dsc": "For pile foundations."
+            },
+            {
+              "ttl": "Steel structures",
+              "dsc": "Pipeline supports and hangers."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Operating conditions",
+          "title": "For the sector's loads and environment.",
+          "body": "Oil and gas facilities operate amid aggressive media, vibration and temperature swings. The plant manufactures anchor systems, casing pipes and steel structures with these requirements in mind. Corrosion protection and documentation to industry norms.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Where it is used",
+          "title": "Typical tasks.",
+          "items": [
+            {
+              "ttl": "Offshore",
+              "dsc": "Structures for platforms and mooring facilities."
+            },
+            {
+              "ttl": "Onshore fields",
+              "dsc": "Pile foundations and supports under equipment."
+            },
+            {
+              "ttl": "Pipelines",
+              "dsc": "Casing pipes and retention on difficult soils."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Oil & gas · 2010s",
+            "title": "South Stream gas pipeline",
+            "body": "Anchor support of trench walls, tendon installation in heavy soils, NAKS-certified welding of metal structures."
+          }
+        }
+      ],
+      "illustrationKey": "I01",
+      "photoBand": {
+        "img": "/img/project-oilgas.jpg",
+        "alt": "South Stream gas pipeline",
+        "capTag": "/ Oil & gas",
+        "capText": "South Stream gas pipeline"
+      }
+    },
+    "gidrotehnika": {
+      "eyebrow": "/ Customers · Hydraulic engineering · I-02",
+      "title": "Hydraulic engineering",
+      "lead": "Ports, hydropower plants, embankments, quay walls. Screw piles, sheet piling, steel structures.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we supply",
+          "title": "Plant products for the industry.",
+          "items": [
+            {
+              "ttl": "Screw piles",
+              "dsc": "For foundations in water-saturated soils."
+            },
+            {
+              "ttl": "Sheet pile walls",
+              "dsc": "Bank and excavation retention."
+            },
+            {
+              "ttl": "Support and embedded elements",
+              "dsc": "For hydraulic structures."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Environment",
+          "title": "Working in water and soil.",
+          "body": "Hydraulic structures are in constant contact with water, so protecting the metal from corrosion is a key requirement. The plant supplies screw piles, sheet piling and steel structures with coating for the full service life. Products are designed for static and dynamic loads from water and soil.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Where it is used",
+          "title": "Typical facilities.",
+          "items": [
+            {
+              "ttl": "Ports and quays",
+              "dsc": "Sheet-pile walls and pile foundations."
+            },
+            {
+              "ttl": "Hydropower",
+              "dsc": "Embedded parts and steel structures of hydro units."
+            },
+            {
+              "ttl": "Embankments",
+              "dsc": "Bank retention and retaining structures."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Project · Tajikistan",
+            "title": "Rogun HPP",
+            "body": "A complex of construction, installation, repair and restoration works."
+          }
+        }
+      ],
+      "illustrationKey": "I02",
+      "photoBand": {
+        "img": "/img/project-port.jpg",
+        "alt": "Rogun Hydropower Plant",
+        "capTag": "/ Hydro",
+        "capText": "Rogun Hydropower Plant"
+      }
+    },
+    "specstroy": {
+      "eyebrow": "/ Customers · Special construction · I-03",
+      "title": "Special construction",
+      "lead": "Stationary facilities in the Arctic, at test ranges, special-purpose sites. Structures for extreme operating conditions.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Specifics",
+          "title": "What kinds of tasks we work on.",
+          "items": [
+            {
+              "ttl": "Arctic operation",
+              "dsc": "Cold-resistant steels, insulation from permafrost."
+            },
+            {
+              "ttl": "Structures at test ranges",
+              "dsc": "For non-standard requirements."
+            },
+            {
+              "ttl": "On-site assembly",
+              "dsc": "Delivery in modular kits."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Conditions",
+          "title": "Extreme loads and climate.",
+          "body": "Special facilities are built where ordinary solutions fail: the Arctic, test ranges, remote sites. The plant manufactures structures for low temperatures, high loads and rapid installation. Each product is designed for a specific brief.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "What we account for",
+          "title": "Special-facility requirements.",
+          "items": [
+            {
+              "ttl": "Climate",
+              "dsc": "Steel and coating for low temperatures."
+            },
+            {
+              "ttl": "Logistics",
+              "dsc": "Structures sized for delivery to remote areas."
+            },
+            {
+              "ttl": "Installation speed",
+              "dsc": "Modular solutions with minimal on-site work."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Special · Arctic",
+            "title": "Severnaya Zemlya · Golomyanny Island",
+            "body": "Delivery of equipment to the Arctic — design taking polar conditions into account, fittings ready for −60 °C."
+          }
+        }
+      ],
+      "illustrationKey": "I03"
+    },
+    "dorozhnoe": {
+      "eyebrow": "/ Customers · Roads · I-04",
+      "title": "Road construction",
+      "lead": "Overpasses, bridge crossings, interchanges. Reinforcement cages, crossbeams, supports — both serial and project-specific.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we supply",
+          "title": "Plant products for the industry.",
+          "items": [
+            {
+              "ttl": "Reinforcement cages",
+              "dsc": "For supports, crossbeams, spans."
+            },
+            {
+              "ttl": "Anchor systems",
+              "dsc": "Slope retention, retaining walls."
+            },
+            {
+              "ttl": "Embedded parts and fasteners",
+              "dsc": "Per project drawings."
+            },
+            {
+              "ttl": "Anti-karst measures",
+              "dsc": "Strengthening of railway subgrade."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Purpose",
+          "title": "Load-bearing elements of roads.",
+          "body": "Road facilities — overpasses, bridge crossings, interchanges — require precise geometry and stable metal quality. The plant manufactures reinforcement cages, crossbeams and supports both serially and for a specific facility. Dimensional and weld inspection on every batch.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "What we supply",
+          "title": "Typical range.",
+          "items": [
+            {
+              "ttl": "Reinforcement cages",
+              "dsc": "For supports, pile caps and span structures."
+            },
+            {
+              "ttl": "Crossbeams and supports",
+              "dsc": "Load-bearing elements of overpasses and viaducts."
+            },
+            {
+              "ttl": "Embedded parts",
+              "dsc": "For installation and joining of structures."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Roads · St. Petersburg",
+            "title": "Western High-Speed Diameter (WHSD)",
+            "body": "Anchor systems for retaining walls of access ramps, casing for bored piles in coastal soils."
+          }
+        }
+      ],
+      "illustrationKey": "I04",
+      "photoBand": {
+        "img": "/img/project-bridge.jpg",
+        "alt": "WHSD, phases IV–V",
+        "capTag": "/ Roads",
+        "capText": "WHSD, phases IV–V"
+      }
+    },
+    "zhilishnoe": {
+      "eyebrow": "/ Customers · Residential · I-05",
+      "title": "Residential construction",
+      "lead": "Integrated urban development projects: housing, schools, kindergartens, parking. Anchors, steel structures, reinforcement cages.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we supply",
+          "title": "Plant products for the industry.",
+          "items": [
+            {
+              "ttl": "Anchor systems and sheet piling",
+              "dsc": "For excavation retention in dense urban development."
+            },
+            {
+              "ttl": "Embedded parts",
+              "dsc": "For monolithic concrete works."
+            },
+            {
+              "ttl": "Steel structures",
+              "dsc": "For parking facilities, utility levels."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Purpose",
+          "title": "For integrated development.",
+          "body": "Residential blocks, schools, kindergartens and parking are built on tight schedules and in large series. The plant supplies anchors and steel structures with predictable quality and steady shipment. This lets the general contractor keep to schedule without downtime.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "What we supply",
+          "title": "Typical products.",
+          "items": [
+            {
+              "ttl": "Anchoring",
+              "dsc": "For facades, excavation walls and foundations."
+            },
+            {
+              "ttl": "Steel structures",
+              "dsc": "Frames, stairs, supporting elements."
+            },
+            {
+              "ttl": "Embedded parts and fasteners",
+              "dsc": "Serial supply to the construction schedule."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Residential · 2018",
+            "title": "Residential complex at 19 Kostyushko St.",
+            "body": "Anchor support of an excavation pit in dense urban conditions, deflection control on neighbouring buildings."
+          }
+        }
+      ],
+      "illustrationKey": "I05"
+    },
+    "zdravoohranenie": {
+      "eyebrow": "/ Customers · Healthcare · I-06",
+      "title": "Healthcare",
+      "lead": "Special equipment for medical institutions. Rehabilitation systems, custom structures for medical equipment.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we do",
+          "title": "Products for medicine.",
+          "items": [
+            {
+              "ttl": "Rehabilitation equipment",
+              "dsc": "Kinetic rehabilitation systems."
+            },
+            {
+              "ttl": "Structures for medical equipment",
+              "dsc": "Per individual clinic specifications."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Approach",
+          "title": "Manufacturing to specification.",
+          "body": "Medical facilities order equipment for specific methods and rooms. The plant manufactures rehabilitation complexes and special structures to an individual brief. Assembly precision and surface quality meet medical requirements.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "What we do",
+          "title": "Order directions.",
+          "items": [
+            {
+              "ttl": "Rehabilitation",
+              "dsc": "Kinesitherapy complexes to specification."
+            },
+            {
+              "ttl": "Special structures",
+              "dsc": "Load-bearing and supporting elements for equipment."
+            },
+            {
+              "ttl": "Bespoke",
+              "dsc": "Products to the customer's drawing and brief."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Project",
+            "title": "Kinetic Rehabilitation System",
+            "body": "Manufactured per individual specification."
+          }
+        }
+      ],
+      "illustrationKey": "I06"
+    },
+    "rkosmos": {
+      "eyebrow": "/ Customers · Space · I-07",
+      "title": "Aerospace industry",
+      "lead": "Geotechnical systems and steel structures for launch complexes. Service life — decades in extreme conditions.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we supply",
+          "title": "Plant products for the industry.",
+          "items": [
+            {
+              "ttl": "Anchor systems",
+              "dsc": "For securing excavation walls and foundations of launch facilities."
+            },
+            {
+              "ttl": "Thermal diffusion galvanizing",
+              "dsc": "Protection against aggressive environments and temperature swings."
+            },
+            {
+              "ttl": "Design service life — up to 100 years",
+              "dsc": "For critical infrastructure facilities."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Requirements",
+          "title": "A service life of decades.",
+          "body": "Launch complexes are designed for decades of operation under extreme loads. The plant manufactures geotechnical systems and steel structures with a margin of service life and quality control at every stage. Documentation to the norms of facilities of special responsibility.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "What we supply",
+          "title": "Typical tasks.",
+          "items": [
+            {
+              "ttl": "Foundations",
+              "dsc": "Pile and anchor systems for launch structures."
+            },
+            {
+              "ttl": "Steel structures",
+              "dsc": "Load-bearing elements with extended service life."
+            },
+            {
+              "ttl": "Control",
+              "dsc": "Full quality control and complete documentation."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Flagship · 2016",
+            "title": "Vostochny Cosmodrome",
+            "body": "Launch complex for Soyuz-2. Retaining walls of the gas duct excavation, 1,280 anchor rods."
+          }
+        }
+      ],
+      "illustrationKey": "I07",
+      "photoBand": {
+        "img": "/img/project-cosmodrome.jpg",
+        "alt": "Vostochny Cosmodrome",
+        "capTag": "/ Flagship · 2016",
+        "capText": "Vostochny Cosmodrome"
+      }
+    },
+    "sport-turizm": {
+      "eyebrow": "/ Customers · Sport & tourism · I-08",
+      "title": "Sport & tourism cluster",
+      "lead": "Support structures for cable cars, slope retention, engineering protection of sports facilities and resorts.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "What we supply",
+          "title": "Plant products for the industry.",
+          "items": [
+            {
+              "ttl": "Support structures",
+              "dsc": "For cable cars and lifts."
+            },
+            {
+              "ttl": "Anchor systems",
+              "dsc": "Slope retention, engineering protection."
+            },
+            {
+              "ttl": "Shore protection",
+              "dsc": "For coastal and resort areas."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Purpose",
+          "title": "Supporting and retaining structures.",
+          "body": "Cableways, slopes and sports facilities require reliable retention and precise support geometry. The plant manufactures supporting structures, anchors and engineering-protection elements for the terrain and loads. Anti-corrosion coating for outdoor service.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "Where it is used",
+          "title": "Typical facilities.",
+          "items": [
+            {
+              "ttl": "Cableways",
+              "dsc": "Supports and fixing units for dynamic loads."
+            },
+            {
+              "ttl": "Slope retention",
+              "dsc": "Anchors and engineering-protection meshes."
+            },
+            {
+              "ttl": "Sports facilities",
+              "dsc": "Load-bearing structures and barriers."
+            }
+          ],
+          "num": "/ 03"
+        },
+        {
+          "kind": "subProject",
+          "num": "/ 04",
+          "head": "Project case",
+          "title": "Where it has worked.",
+          "project": {
+            "tag": "Sport · 2014",
+            "title": "Krasnaya Polyana — ski cluster",
+            "body": "Anchor systems for slope retaining structures, anti-karst measures and avalanche-protection installations."
+          }
+        }
+      ],
+      "illustrationKey": "I08",
+      "photoBand": {
+        "img": "/img/project-ski.jpg",
+        "alt": "Olympic venues · Krasnaya Polyana",
+        "capTag": "/ Sport & tourism",
+        "capText": "Olympic venues · Krasnaya Polyana"
+      }
+    },
+    "kontakty": {
+      "eyebrow": "/ Company · Contacts · C-06",
+      "title": "Contacts",
+      "lead": "Production site in Pushkin. Reception, sales department, legal details for contracts.",
+      "sections": [
+        {
+          "kind": "map",
+          "num": "/ 01",
+          "head": "Map",
+          "title": "Production site on the map.",
+          "lat": 59.7218,
+          "lon": 30.4133,
+          "zoom": 16,
+          "address": "196608, St. Petersburg, Pushkin, 17 Novoderevenskaya str.",
+          "directionsLabel": "Open in Yandex.Maps →",
+          "provider": "yandex"
+        },
+        {
+          "kind": "items",
+          "num": "/ 02",
+          "head": "Get in touch",
+          "title": "Channels and addresses.",
+          "items": [
+            {
+              "ttl": "Plant reception",
+              "dsc": "+7 (812) 640‑79‑95 · Mon–Fri 09:00–18:00."
+            },
+            {
+              "ttl": "Sales department",
+              "dsc": "sales@pmz.spb.ru · reply within 4 hours."
+            },
+            {
+              "ttl": "Production address",
+              "dsc": "196608, St. Petersburg, Pushkin, 17 Novoderevenskaya str."
+            },
+            {
+              "ttl": "Working hours",
+              "dsc": "24/7, two production shifts."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 03",
+          "head": "Legal details",
+          "title": "Legal data for contracts.",
+          "items": [
+            {
+              "ttl": "Legal name",
+              "dsc": "LLC «Pushkin Machine-Building Plant»."
+            },
+            {
+              "ttl": "OGRN · INN",
+              "dsc": "1027810231142 · 7820300041."
+            },
+            {
+              "ttl": "Legal address",
+              "dsc": "196608, St. Petersburg, Pushkin, 17 Novoderevenskaya str."
+            },
+            {
+              "ttl": "Certificate of compliance",
+              "dsc": "«Made in St. Petersburg» · «Made in Russia»."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 04",
+          "head": "How to reach us",
+          "title": "Directions.",
+          "items": [
+            {
+              "ttl": "To St. Petersburg center",
+              "dsc": "24 km, direct M-10 highway."
+            },
+            {
+              "ttl": "Pulkovo airport",
+              "dsc": "15 minutes by car."
+            },
+            {
+              "ttl": "Sea port",
+              "dsc": "30 minutes to the port terminals."
+            },
+            {
+              "ttl": "Pushkin railway station",
+              "dsc": "3 minutes from the plant."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "num": "/ 05",
+        "head": "How to buy",
+        "title": "Send your parameters — we'll prepare a quote.",
+        "lead": "Describe the task, attach a drawing or specs. Our manager will send the spec, price and lead time within 4 hours.",
+        "btn": "Send request"
+      }
+    },
+    "karyera": {
+      "eyebrow": "/ Company · Careers · C-03",
+      "title": "Careers at PMZ",
+      "lead": "The plant in Pushkin is looking for engineers, process technologists, CNC operators, welders and general workers. Full-time, official wages, on-the-job training.",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Who we hire",
+          "title": "Open positions.",
+          "items": [
+            {
+              "ttl": "Design engineer",
+              "dsc": "SolidWorks / Inventor, mechanical engineering or steel structures background."
+            },
+            {
+              "ttl": "Process technologist",
+              "dsc": "Route and operation card development."
+            },
+            {
+              "ttl": "CNC machine operator",
+              "dsc": "Mazak, milling, turning centers. We're happy to train."
+            },
+            {
+              "ttl": "NAKS welder",
+              "dsc": "SMAW, GMAW. NAKS certification preferred — we can help you get it."
+            },
+            {
+              "ttl": "General worker / loader",
+              "dsc": "Full-time, on-site training."
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "head": "Conditions",
+          "title": "What we offer.",
+          "body": "The plant in Pushkin means official employment, steady workload and on-the-job training. Production runs a full cycle, so there is growth from operator to area foreman. A team of engineers and workers invested in the result.",
+          "num": "/ 02"
+        },
+        {
+          "kind": "items",
+          "head": "How to apply",
+          "title": "Hiring steps.",
+          "items": [
+            {
+              "ttl": "Application",
+              "dsc": "Apply via the site or call the HR department."
+            },
+            {
+              "ttl": "Interview",
+              "dsc": "Meet the area and the tasks on site."
+            },
+            {
+              "ttl": "Probation",
+              "dsc": "Onboarding under a mentor."
+            }
+          ],
+          "num": "/ 03"
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "/ Legal · Privacy",
+      "title": "Privacy policy",
+      "lead": "How Pushkin Machine-Building Plant LLC processes personal data of site visitors and applicants. Compliant with Russian Federal Law No. 152-FZ «On personal data».",
+      "sections": [
+        {
+          "kind": "items",
+          "num": "/ 01",
+          "head": "Operator",
+          "title": "Who processes the data.",
+          "items": [
+            {
+              "ttl": "Legal name",
+              "dsc": "Pushkin Machine-Building Plant LLC (hereinafter — the Operator)."
+            },
+            {
+              "ttl": "OGRN · INN",
+              "dsc": "1027810231142 · 7820300041."
+            },
+            {
+              "ttl": "Address",
+              "dsc": "196608, St. Petersburg, Pushkin, 17 Novoderevenskaya str."
+            },
+            {
+              "ttl": "Data protection contact",
+              "dsc": "sales@pmz.spb.ru, +7 (812) 640-79-95."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 02",
+          "head": "Data we collect",
+          "title": "Scope of personal data.",
+          "items": [
+            {
+              "ttl": "When you submit a request",
+              "dsc": "Name, phone, e-mail, company (if given), task description and attached files (drawings, specs)."
+            },
+            {
+              "ttl": "Technical data",
+              "dsc": "IP address, country/city derived from IP, browser and device type, navigation across pages — only anonymized via analytics."
+            },
+            {
+              "ttl": "Cookies",
+              "dsc": "Session identifier and UI preferences (language, cookie consent). No analytics cookies before consent."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 03",
+          "head": "Why we use it",
+          "title": "Purpose of processing.",
+          "items": [
+            {
+              "ttl": "Handling your request",
+              "dsc": "Reaching back, preparing a spec, price, lead time and contract."
+            },
+            {
+              "ttl": "Site improvement",
+              "dsc": "Anonymized analytics of traffic and user behavior."
+            },
+            {
+              "ttl": "Legal obligations",
+              "dsc": "Bookkeeping and tax accounting, responding to regulator inquiries when required by law."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 04",
+          "head": "Storage and protection",
+          "title": "How and how long we store data.",
+          "items": [
+            {
+              "ttl": "Retention",
+              "dsc": "We keep data no longer than needed for the stated purposes — typically 3 years from the last contact about a request, or until consent is revoked."
+            },
+            {
+              "ttl": "Protection",
+              "dsc": "Technical and organizational measures per art. 19 of Federal Law 152-FZ: access controls, HTTPS encryption in transit, backups, password protection."
+            },
+            {
+              "ttl": "Third-party transfer",
+              "dsc": "We don't transfer data except as explicitly required by law (regulators, courts) or with your explicit consent (logistics, bank transfers)."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 05",
+          "head": "Your rights",
+          "title": "What you can request.",
+          "items": [
+            {
+              "ttl": "Access",
+              "dsc": "Get information about the scope and purposes of processing your data."
+            },
+            {
+              "ttl": "Correction",
+              "dsc": "Request correction of inaccurate or outdated data."
+            },
+            {
+              "ttl": "Erasure",
+              "dsc": "Withdraw consent — your data will be erased, except for what we're legally required to retain."
+            },
+            {
+              "ttl": "Complaint",
+              "dsc": "File a complaint with Roskomnadzor (the Russian data-protection authority)."
+            }
+          ]
+        },
+        {
+          "kind": "items",
+          "num": "/ 06",
+          "head": "Changes",
+          "title": "Policy updates.",
+          "items": [
+            {
+              "ttl": "Versioning",
+              "dsc": "The current version is published on this page. The last-update date is at the top of each version."
+            },
+            {
+              "ttl": "Notice",
+              "dsc": "Material changes will be announced on the home page and via e-mail (if you're subscribed)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Pushkin Machine-Building Plant",
+      "titleMain": "Heavy metal and precision mechanics",
+      "titleItal": "for your project.",
+      "lead": "Geotechnical systems, drilling tools, steel structures and heavy machinery. Full cycle from drawing to shipment on a modern machine park with our own design bureau and quality control per GOST and ISO standards.",
+      "cta": "Request a quote",
+      "second": "Product catalogue"
+    },
+    "directions": {
+      "num": "/ 01",
+      "head": "Products",
+      "title": "Four production lines",
+      "cta": "Learn more",
+      "cards": [
+        {
+          "no": "D-01",
+          "title": "Geotechnical<br/>systems",
+          "items": [
+            "threaded bars",
+            "couplers",
+            "drill bits",
+            "bearing plates",
+            "centralizers"
+          ]
+        },
+        {
+          "no": "D-02",
+          "title": "Drilling tools<br/>and tooling",
+          "items": [
+            "auger drills",
+            "CFA augers",
+            "DDS / Atlas / Fundex displacement tools",
+            "casing pipes",
+            "tremie pipes",
+            "Kelly bars"
+          ]
+        },
+        {
+          "no": "D-03",
+          "title": "Welded steel<br/>structures",
+          "items": [
+            "columns and trusses",
+            "beams and girders",
+            "reinforcement cages",
+            "pipeline supports",
+            "tanks up to 120 m³"
+          ]
+        },
+        {
+          "no": "D-04",
+          "title": "Heavy machinery<br/>and special vehicles",
+          "items": [
+            "MBGU-200 drilling rigs",
+            "vacuum trucks, silos",
+            "tow trucks",
+            "cable drums",
+            "cooling drums"
+          ]
+        }
+      ]
+    },
+    "services": {
+      "num": "/ 06",
+      "head": "Services",
+      "title": "Metalworking services",
+      "items": {
+        "turning": {
+          "title": "Turning and milling",
+          "desc": "Parts up to ø 1050 mm and 1000 mm tall. Series and one-off runs.",
+          "tag": "CNC · 5-axis"
+        },
+        "cutting": {
+          "title": "Plasma and gas cutting",
+          "desc": "Sheet-steel cutting up to 60 mm. Program preparation from DXF.",
+          "tag": "sheet 60 mm"
+        },
+        "galvanizing": {
+          "title": "Thermal-diffusion galvanizing",
+          "desc": "Anti-corrosion coating for fasteners and hardware to spec. Coating 6–100 µm.",
+          "tag": "6–100 µm"
+        },
+        "welding": {
+          "title": "Welding and assembly",
+          "desc": "NAKS-certified shop: MIG/MAG, TIG, stick. Ultrasonic and radiographic testing.",
+          "tag": "NAKS · GOST"
+        },
+        "bending": {
+          "title": "Roll-forming and pipe bending",
+          "desc": "Sheet and pipe bending, shell rolling for tanks up to 120 m³.",
+          "tag": "up to 120 m³"
+        },
+        "repair": {
+          "title": "Drilling equipment repair",
+          "desc": "Refurbishment of drilling tools and equipment of any manufacturer.",
+          "tag": "12-month warranty"
+        }
+      }
+    },
+    "projects": {
+      "num": "/ 02",
+      "head": "Projects and clients",
+      "title": "Where the plant's products work",
+      "intro": "From the Vostochny Cosmodrome and the Sochi Olympic venues to seaports and the Arctic. PMZ's ground anchor systems, steel structures and drilling tools are at work on flagship sites across Russia and the CIS.",
+      "cards": {
+        "vostochny": {
+          "tag": "/ Flagship · 2016",
+          "title": "Vostochny Cosmodrome",
+          "desc": "Pit-wall retention for the gas duct of the Soyuz-2 launch complex. Multifunctional ground anchor system, thermal-diffusion galvanizing, design life — 100 years.",
+          "meta1": "Amur Region",
+          "meta2": "Space industry"
+        },
+        "southStream": {
+          "tag": "/ Oil & gas",
+          "title": "South Stream gas pipeline",
+          "desc": "Engineered slope protection along the access road to the offshore section · Anapa."
+        },
+        "rogun": {
+          "tag": "/ Hydro",
+          "title": "Rogun Hydropower Plant",
+          "desc": "Construction, installation and refurbishment works · Republic of Tajikistan."
+        },
+        "krasnayaPolyana": {
+          "tag": "/ Sport & tourism",
+          "title": "Olympic venues · Krasnaya Polyana",
+          "desc": "Engineered slope and structure protection for Sochi 2014."
+        },
+        "whsd": {
+          "tag": "/ Roads",
+          "title": "WHSD, phases IV–V",
+          "desc": "Western High-Speed Diameter · Steel structures and ground anchor systems for bridge crossings."
+        },
+        "arctic": {
+          "tag": "/ Special facilities",
+          "title": "Golomyanny Is. · Severnaya Zemlya",
+          "desc": "Permanent Arctic facilities — structures engineered for permafrost."
+        },
+        "kostyushko": {
+          "tag": "/ Residential",
+          "title": "Residential complex at 19 Kostyushko St.",
+          "desc": "St. Petersburg · Apartment building with a built-in kindergarten, hotel and three-level parking."
+        }
+      },
+      "all": {
+        "tag": "/ 8 industries",
+        "title": "Roads · Hydro · Sport & tourism<br/>Oil & gas · Special construction · Residential<br/>Space · Healthcare",
+        "cta": "All projects and clients"
+      }
+    },
+    "pushkin": {
+      "titleLead": "Manufactured",
+      "titleHighlight": "in Tsarskoye Selo",
+      "titleTail": "Since 1919.",
+      "lead": "PMZ's production site sits in Pushkin — a historic industrial district of St. Petersburg. Direct access to the M-10 federal route and the KAD ring road, 30 minutes from the seaport and 15 minutes from Pulkovo airport.",
+      "directions": "Open in Yandex Maps",
+      "facadeLabel": "/ architectural motif · Pushkin",
+      "facadeScale": "SCALE 1:600 · DRAFT",
+      "facts": {
+        "km": "km",
+        "min": "min",
+        "toCenter": "to the centre<br/>of St. Petersburg",
+        "highway": "direct access<br/>to the motorway",
+        "toStation": "to Pushkin<br/>railway station"
+      }
+    },
+    "history": {
+      "eyebrowStrong": "SINCE 1919",
+      "eyebrowTail": "— Chronicle",
+      "title": "One hundred and six years on steel",
+      "markers": {
+        "founded": "founded",
+        "war": "wartime",
+        "series": "series production",
+        "global": "global markets",
+        "modern": "modernization",
+        "today": "today"
+      },
+      "highlights": {
+        "h1Alt": "The plant. View from Kommunarov Street",
+        "h1Title": "Founded in<br/>Detskoye Selo",
+        "h1Text": "The Petrograd Roads Department opened workshops to repair road machinery — the plant later moved to Pushkin.",
+        "h2Alt": "Bridge trusses, 1943",
+        "h2Title": "Bridge trusses<br/>for the Luga River",
+        "h2Text": "In besieged Leningrad the plant assembled launcher components for the Katyusha rocket and bridge trusses — without stopping for a single day.",
+        "h3Alt": "The plant today",
+        "h3Title": "Mazak · ISO 9001<br/>14,200 m²",
+        "h3Text": "A modern machine park with 5-axis machining centres, NAKS welding certification, deliveries to 68 regions."
+      },
+      "cta": "Read the full plant chronicle"
+    },
+    "numbers": {
+      "num": "/ 03",
+      "head": "Plant",
+      "title": "Facilities and capabilities",
+      "cells": {
+        "u1": "ha",
+        "l1": "Total site area",
+        "d1": "Including 14,200 m² of production floor, covered storage for rolled steel and an open dispatch yard.",
+        "u2": "units",
+        "l2": "Machine park",
+        "d2": "Mazak machining centres, plasma cutting, hydraulic presses, heat-treatment shop.",
+        "u3": "t / year",
+        "l3": "Steel structures output",
+        "d3": "From one-off batches to series contracts.",
+        "u4": "staff",
+        "l4": "Employees, including our in-house design bureau",
+        "d4": "Designers, process engineers, NAKS-certified welders, CNC operators."
+      }
+    },
+    "equipment": {
+      "num": "/ 04",
+      "head": "Production",
+      "title": "Machine park",
+      "intro": "Full technical re-equipment programme: custom rolling mills built to our own specs, a 5-axis Mazak machining centre, CNC machine tools, a thermal-diffusion galvanizing line, HF heat-treatment, and a NAKS-certified welding shop.",
+      "cards": {
+        "rolling": {
+          "qty": "in-house spec",
+          "title": "Rolling",
+          "desc": "Custom rolling mills<br/>fully automated, under continuous automatic control"
+        },
+        "machining": {
+          "qty": "5 axes",
+          "title": "Metal machining",
+          "desc": "Mazak Integrex · 5-axis<br/>ø up to 1050 mm · H up to 1000 mm"
+        },
+        "cutting": {
+          "qty": "plasma",
+          "title": "Metal cutting",
+          "desc": "Plasma and gas cutting<br/>band-saw machines for pipe"
+        },
+        "welding": {
+          "qty": "NAKS",
+          "title": "Welding",
+          "desc": "Hobart, Lincoln semi-automatic welders<br/>MIG/MAG · TIG · stick · NAKS"
+        },
+        "bending": {
+          "qty": "600 t",
+          "title": "Bending & roll-forming",
+          "desc": "Sheet- and pipe-bending presses<br/>force up to 600 t"
+        },
+        "special": {
+          "qty": "HF",
+          "title": "Special processes",
+          "desc": "Thermal-diffusion galvanizing<br/>HF heat treatment · mechanical testing"
+        }
+      }
+    },
+    "quality": {
+      "num": "/ 05",
+      "head": "Quality",
+      "title": "Certificates, awards, the team",
+      "marks": {
+        "iso": {
+          "big": "ISO<br/>9001",
+          "l": "Quality management system",
+          "d": "Implemented and certified. Active quality policy, scheduled audits."
+        },
+        "sout": {
+          "mid": "SOUT",
+          "l": "Workplace conditions assessment",
+          "d": "2020 · 2021 · 2022 · 2023 · 2024"
+        },
+        "resident": {
+          "mid": "Resident",
+          "l": "St. Petersburg Import Substitution & Localization Centre",
+          "d": "Verified Russian manufacturer, NAKS-certified for welding."
+        }
+      },
+      "awards": {
+        "title": "Awards and diplomas",
+        "items": [
+          {
+            "yr": "2020",
+            "ttl": "“Leader of Construction Quality”",
+            "cat": "Grand Prix"
+          },
+          {
+            "yr": "2016",
+            "ttl": "“Innovation” certificate — for the development of innovative activity in the region",
+            "cat": "Laureate"
+          },
+          {
+            "yr": "2016",
+            "ttl": "“For Quality of Goods, Works and Services” · Government of St. Petersburg",
+            "cat": "3rd place"
+          },
+          {
+            "yr": "—",
+            "ttl": "“100 Best Goods of Russia”",
+            "cat": "Laureate"
+          },
+          {
+            "yr": "—",
+            "ttl": "“Made in Russia”",
+            "cat": "Laureate"
+          },
+          {
+            "yr": "—",
+            "ttl": "“Made in St. Petersburg”",
+            "cat": "Laureate"
+          }
+        ]
+      },
+      "leadership": {
+        "title": "Leadership",
+        "ceo": {
+          "name": "Vyacheslav Yu.<br/>Smolenkov",
+          "pos": "General Director"
+        },
+        "exec": {
+          "name": "Vitaly V.<br/>Vidavsky",
+          "pos": "Executive Director"
+        },
+        "prod": {
+          "name": "Vasily V.<br/>Shestopalov",
+          "pos": "Director of Production"
+        },
+        "dev": {
+          "name": "Alexey P.<br/>Popkov",
+          "pos": "Director of Development"
+        }
+      }
+    },
+    "news": {
+      "num": "/ 07",
+      "head": "Press centre",
+      "title": "Plant news",
+      "readMore": "Read",
+      "items": [
+        {
+          "date": "29 September 2025",
+          "read": "2 min",
+          "tag": "Event",
+          "title": "Machine Builder's Day at the Pushkin plant",
+          "lead": "The plant's top employees received commendations from the Pushkin District Administration and the company."
+        },
+        {
+          "date": "12 November 2024",
+          "read": "3 min",
+          "tag": "People",
+          "title": "On-site training facility opens at the plant",
+          "lead": "A dedicated training room for occupational safety, work safety and skills development for production roles."
+        },
+        {
+          "date": "07 May 2025",
+          "read": "2 min",
+          "tag": "Remembrance",
+          "title": "80 years of Victory. Tribute to colleagues and veterans",
+          "lead": "During the war the plant worked for the Leningrad Front; today we remember and give thanks."
+        }
+      ],
+      "all": "All news"
+    },
+    "cta": {
+      "num": "/ 08",
+      "head": "How to buy",
+      "title": "Describe the task — we'll prepare a quote and spec.",
+      "lead": "A manager will handle the request and send back a specification, lead time and price. Attach a drawing or scope of work if you have one — it speeds up the calculation.",
+      "formTitle": "Online request",
+      "formNote": "By submitting you agree to the processing of personal data.",
+      "contact": {
+        "salesL": "Sales department",
+        "salesV": "+7 (812) 640‑79‑95",
+        "salesS": "Mon–Fri · 09:00–18:00",
+        "emailL": "Email",
+        "emailV": "sales@pmz.spb.ru",
+        "emailS": "reply within 4 hours",
+        "addrL": "Production address",
+        "addrV": "Pushkin",
+        "addrS": "Novoderevenskaya str., 17",
+        "hoursL": "Working hours",
+        "hoursV": "24/7",
+        "hoursS": "two production shifts"
+      },
+      "fields": {
+        "name": "Name",
+        "namePh": "John Smith",
+        "phone": "Phone",
+        "phonePh": "+1 (___) ___‑____",
+        "email": "E-mail",
+        "emailPh": "name@company.com",
+        "subject": "Subject",
+        "subjectPh": "Anchors, bars, steel structures…",
+        "message": "Describe the task",
+        "messagePh": "What needs to be made, volume, lead time…",
+        "file": "Drawing / spec (PDF, DWG)",
+        "submit": "Send request",
+        "consent": "I consent to the processing of personal data"
+      }
+    }
+  },
+  "lang": {
+    "switch": "RU",
+    "label": "Language"
+  },
+  "newsPage": {
+    "eyebrow": "/ Company · Press centre · C-07",
+    "title": "News and press centre",
+    "lead": "What's happening at the plant — events, certifications, awards, people.",
+    "feed": {
+      "num": "/ 01",
+      "head": "Feed",
+      "title": "What's happening at the plant."
+    },
+    "read": "Read",
+    "minutes": "min",
+    "empty": "News will appear here soon.",
+    "items": [
+      {
+        "slug": "den-mashinostroitelya",
+        "date": "29 September 2025",
+        "minutes": "2",
+        "tag": "Event",
+        "title": "Machine-Builder's Day at PMZ",
+        "lead": "Top employees received certificates from the Pushkin district administration and the plant.",
+        "img": "/img/news/den-mashinostroitelya.webp"
+      },
+      {
+        "slug": "uchebnyy-klass",
+        "date": "12 November 2024",
+        "minutes": "3",
+        "tag": "People",
+        "title": "On-site training class opens at the plant",
+        "lead": "A classroom for occupational-safety training and qualification upgrades for production staff.",
+        "img": "/img/news/uchebnyy-klass.webp"
+      },
+      {
+        "slug": "80-let-pobedy",
+        "date": "07 May 2025",
+        "minutes": "2",
+        "tag": "Memory",
+        "title": "80 years of Victory. A tribute to colleagues and veterans",
+        "lead": "During the war the plant supplied the Leningrad front; today we remember and give thanks.",
+        "img": "/img/news/80-let-pobedy.webp"
+      }
+    ]
+  },
+  "form": {
+    "eyebrow": "/ Request · C-08",
+    "title": "Send a request",
+    "lead": "Describe your task — our manager will come back with a spec, price and lead time within 4 hours.",
+    "fields": {
+      "name": "Name",
+      "namePh": "John Smith",
+      "phone": "Phone",
+      "phonePh": "+1 ___ ___ ____",
+      "email": "E-mail",
+      "emailPh": "you@company.com",
+      "company": "Company",
+      "subject": "Subject",
+      "subjectPh": "e.g. quote from drawing",
+      "message": "Describe the task",
+      "messagePh": "Material, dimensions, batch size, deadlines, inspection requirements…",
+      "file": "Drawing or specs (PDF, DWG, up to 20 MB)",
+      "consent": "I consent to the processing of my personal data per the privacy policy.",
+      "submit": "Send request",
+      "submitting": "Sending…"
+    },
+    "required": "required",
+    "errors": {
+      "name": "Please enter your name.",
+      "contact": "Leave a phone number or e-mail so we can reach you.",
+      "email": "E-mail looks invalid.",
+      "message": "Please describe the task (at least 10 characters).",
+      "consent": "We need your consent to process personal data.",
+      "file": "File too large (max 20 MB).",
+      "spam": "Request not accepted.",
+      "server": "Couldn't send. Please try again later or call us."
+    },
+    "success": {
+      "title": "Request sent.",
+      "body": "Our manager will contact you within 4 working hours. For urgent matters call +7 (812) 640‑79‑95."
+    }
+  },
+  "cookie": {
+    "text": "This site uses only technical cookies required for the interface and language switcher. Analytics cookies — only after your consent.",
+    "accept": "Accept all",
+    "deny": "Necessary only",
+    "more": "Details"
+  },
+  "historyPage": {
+    "eyebrow": "1919 — 2026 · chronicle",
+    "title": "One hundred and six years on steel",
+    "lead": "From repair workshops of the Petrograd Road Department in the village of Pulkovo — to a modern plant with 5-axis Mazak machining centers. Six eras, one place, continuous production.",
+    "markers": [
+      {
+        "yr": "1919",
+        "l": "founded",
+        "x": 0
+      },
+      {
+        "yr": "1941",
+        "l": "war",
+        "x": 22
+      },
+      {
+        "yr": "1953",
+        "l": "series",
+        "x": 35
+      },
+      {
+        "yr": "1979",
+        "l": "world market",
+        "x": 58
+      },
+      {
+        "yr": "2011",
+        "l": "modernization",
+        "x": 79
+      },
+      {
+        "yr": "2026",
+        "l": "today",
+        "x": 100,
+        "now": true
+      }
+    ],
+    "chapters": [
+      {
+        "order": "01",
+        "no": "EP-01",
+        "period": "December 1919 — 1923",
+        "title": "Road workshops in Detskoye Selo",
+        "body": "The Petrograd Road Department set up mechanical workshops in the village of Pulkovo to repair road machinery. Two years later the enterprise moved to Detskoye Selo — the future Pushkin — and was housed in former court stables and the riding hall.",
+        "facts": [
+          {
+            "yr": "1919",
+            "t": "Founded in Pulkovo"
+          },
+          {
+            "yr": "1921",
+            "t": "Moved to Detskoye Selo"
+          },
+          {
+            "yr": "1923",
+            "t": "Detskoye Selo repair & mechanical works"
+          }
+        ],
+        "img": "/img/factory/hist-1.webp",
+        "alt": "Plant. View from Kommunarov street",
+        "caption": "View from Kommunarov street · archive"
+      },
+      {
+        "order": "02",
+        "no": "EP-02",
+        "period": "1929 — 1940",
+        "title": "First Soviet-made equipment",
+        "body": "The plant starts manufacturing its own equipment: the country's first bitumen sprayer AG-1 on a YaG-5 chassis, designed by in-house engineer Obukhov. By 1934 it produces mobile workshops, sprayers, bitumen heaters. Overhaul of foreign vehicles AMO-3, Buick, Lincoln, Renault and tractors ChTZ-60, Fordson-Putilovets.",
+        "facts": [
+          {
+            "yr": "1929",
+            "t": "Bitumen sprayer AG-1 by engineer Obukhov"
+          },
+          {
+            "yr": "1934",
+            "t": "Series road equipment"
+          },
+          {
+            "yr": "1940",
+            "t": "Moved to 17 Novoderevenskaya — current site"
+          }
+        ],
+        "img": "/img/factory/hist-3.webp",
+        "alt": "Open materials yard",
+        "caption": "Open materials yard · 1959–1984",
+        "flipped": true
+      },
+      {
+        "order": "03",
+        "no": "EP-03",
+        "period": "1941 — 1945",
+        "title": "War. Evacuation. The front.",
+        "body": "When the Great Patriotic War began, the plant was placed under the Leningrad Front and evacuated to Leningrad, to Flyugov Lane. Through all four years of the siege the works did not stop for a single day: tankettes and tractors were repaired, components for Katyusha rocket launchers assembled, bridge trusses and trailers built. Mobile workshops served the front.",
+        "facts": [
+          {
+            "yr": "1941",
+            "t": "Evacuation to Leningrad, Flyugov Lane"
+          },
+          {
+            "yr": "1943",
+            "t": "Bridge trusses for the destroyed bridge on the Luga river"
+          },
+          {
+            "yr": "1944",
+            "t": "Production capacity returns to Pushkin"
+          }
+        ],
+        "img": "/img/factory/hist-2.webp",
+        "alt": "Bridge trusses 1943",
+        "caption": "3 July 1943 · bridge trusses for the bridge destroyed on the Luga river"
+      },
+      {
+        "order": "04",
+        "no": "EP-04",
+        "period": "1953 — 1979",
+        "title": "Series output. Wagons and street-washing trucks",
+        "body": "The plant scales up: KPM-1 street-washing trucks in ten variants, rail forms, vibratory conveyors, mobile fuel stations. In the 1960s housing wagons reach 80% of output. In 1969 the plant school of communist labor opens — a 300-seat hall, library and modern canteen.",
+        "facts": [
+          {
+            "yr": "1953",
+            "t": "Series production of KPM-1"
+          },
+          {
+            "yr": "1959",
+            "t": "Plant No. 26 (USSR Ministry of Transport Construction)"
+          },
+          {
+            "yr": "1967",
+            "t": "Pushkin Repair & Mechanical Plant"
+          },
+          {
+            "yr": "1969",
+            "t": "Plant school with 300-seat hall"
+          }
+        ],
+        "img": "/img/factory/hist-4.webp",
+        "alt": "Hydraulic test stand",
+        "caption": "Hydraulic stand for testing springs and assemblies",
+        "flipped": true
+      },
+      {
+        "order": "05",
+        "no": "EP-05",
+        "period": "1979 — 1994",
+        "title": "Concrete mixers. Reaching the world market",
+        "body": "By decision of the Ministry of Transport Construction, the plant masters production of concrete mixer trucks under Stetter (Germany) drawings. By 1986 the product is competitive on the world market. Universal metal-cutting machines and Hobart / Lincoln welding semi-automatics are installed — reliable equipment that raises welding quality.",
+        "facts": [
+          {
+            "yr": "1979",
+            "t": "Stetter concrete mixers"
+          },
+          {
+            "yr": "1986",
+            "t": "Entry to the world market"
+          },
+          {
+            "yr": "1992",
+            "t": "Full switch to concrete mixers"
+          },
+          {
+            "yr": "1994",
+            "t": "JSC Pushkin Machine-Building Plant"
+          }
+        ],
+        "img": "/img/factory/hist-5.webp",
+        "alt": "Plant 50th anniversary",
+        "caption": "Anniversary celebration · 50 years of the plant"
+      },
+      {
+        "order": "06",
+        "no": "EP-06",
+        "period": "2011 — today",
+        "title": "Full modernization. Mazak. ISO 9001.",
+        "body": "Plant-wide modernization with installation of modern equipment. Series production of geotechnical systems and drilling tools begins, a new anchor systems shop opens with an automated line producing 350,000 m per year. The plant is certified to ISO 9001 and commissions a 5-axis Mazak machining center.",
+        "facts": [
+          {
+            "yr": "2012",
+            "t": "Anchor systems shop"
+          },
+          {
+            "yr": "2014",
+            "t": "ISO 9001 certification · reorganization to LLC"
+          },
+          {
+            "yr": "2015",
+            "t": "Anchor production line, 350,000 m/year"
+          },
+          {
+            "yr": "2016",
+            "t": "Mazak machining center (Japan)"
+          },
+          {
+            "yr": "2026",
+            "t": "62 machines, 14,200 m², 68 supply regions"
+          }
+        ],
+        "img": "/img/factory/today.webp",
+        "alt": "Plant today",
+        "caption": "Production site · 2026",
+        "flipped": true
+      }
+    ],
+    "coda": "The story continues — in every part we ship today."
+  }
+}

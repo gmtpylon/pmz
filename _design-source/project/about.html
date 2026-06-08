@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>О заводе — Пушкинский машиностроительный завод</title>
+<link rel="stylesheet" href="styles.css" />
+<script>
+  (function(){
+    try {
+      document.documentElement.setAttribute('data-theme', 'light');
+      try { localStorage.setItem('pmz-theme', 'light'); } catch(e){}
+      var a = localStorage.getItem('pmz-accent');
+      if (a) document.documentElement.style.setProperty('--accent', a);
+      var ah = localStorage.getItem('pmz-accent-hi');
+      if (ah) document.documentElement.style.setProperty('--accent-hi', ah);
+      var d = localStorage.getItem('pmz-density');
+      if (d) document.documentElement.style.setProperty('--density', d);
+    } catch(e) {}
+  })();
+</script>
+<style>
+  /* ==========================================================
+     ABOUT page — local layout & components
+     ========================================================== */
+
+  .ab-head {
+    padding: 120px 0 80px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    position: relative;
+  }
+  .ab-head .back {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: var(--ff-mono); font-size: 11px;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  .ab-head .back:hover { color: var(--ink); }
+  .ab-head .eyebrow-line {
+    display: inline-flex; align-items: center; gap: 14px;
+    font-family: var(--ff-mono); font-size: 12px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--gold-deep);
+    margin-top: 32px;
+  }
+  .ab-head .eyebrow-line::before {
+    content: ''; width: 40px; height: 1px;
+    background: var(--gold); opacity: 0.6;
+  }
+  .ab-head h1 {
+    margin-top: 28px;
+    font-size: clamp(40px, 5.2vw, 84px);
+    line-height: 1.04;
+    letter-spacing: -0.028em;
+    font-weight: 500;
+    max-width: 22ch;
+    text-wrap: balance;
+  }
+  .ab-head h1 .gold-word { color: var(--gold); }
+  .ab-head p.ab-lead {
+    margin: 32px 0 0;
+    max-width: 64ch;
+    font-size: 18px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    text-wrap: pretty;
+  }
+  @media (max-width: 900px) { .ab-head { padding: 80px 0 56px; } }
+  @media (max-width: 600px) { .ab-head { padding: 56px 0 40px; } }
+
+  .ab-keybar {
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--surface-warm);
+  }
+  .ab-keybar-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .ab-key {
+    padding: 32px 28px;
+    border-right: 1px solid var(--line-soft);
+    display: flex; flex-direction: column; gap: 8px;
+    min-width: 0;
+  }
+  .ab-key:last-child { border-right: 0; }
+  .ab-key .v {
+    font-size: clamp(28px, 3vw, 44px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .ab-key .v .unit {
+    font-family: var(--ff-mono);
+    font-size: 0.45em;
+    color: var(--ink-3);
+    margin-left: 6px;
+    letter-spacing: 0.02em;
+  }
+  .ab-key .l {
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    margin-top: 4px;
+  }
+  @media (max-width: 900px) {
+    .ab-keybar-inner { grid-template-columns: repeat(2, 1fr); }
+    .ab-key { padding: 24px 20px; }
+    .ab-key:nth-child(2) { border-right: 0; }
+    .ab-key:nth-child(1), .ab-key:nth-child(2) { border-bottom: 1px solid var(--line-soft); }
+  }
+  @media (max-width: 480px) {
+    .ab-keybar-inner { grid-template-columns: 1fr; }
+    .ab-key { border-right: 0; border-bottom: 1px solid var(--line-soft); }
+    .ab-key:last-child { border-bottom: 0; }
+  }
+
+  .ab-sect { padding: calc(100px * var(--density)) 0; }
+  @media (max-width: 900px) { .ab-sect { padding: 64px 0; } }
+  @media (max-width: 600px) { .ab-sect { padding: 48px 0; } }
+  .ab-sect-head {
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .ab-sect-head .num {
+    font-family: var(--ff-mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    color: var(--ink-2);
+    text-transform: uppercase;
+  }
+  .ab-sect-head .num b {
+    color: var(--gold-deep);
+    font-weight: 600;
+    margin-right: 4px;
+  }
+  .ab-sect-head h2 {
+    font-size: clamp(28px, 3.4vw, 52px);
+    line-height: 1.06;
+    letter-spacing: -0.022em;
+    font-weight: 500;
+    max-width: 24ch;
+    margin-top: 12px;
+    text-wrap: balance;
+  }
+  .ab-sect-head .pull {
+    max-width: 36ch;
+    font-size: 15px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    text-wrap: pretty;
+  }
+  @media (max-width: 900px) { .ab-sect-head { margin-bottom: 36px; } }
+
+  .ab-strengths {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .strength {
+    background: var(--surface);
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-height: 220px;
+    min-width: 0;
+  }
+  .strength .no {
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--gold-deep);
+  }
+  .strength h3 {
+    font-size: 19px;
+    line-height: 1.22;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+    color: var(--ink);
+    text-wrap: balance;
+    margin-top: auto;
+  }
+  .strength p {
+    font-size: 14px;
+    color: var(--ink-2);
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+  @media (max-width: 900px) { .ab-strengths { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .ab-strengths { grid-template-columns: 1fr; } .strength { min-height: 0; padding: 24px 20px; } }
+
+  .ab-video-section {
+    background: oklch(11% 0.005 260);
+    color: oklch(94% 0.005 80);
+    padding: calc(96px * var(--density)) 0;
+  }
+  @media (max-width: 900px) { .ab-video-section { padding: 64px 0; } }
+  .ab-video-section .ab-sect-head h2 { color: oklch(94% 0.005 80); max-width: 26ch; }
+  .ab-video-section .ab-sect-head .num { color: oklch(70% 0.006 80); }
+  .ab-video-section .ab-sect-head .num b { color: var(--gold); }
+  .ab-video-section .ab-sect-head .pull { color: oklch(70% 0.006 80); }
+  .ab-video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    border: 1px solid oklch(28% 0.006 260);
+    background: oklch(8% 0.005 260);
+    overflow: hidden;
+  }
+  .ab-video-wrap iframe {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    border: 0;
+  }
+  .ab-video-meta {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 24px;
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: oklch(60% 0.006 80);
+    border-top: 1px solid oklch(24% 0.006 260);
+    padding-top: 14px;
+    flex-wrap: wrap;
+  }
+  .ab-video-meta a { color: var(--gold); }
+
+  .ab-dirs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .ab-dir {
+    background: var(--surface);
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 220px;
+    transition: background 0.2s;
+    color: inherit;
+    min-width: 0;
+  }
+  .ab-dir:hover { background: color-mix(in oklab, var(--surface) 70%, var(--surface-alt)); }
+  .ab-dir .top {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+  }
+  .ab-dir h3 {
+    font-size: 22px;
+    line-height: 1.1;
+    letter-spacing: -0.018em;
+    font-weight: 500;
+    color: var(--ink);
+    margin-top: auto;
+    text-wrap: balance;
+  }
+  .ab-dir .more {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    border-top: 1px solid var(--line-soft);
+    padding-top: 14px;
+  }
+  .ab-dir:hover .more { color: var(--gold); }
+  .ab-dir:hover .more svg { transform: translateX(4px); }
+  .ab-dir .more svg { transition: transform 0.2s; }
+  @media (max-width: 900px) { .ab-dirs { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .ab-dirs { grid-template-columns: 1fr; } .ab-dir { min-height: 0; padding: 24px 20px; } }
+
+  .ab-loc {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .ab-loc-text h3 {
+    font-size: clamp(22px, 2vw, 30px);
+    font-weight: 500;
+    letter-spacing: -0.018em;
+    line-height: 1.18;
+    margin-bottom: 18px;
+    text-wrap: balance;
+  }
+  .ab-loc-text p {
+    font-size: 16px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    margin-bottom: 16px;
+    text-wrap: pretty;
+  }
+  .ab-loc-facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .ab-loc-fact { background: var(--surface); padding: 22px 20px; min-width: 0; }
+  .ab-loc-fact .v {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  .ab-loc-fact .v small { font-size: 14px; color: var(--ink-3); font-weight: 400; margin-left: 4px; }
+  .ab-loc-fact .l {
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    margin-top: 6px;
+  }
+  @media (max-width: 900px) {
+    .ab-loc { grid-template-columns: 1fr; gap: 32px; }
+  }
+
+  .ab-next {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+  }
+  .ab-next-card {
+    background: var(--surface);
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 220px;
+    color: inherit;
+    transition: background 0.2s;
+    min-width: 0;
+  }
+  .ab-next-card:hover { background: color-mix(in oklab, var(--surface) 70%, var(--surface-alt)); }
+  .ab-next-card .tag {
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+  }
+  .ab-next-card h3 {
+    font-size: clamp(20px, 1.8vw, 28px);
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.018em;
+    margin-top: auto;
+    text-wrap: balance;
+  }
+  .ab-next-card .arrow {
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    border-top: 1px solid var(--line-soft);
+    padding-top: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ab-next-card:hover .arrow { color: var(--gold); }
+  .ab-next-card:hover .arrow svg { transform: translateX(4px); }
+  .ab-next-card .arrow svg { transition: transform 0.2s; }
+  @media (max-width: 900px) { .ab-next { grid-template-columns: 1fr; } .ab-next-card { min-height: 0; padding: 28px 24px; } }
+</style>
+</head>
+<body>
+
+<!-- ============================== TOP STRIP ============================== -->
+<div class="topstrip">
+  <div class="wrap">
+    <div class="row">
+      <span><span class="dot"></span>Производство · смена 2/2 · работаем</span>
+      <span class="spacer"></span>
+      <a href="kontakty.html">196608, Санкт-Петербург, г. Пушкин, Новодеревенская ул., 17</a>
+      <a href="tel:+78126407995">+7 (812) 640‑79‑95</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================== HEADER ============================== -->
+<header class="header">
+  <div class="wrap">
+    <div class="row">
+      <a class="brand" href="index.html" aria-label="ПМЗ — Пушкинский машиностроительный завод">
+        <img class="brand-logo brand-logo-light" src="img/logo-pmz.svg" alt="ПМЗ" />
+        <img class="brand-logo brand-logo-dark" src="img/logo-pmz-dark.svg" alt="" aria-hidden="true" />
+      </a>
+      <nav class="nav">
+        <div class="nav-item">
+          <a href="about.html" class="nav-link" data-nav="plant">Завод</a>
+          <div class="mega" data-mega="plant">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Компания</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="about.html">О&nbsp;заводе</a></li>
+                    <li style="--i: 1"><a href="history.html">История компании</a></li>
+                    <li style="--i: 2"><a href="rukovodstvo.html">Руководство</a></li>
+                    <li style="--i: 3"><a href="socialnaya-otvetstvennost.html">Социальная ответственность</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Качество</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="nagrady-sertifikaty.html">Награды и&nbsp;сертификаты</a></li>
+                    <li style="--i: 1"><a href="otk.html">ОТК и&nbsp;контроль качества</a></li>
+                    <li style="--i: 2"><a href="nagrady-sertifikaty.html">ISO&nbsp;9001 · НАКС</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Контакты</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="kontakty.html">Адрес и&nbsp;реквизиты</a></li>
+                    <li style="--i: 1"><a href="karyera.html">Карьера на&nbsp;ПМЗ</a></li>
+                    <li style="--i: 2"><a href="news.html">Пресс-центр</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="history.html">
+                <span class="mf-tag">/ Хроника</span>
+                <span class="mf-yr">1919&nbsp;—&nbsp;2026</span>
+                <span class="mf-title">Сто шесть&nbsp;лет<br/>на&nbsp;металле</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="index.html#directions" class="nav-link" data-nav="products">Продукция</a>
+          <div class="mega" data-mega="products">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Геотехника</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="ankernye-sistemy.html">Грунтовые анкерные системы</a></li>
+                    <li style="--i: 1"><a href="vintovye-shtangi.html">Винтовые штанги</a></li>
+                    <li style="--i: 2"><a href="gruntovye-ankery.html">Грунтовые анкеры</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Буровой инструмент</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="burovoe-oborudovanie.html">Буровое оборудование</a></li>
+                    <li style="--i: 1"><a href="shneki-cfa.html">Шнеки CFA</a></li>
+                    <li style="--i: 2"><a href="obsadnye-truby.html">Обсадные и&nbsp;бетонолитные трубы</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Машиностроение</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="mashinostroenie-pod-zakaz.html">Машиностроение под&nbsp;заказ</a></li>
+                    <li style="--i: 1"><a href="mbgu-200.html">МБГУ‑200 · буровые установки</a></li>
+                    <li style="--i: 2"><a href="metallokonstrukcii.html">Металлоконструкции</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="index.html#directions">
+                <span class="mf-tag">/ Каталог</span>
+                <span class="mf-yr">4&nbsp;800&nbsp;т/год</span>
+                <span class="mf-title">Четыре направления<br/>производства</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="index.html#services" class="nav-link" data-nav="services">Услуги</a>
+          <div class="mega" data-mega="services">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Обработка</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="prokatka.html">Прокатка</a></li>
+                    <li style="--i: 1"><a href="mehanicheskaya-obrabotka.html">Механическая обработка металла</a></li>
+                    <li style="--i: 2"><a href="rezka-metalla.html">Резка металла</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Формообразование</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="gibka-valcovka.html">Гибка, вальцовка листа</a></li>
+                    <li style="--i: 1"><a href="svarochnye-raboty.html">Сварочные работы (НАКС)</a></li>
+                    <li style="--i: 2"><a href="metalloobrabotka.html">Металлообработка под&nbsp;ТЗ</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Спецпроцессы</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="termodiffuzionnoe-cinkovanie.html">Термодиффузионное цинкование</a></li>
+                    <li style="--i: 1"><a href="termoobrabotka-tvch.html">Термообработка ТВЧ</a></li>
+                    <li style="--i: 2"><a href="mehanicheskie-ispytaniya.html">Механические испытания</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="index.html#cta">
+                <span class="mf-tag">/ Заявка</span>
+                <span class="mf-yr">1&nbsp;день</span>
+                <span class="mf-title">Расчёт по&nbsp;чертежу<br/>под ваш проект</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="index.html#projects" class="nav-link" data-nav="customers">Объекты</a>
+          <div class="mega" data-mega="customers">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Промышленность</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="neftegaz.html">Нефтегазовое строительство</a></li>
+                    <li style="--i: 1"><a href="gidrotehnika.html">Гидротехническое строительство</a></li>
+                    <li style="--i: 2"><a href="specstroy.html">Специальное строительство</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Инфраструктура</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="dorozhnoe.html">Дорожное строительство</a></li>
+                    <li style="--i: 1"><a href="zhilishnoe.html">Жилищное строительство</a></li>
+                    <li style="--i: 2"><a href="zdravoohranenie.html">Здравоохранение</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Флагман</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="rkosmos.html">Ракетно-космическая отрасль</a></li>
+                    <li style="--i: 1"><a href="sport-turizm.html">Спорт и&nbsp;туризм</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat mega-feat-gold" href="index.html#projects">
+                <span class="mf-tag">/ Флагман · 2016</span>
+                <span class="mf-yr">1&nbsp;280 анкеров</span>
+                <span class="mf-title">Космодром<br/>«Восточный»</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="history.html" class="nav-link" data-nav="history">История</a>
+        <a href="index.html#cta" class="nav-link">Как купить</a>
+        <a href="kontakty.html" class="nav-link">Контакты</a>
+      </nav>
+
+      <div class="head-actions">
+        <button class="icon-btn menu-btn" id="menuToggle" aria-label="Меню" title="Меню" aria-expanded="false">
+          <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+          <svg class="xmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </button>
+        <a href="index.html#cta" class="btn">
+          Заявка
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile slide-out menu -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav class="mm-nav">
+    <a href="about.html">Завод</a>
+    <a href="index.html#directions">Продукция</a>
+    <a href="index.html#services">Услуги</a>
+    <a href="index.html#projects">Объекты</a>
+    <a href="nagrady-sertifikaty.html">Качество</a>
+    <a href="history.html">История</a>
+    <a href="index.html#cta">Как купить</a>
+    <a href="kontakty.html">Контакты</a>
+  </nav>
+  <div class="mm-foot">
+    <a href="tel:+78126407995" class="mm-phone">+7 (812) 640‑79‑95</a>
+    <div class="mm-addr">196608, Санкт-Петербург,<br/>г. Пушкин, Новодеревенская ул., 17</div>
+  </div>
+</div>
+
+<!-- "Раздел в разработке" modal -->
+<dialog class="stub-modal" id="stubModal">
+  <div class="stub-card">
+    <div class="stub-tag">/ Раздел в&nbsp;разработке</div>
+    <h3 class="stub-title">Скоро здесь&nbsp;будет<br/><span class="stub-target" id="stubTarget">контент</span></h3>
+    <p class="stub-text">Мы&nbsp;уже работаем над&nbsp;этим разделом — он&nbsp;появится в&nbsp;ближайшем обновлении сайта. А&nbsp;пока — оставьте заявку или позвоните, ответим быстрее, чем за&nbsp;четыре часа.</p>
+    <div class="stub-actions">
+      <a href="index.html#cta" class="btn" id="stubCta">
+        Оставить заявку
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+      </a>
+      <a href="tel:+78126407995" class="btn btn-ghost">+7 (812) 640‑79‑95</a>
+    </div>
+    <button class="stub-close" id="stubClose" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+    </button>
+  </div>
+</dialog>
+
+
+<!-- ============================== PAGE HEAD ============================== -->
+<section class="ab-head">
+  <div class="wrap">
+    <a class="back" href="index.html">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m5 5-5-5 5-5"/></svg>
+      назад · на главную
+    </a>
+    <div>
+      <span class="eyebrow-line">/ Предприятие · О заводе</span>
+    </div>
+    <h1>Современное российское <span class="gold-word">машиностроительное</span> предприятие.</h1>
+    <p class="ab-lead">ООО «Пушкинский машиностроительный завод» — крупные производственные мощности, квалифицированный персонал и&nbsp;потенциал для&nbsp;развития. Один из&nbsp;ведущих производителей грунтовых анкерных систем, бурового оборудования и&nbsp;инструмента, строительных металлоконструкций и&nbsp;узлов машиностроения в&nbsp;России.</p>
+  </div>
+</section>
+
+<!-- ============================== KEY FACTS BAND ============================== -->
+<div class="ab-keybar">
+  <div class="wrap">
+    <div class="ab-keybar-inner">
+      <div class="ab-key">
+        <div class="v">6,5<span class="unit">га</span></div>
+        <div class="l">Общая территория</div>
+      </div>
+      <div class="ab-key">
+        <div class="v">14&thinsp;200<span class="unit">м²</span></div>
+        <div class="l">Производственных площадей</div>
+      </div>
+      <div class="ab-key">
+        <div class="v">280<span class="unit">чел.</span></div>
+        <div class="l">Сотрудников, включая КБ</div>
+      </div>
+      <div class="ab-key">
+        <div class="v">62<span class="unit">ед.</span></div>
+        <div class="l">Парк станков и&nbsp;оборудования</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================== FACTORY PHOTO ============================== -->
+<section class="photo-band">
+  <div class="wrap">
+    <figure class="factory-photo">
+      <img src="https://www.pmzspb.ru/media/images/today.jpg"
+           alt="Производственная площадка ПМЗ"
+           loading="lazy"
+           onerror="this.closest('figure').classList.add('no-img')" />
+      <figcaption>
+        <span class="cap-tag">/ Производственная площадка</span>
+        <span class="cap-loc">Санкт-Петербург · г. Пушкин · 2026</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== STRENGTHS ============================== -->
+<section class="ab-sect">
+  <div class="wrap">
+    <div class="ab-sect-head">
+      <div>
+        <span class="num"><b>/ 01</b> — Сильные стороны</span>
+        <h2>Шесть оснований работать с&nbsp;ПМЗ.</h2>
+      </div>
+      <p class="pull">Производственные ресурсы, кадры, опыт и&nbsp;логистика — то, на&nbsp;чём держится репутация завода с&nbsp;1919&nbsp;года.</p>
+    </div>
+
+    <div class="ab-strengths">
+      <article class="strength">
+        <span class="no">S-01</span>
+        <h3>Крупная производственная площадка</h3>
+        <p>Общая площадь территории — более&nbsp;6,5&nbsp;га, два корпуса и&nbsp;открытая площадка отгрузки.</p>
+      </article>
+      <article class="strength">
+        <span class="no">S-02</span>
+        <h3>Современная материально-техническая база</h3>
+        <p>Полный цикл от&nbsp;чертежа до&nbsp;отгрузки: проектирование, заготовка, обработка, сборка, контроль.</p>
+      </article>
+      <article class="strength">
+        <span class="no">S-03</span>
+        <h3>Новейший парк станков и&nbsp;техники</h3>
+        <p>5-осевой обрабатывающий центр Mazak, ЧПУ, плазменная резка, термоучасток, сварочный участок НАКС.</p>
+      </article>
+      <article class="strength">
+        <span class="no">S-04</span>
+        <h3>Квалифицированный штат</h3>
+        <p>Инженеры, проектировщики, технологи, сварщики НАКС, операторы ЧПУ — всего 280&nbsp;человек.</p>
+      </article>
+      <article class="strength">
+        <span class="no">S-05</span>
+        <h3>Большой объём наработок</h3>
+        <p>Машиностроение и&nbsp;строительная техника: серийные продукты и&nbsp;уникальные изделия по&nbsp;ТЗ.</p>
+      </article>
+      <article class="strength">
+        <span class="no">S-06</span>
+        <h3>Удобное местоположение</h3>
+        <p>Пушкин · близость к&nbsp;трассе М-10 и&nbsp;КАД, 30&nbsp;мин до&nbsp;Морского порта, 15&nbsp;мин до&nbsp;Пулково.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== VIDEO PRESENTATION ============================== -->
+<section class="ab-video-section">
+  <div class="wrap">
+    <div class="ab-sect-head">
+      <div>
+        <span class="num"><b>/ 02</b> — Видеопрезентация</span>
+        <h2>Завод изнутри: цеха, парк, команда.</h2>
+      </div>
+      <p class="pull">Короткая экскурсия по&nbsp;производству&nbsp;— от&nbsp;прокатки и&nbsp;плазменной резки до&nbsp;сборки и&nbsp;контроля качества.</p>
+    </div>
+
+    <div class="ab-video-wrap">
+      <iframe src="https://www.youtube.com/embed/gJy5a3BnZ6k" title="Видеопрезентация Пушкинского машиностроительного завода" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="ab-video-meta">
+      <span>YouTube · VID-01 · Пушкинский МЗ</span>
+      <a href="https://www.youtube.com/watch?v=gJy5a3BnZ6k" target="_blank" rel="noopener">Открыть в&nbsp;YouTube ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== WHAT WE MAKE ============================== -->
+<section class="ab-sect">
+  <div class="wrap">
+    <div class="ab-sect-head">
+      <div>
+        <span class="num"><b>/ 03</b> — Что производим</span>
+        <h2>Четыре направления производства.</h2>
+      </div>
+      <p class="pull">Подробности по&nbsp;каждому направлению, номенклатура и&nbsp;типовые объекты&nbsp;— в&nbsp;разделе «Продукция».</p>
+    </div>
+
+    <div class="ab-dirs">
+      <a class="ab-dir" href="index.html#directions">
+        <div class="top"><span>D-01</span><span>Геотехника</span></div>
+        <h3>Грунтовые анкерные системы</h3>
+        <div class="more">Подробнее <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></div>
+      </a>
+      <a class="ab-dir" href="index.html#directions">
+        <div class="top"><span>D-02</span><span>Бурение</span></div>
+        <h3>Буровой инструмент и&nbsp;оснастка</h3>
+        <div class="more">Подробнее <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></div>
+      </a>
+      <a class="ab-dir" href="index.html#directions">
+        <div class="top"><span>D-03</span><span>Сталь</span></div>
+        <h3>Сварные металлоконструкции</h3>
+        <div class="more">Подробнее <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></div>
+      </a>
+      <a class="ab-dir" href="index.html#directions">
+        <div class="top"><span>D-04</span><span>Машины</span></div>
+        <h3>Машиностроение и&nbsp;спецтехника</h3>
+        <div class="more">Подробнее <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== LOCATION ============================== -->
+<section class="ab-sect" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="ab-sect-head">
+      <div>
+        <span class="num"><b>/ 04</b> — Местоположение</span>
+        <h2>Где находится производство.</h2>
+      </div>
+      <p class="pull">Завод стоит в&nbsp;исторической промышленной зоне Пушкина. Близко к&nbsp;транспортным магистралям, морскому порту и&nbsp;аэропорту.</p>
+    </div>
+
+    <div class="ab-loc">
+      <div class="ab-loc-text">
+        <h3>196608, Санкт-Петербург, г.&nbsp;Пушкин, Новодеревенская ул., 17.</h3>
+        <p>Удобное местоположение&nbsp;— близость к&nbsp;крупным транспортным магистралям. Прямой выезд на&nbsp;М-10 и&nbsp;КАД. До&nbsp;Морского порта&nbsp;— 30&nbsp;минут, до&nbsp;аэропорта Пулково&nbsp;— 15&nbsp;минут, до&nbsp;центра Петербурга&nbsp;— 24&nbsp;км.</p>
+        <p><a href="tel:+78126407995" style="color: var(--gold); font-weight: 500;">+7 (812) 640‑79‑95</a> · приёмная завода, пн–пт 09:00–18:00.</p>
+      </div>
+      <div class="ab-loc-facts">
+        <div class="ab-loc-fact">
+          <div class="v">24<small>км</small></div>
+          <div class="l">До центра Петербурга</div>
+        </div>
+        <div class="ab-loc-fact">
+          <div class="v">М-10</div>
+          <div class="l">Прямой выезд</div>
+        </div>
+        <div class="ab-loc-fact">
+          <div class="v">15<small>мин</small></div>
+          <div class="l">До Пулково</div>
+        </div>
+        <div class="ab-loc-fact">
+          <div class="v">30<small>мин</small></div>
+          <div class="l">До Морского порта</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== NEXT / CROSS-LINKS ============================== -->
+<section class="ab-sect" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="ab-sect-head">
+      <div>
+        <span class="num"><b>/ 05</b> — Дальше</span>
+        <h2>Куда заглянуть следом.</h2>
+      </div>
+    </div>
+
+    <div class="ab-next">
+      <a class="ab-next-card" href="rukovodstvo.html">
+        <span class="tag">/ Управление</span>
+        <h3>Руководство.<br/>4 директора, одна команда.</h3>
+        <span class="arrow">К&nbsp;руководству <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+      </a>
+      <a class="ab-next-card" href="nagrady-sertifikaty.html">
+        <span class="tag">/ Качество · ISO 9001</span>
+        <h3>Награды, сертификаты, СОУТ.</h3>
+        <span class="arrow">К&nbsp;качеству <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+      </a>
+      <a class="ab-next-card" href="history.html">
+        <span class="tag">/ Хроника · 1919—2026</span>
+        <h3>История компании.<br/>Сто шесть лет на&nbsp;металле.</h3>
+        <span class="arrow">К&nbsp;истории <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+      </a>
+      <a class="ab-next-card" href="index.html#projects">
+        <span class="tag">/ Объекты и&nbsp;заказчики</span>
+        <h3>Где работают изделия завода.</h3>
+        <span class="arrow">К&nbsp;объектам <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+      </a>
+      <a class="ab-next-card" href="kontakty.html">
+        <span class="tag">/ Контакты</span>
+        <h3>Адрес, телефон, реквизиты.</h3>
+        <span class="arrow">К&nbsp;контактам <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+      </a>
+      <a class="ab-next-card" href="index.html#cta">
+        <span class="tag">/ Заявка</span>
+        <h3>Опишите задачу — подготовим расчёт.</h3>
+        <span class="arrow">Оставить заявку <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer id="contacts">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html" aria-label="ПМЗ">
+          <img class="brand-logo brand-logo-foot" src="img/logo-pmz.svg" alt="ПМЗ" />
+        </a>
+        <p>Производство грунтовых анкерных систем, бурового инструмента, металлоконструкций и&nbsp;тяжёлого машиностроения. Полный цикл от&nbsp;чертежа до&nbsp;отгрузки.</p>
+        <div class="foot-seal">сделано в Пушкине · с 1919</div>
+      </div>
+      <div class="foot-col">
+        <h4>Продукция</h4>
+        <ul>
+          <li><a href="index.html#directions">Геотехнические системы</a></li>
+          <li><a href="index.html#directions">Буровой инструмент</a></li>
+          <li><a href="index.html#directions">Металлоконструкции</a></li>
+          <li><a href="index.html#directions">Машиностроение</a></li>
+          <li><a href="index.html#services">Услуги металлообработки</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="about.html">О заводе</a></li>
+          <li><a href="history.html">История компании</a></li>
+          <li><a href="rukovodstvo.html">Руководство</a></li>
+          <li><a href="nagrady-sertifikaty.html">Сертификаты</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+78126407995">+7 (812) 640‑79‑95</a></li>
+          <li><a href="mailto:sales@pmz.spb.ru">sales@pmz.spb.ru</a></li>
+          <li><a href="#">196608, СПб, г. Пушкин,<br/>Новодеревенская ул., 17</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 1919–2026 ООО «Пушкинский машиностроительный завод»</span>
+      <span>ОГРН 1027810231142 · ИНН 7820300041</span>
+      <span>Политика конфиденциальности</span>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  // ============================ NAV SCRIPT ============================
+  // Highlight active page in primary nav
+  (function(){
+    const path = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    const map = {
+      'about.html': 'plant',
+      'history.html': 'history',
+    };
+    const key = map[path];
+    if (key) {
+      document.querySelectorAll('[data-nav="'+key+'"]').forEach(el => {
+        el.style.color = 'var(--ink)';
+        el.style.fontWeight = '600';
+      });
+    }
+  })();
+  // Mobile menu toggle
+  const menuBtn = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  function setMenu(open) {
+    document.body.classList.toggle('menu-open', open);
+    mobileMenu?.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menuBtn?.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  menuBtn?.addEventListener('click', () => {
+    const open = !document.body.classList.contains('menu-open');
+    setMenu(open);
+  });
+  mobileMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // Mega menu hover
+  let megaTimer = null;
+  function openMega(item) {
+    clearTimeout(megaTimer);
+    document.querySelectorAll('.nav-item.is-open').forEach(n => { if (n !== item) n.classList.remove('is-open'); });
+    item.classList.add('is-open');
+  }
+  function closeMega() {
+    document.querySelectorAll('.nav-item.is-open').forEach(n => n.classList.remove('is-open'));
+  }
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('mouseenter', () => openMega(item));
+    item.addEventListener('focusin', () => openMega(item));
+  });
+  const headerEl = document.querySelector('.header');
+  headerEl?.addEventListener('mouseleave', () => { megaTimer = setTimeout(closeMega, 220); });
+  headerEl?.addEventListener('mouseenter', () => clearTimeout(megaTimer));
+  document.querySelectorAll('.nav > .nav-link').forEach(a => {
+    a.addEventListener('mouseenter', () => { clearTimeout(megaTimer); closeMega(); });
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMega(); });
+
+  // Stub modal
+  const stubModal = document.getElementById('stubModal');
+  const stubTarget = document.getElementById('stubTarget');
+  document.addEventListener('click', (e) => {
+    const stub = e.target.closest('[data-stub]');
+    if (!stub) return;
+    e.preventDefault();
+    closeMega();
+    setMenu(false);
+    if (stubTarget) stubTarget.textContent = stub.dataset.stub || 'этот раздел';
+    if (typeof stubModal?.showModal === 'function') stubModal.showModal();
+    else stubModal?.setAttribute('open', '');
+  });
+  document.getElementById('stubClose')?.addEventListener('click', () => stubModal?.close());
+  stubModal?.addEventListener('click', (e) => { if (e.target === stubModal) stubModal.close(); });
+</script>
+
+</body>
+</html>

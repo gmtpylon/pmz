@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>История ПМЗ — 1919–2026</title>
+<link rel="stylesheet" href="styles.css" />
+<script>
+  (function(){
+    try {
+      // Dark theme temporarily disabled — force light
+      document.documentElement.setAttribute('data-theme', 'light');
+      try { localStorage.setItem('pmz-theme', 'light'); } catch(e){}
+      var a = localStorage.getItem('pmz-accent');
+      if (a) document.documentElement.style.setProperty('--accent', a);
+      var ah = localStorage.getItem('pmz-accent-hi');
+      if (ah) document.documentElement.style.setProperty('--accent-hi', ah);
+      var d = localStorage.getItem('pmz-density');
+      if (d) document.documentElement.style.setProperty('--density', d);
+    } catch(e) {}
+  })();
+</script>
+<style>
+  /* History-page-specific tweaks */
+  .hist-page-head {
+    padding: 120px 0 64px;
+    background: var(--bg);
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+  }
+  .hist-page-head .eyebrow-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--ff-mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+  }
+  .hist-page-head .eyebrow-line::before,
+  .hist-page-head .eyebrow-line::after {
+    content: '';
+    width: 40px; height: 1px;
+    background: var(--gold);
+    opacity: 0.5;
+  }
+  .hist-page-head h1 {
+    margin-top: 24px;
+    font-size: clamp(40px, 5.4vw, 84px);
+    line-height: 1.04;
+    letter-spacing: -0.028em;
+    font-weight: 500;
+  }
+  .hist-page-head p {
+    margin: 24px auto 0;
+    max-width: 56ch;
+    font-size: 17px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    text-wrap: pretty;
+  }
+  .hist-page-head .back {
+    margin-top: 36px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--ff-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  .hist-page-head .back:hover { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<!-- ============================== TOP STRIP ============================== -->
+<div class="topstrip">
+  <div class="wrap">
+    <div class="row">
+      <span><span class="dot"></span>Производство · смена 2/2 · работаем</span>
+      <span class="spacer"></span>
+      <a href="kontakty.html">196608, Санкт-Петербург, г. Пушкин, Новодеревенская ул., 17</a>
+      <a href="tel:+78126407995">+7 (812) 640‑79‑95</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================== HEADER ============================== -->
+<header class="header">
+  <div class="wrap">
+    <div class="row">
+      <a class="brand" href="index.html" aria-label="ПМЗ — Пушкинский машиностроительный завод">
+        <img class="brand-logo brand-logo-light" src="img/logo-pmz.svg" alt="ПМЗ" />
+        <img class="brand-logo brand-logo-dark" src="img/logo-pmz-dark.svg" alt="" aria-hidden="true" />
+      </a>
+      <nav class="nav">
+        <div class="nav-item">
+          <a href="about.html" class="nav-link" data-nav="plant">Завод</a>
+          <div class="mega" data-mega="plant">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Компания</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="about.html">О&nbsp;заводе</a></li>
+                    <li style="--i: 1"><a href="history.html">История компании</a></li>
+                    <li style="--i: 2"><a href="rukovodstvo.html">Руководство</a></li>
+                    <li style="--i: 3"><a href="socialnaya-otvetstvennost.html">Социальная ответственность</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Качество</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="nagrady-sertifikaty.html">Награды и&nbsp;сертификаты</a></li>
+                    <li style="--i: 1"><a href="otk.html">ОТК и&nbsp;контроль качества</a></li>
+                    <li style="--i: 2"><a href="nagrady-sertifikaty.html">ISO&nbsp;9001 · НАКС</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Контакты</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="kontakty.html">Адрес и&nbsp;реквизиты</a></li>
+                    <li style="--i: 1"><a href="karyera.html">Карьера на&nbsp;ПМЗ</a></li>
+                    <li style="--i: 2"><a href="news.html">Пресс-центр</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="history.html">
+                <span class="mf-tag">/ Хроника</span>
+                <span class="mf-yr">1919&nbsp;—&nbsp;2026</span>
+                <span class="mf-title">Сто шесть&nbsp;лет<br/>на&nbsp;металле</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="index.html#directions" class="nav-link" data-nav="products">Продукция</a>
+          <div class="mega" data-mega="products">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Геотехника</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="ankernye-sistemy.html">Грунтовые анкерные системы</a></li>
+                    <li style="--i: 1"><a href="vintovye-shtangi.html">Винтовые штанги</a></li>
+                    <li style="--i: 2"><a href="gruntovye-ankery.html">Грунтовые анкеры</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Буровой инструмент</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="burovoe-oborudovanie.html">Буровое оборудование</a></li>
+                    <li style="--i: 1"><a href="shneki-cfa.html">Шнеки CFA</a></li>
+                    <li style="--i: 2"><a href="obsadnye-truby.html">Обсадные и&nbsp;бетонолитные трубы</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Машиностроение</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="mashinostroenie-pod-zakaz.html">Машиностроение под&nbsp;заказ</a></li>
+                    <li style="--i: 1"><a href="mbgu-200.html">МБГУ‑200 · буровые установки</a></li>
+                    <li style="--i: 2"><a href="metallokonstrukcii.html">Металлоконструкции</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="index.html#directions">
+                <span class="mf-tag">/ Каталог</span>
+                <span class="mf-yr">4&nbsp;800&nbsp;т/год</span>
+                <span class="mf-title">Четыре направления<br/>производства</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="index.html#services" class="nav-link" data-nav="services">Услуги</a>
+          <div class="mega" data-mega="services">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Обработка</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="prokatka.html">Прокатка</a></li>
+                    <li style="--i: 1"><a href="mehanicheskaya-obrabotka.html">Механическая обработка металла</a></li>
+                    <li style="--i: 2"><a href="rezka-metalla.html">Резка металла</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Формообразование</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="gibka-valcovka.html">Гибка, вальцовка листа</a></li>
+                    <li style="--i: 1"><a href="svarochnye-raboty.html">Сварочные работы (НАКС)</a></li>
+                    <li style="--i: 2"><a href="metalloobrabotka.html">Металлообработка под&nbsp;ТЗ</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Спецпроцессы</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="termodiffuzionnoe-cinkovanie.html">Термодиффузионное цинкование</a></li>
+                    <li style="--i: 1"><a href="termoobrabotka-tvch.html">Термообработка ТВЧ</a></li>
+                    <li style="--i: 2"><a href="mehanicheskie-ispytaniya.html">Механические испытания</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat" href="index.html#cta">
+                <span class="mf-tag">/ Заявка</span>
+                <span class="mf-yr">1&nbsp;день</span>
+                <span class="mf-title">Расчёт по&nbsp;чертежу<br/>под ваш проект</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="index.html#projects" class="nav-link" data-nav="customers">Объекты</a>
+          <div class="mega" data-mega="customers">
+            <div class="mega-inner">
+              <div class="mega-cols">
+                <div class="mega-col">
+                  <h5>Промышленность</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="neftegaz.html">Нефтегазовое строительство</a></li>
+                    <li style="--i: 1"><a href="gidrotehnika.html">Гидротехническое строительство</a></li>
+                    <li style="--i: 2"><a href="specstroy.html">Специальное строительство</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Инфраструктура</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="dorozhnoe.html">Дорожное строительство</a></li>
+                    <li style="--i: 1"><a href="zhilishnoe.html">Жилищное строительство</a></li>
+                    <li style="--i: 2"><a href="zdravoohranenie.html">Здравоохранение</a></li>
+                  </ul>
+                </div>
+                <div class="mega-col">
+                  <h5>Флагман</h5>
+                  <ul>
+                    <li style="--i: 0"><a href="rkosmos.html">Ракетно-космическая отрасль</a></li>
+                    <li style="--i: 1"><a href="sport-turizm.html">Спорт и&nbsp;туризм</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="mega-feat mega-feat-gold" href="index.html#projects">
+                <span class="mf-tag">/ Флагман · 2016</span>
+                <span class="mf-yr">1&nbsp;280 анкеров</span>
+                <span class="mf-title">Космодром<br/>«Восточный»</span>
+                <span class="mf-arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a href="history.html" class="nav-link" data-nav="history">История</a>
+        <a href="index.html#cta" class="nav-link">Как купить</a>
+        <a href="kontakty.html" class="nav-link">Контакты</a>
+      </nav>
+
+      <div class="head-actions">
+        <button class="icon-btn menu-btn" id="menuToggle" aria-label="Меню" title="Меню" aria-expanded="false">
+          <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+          <svg class="xmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </button>
+        <a href="index.html#cta" class="btn">
+          Заявка
+          <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile slide-out menu -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav class="mm-nav">
+    <a href="about.html">Завод</a>
+    <a href="index.html#directions">Продукция</a>
+    <a href="index.html#services">Услуги</a>
+    <a href="index.html#projects">Объекты</a>
+    <a href="nagrady-sertifikaty.html">Качество</a>
+    <a href="history.html">История</a>
+    <a href="index.html#cta">Как купить</a>
+    <a href="kontakty.html">Контакты</a>
+  </nav>
+  <div class="mm-foot">
+    <a href="tel:+78126407995" class="mm-phone">+7 (812) 640‑79‑95</a>
+    <div class="mm-addr">196608, Санкт-Петербург,<br/>г. Пушкин, Новодеревенская ул., 17</div>
+  </div>
+</div>
+
+<!-- "Раздел в разработке" modal -->
+<dialog class="stub-modal" id="stubModal">
+  <div class="stub-card">
+    <div class="stub-tag">/ Раздел в&nbsp;разработке</div>
+    <h3 class="stub-title">Скоро здесь&nbsp;будет<br/><span class="stub-target" id="stubTarget">контент</span></h3>
+    <p class="stub-text">Мы&nbsp;уже работаем над&nbsp;этим разделом — он&nbsp;появится в&nbsp;ближайшем обновлении сайта. А&nbsp;пока — оставьте заявку или позвоните, ответим быстрее, чем за&nbsp;четыре часа.</p>
+    <div class="stub-actions">
+      <a href="index.html#cta" class="btn" id="stubCta">
+        Оставить заявку
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+      </a>
+      <a href="tel:+78126407995" class="btn btn-ghost">+7 (812) 640‑79‑95</a>
+    </div>
+    <button class="stub-close" id="stubClose" aria-label="Закрыть">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+    </button>
+  </div>
+</dialog>
+
+
+<!-- Page head -->
+<section class="hist-page-head">
+  <div class="wrap">
+    <a class="back" href="index.html">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m5 5-5-5 5-5"/></svg>
+      назад · на главную
+    </a>
+    <div style="margin-top: 28px;">
+      <span class="eyebrow-line">1919 — 2026 · хроника</span>
+    </div>
+    <h1>Сто шесть лет на металле</h1>
+    <p>От ремонтных мастерских Петроградского Дорожного Отдела в&nbsp;деревне Пулково — до&nbsp;современного завода с&nbsp;5-осевыми обрабатывающими центрами Mazak. Шесть эпох, одно место, непрерывное производство.</p>
+  </div>
+</section>
+
+<!-- ============================== FULL HISTORY ============================== -->
+<section class="history" id="history" data-screen-label="История">
+  <div class="hist-grain"></div>
+  <div class="wrap">
+
+    <!-- Ribbon -->
+    <div class="hist-ribbon reveal" style="margin-top: 0;">
+      <div class="ribbon-rail">
+        <div class="ribbon-line"></div>
+        <div class="ribbon-progress"></div>
+
+        <div class="ribbon-marker" style="--x: 0%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1919</span>
+          <span class="rm-l">основание</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 22%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1941</span>
+          <span class="rm-l">война</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 35%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1953</span>
+          <span class="rm-l">серия</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 58%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">1979</span>
+          <span class="rm-l">мировой рынок</span>
+        </div>
+        <div class="ribbon-marker" style="--x: 79%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">2011</span>
+          <span class="rm-l">модернизация</span>
+        </div>
+        <div class="ribbon-marker now" style="--x: 100%;">
+          <span class="rm-dot"></span>
+          <span class="rm-yr">2026</span>
+          <span class="rm-l">сегодня</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapters">
+
+      <article class="chap reveal" data-order="01">
+        <div class="chap-meta">
+          <span class="chap-no">EP-01</span>
+          <span class="chap-period">Декабрь&nbsp;1919&nbsp;— 1923</span>
+        </div>
+        <div class="chap-body">
+          <h3>Дорожные мастерские в&nbsp;Детском&nbsp;Селе</h3>
+          <p>Петроградский Дорожный Отдел организовал в&nbsp;деревне Пулково механические мастерские для ремонта дорожных машин. Через два года предприятие переехало в&nbsp;Детское Село — будущий Пушкин — и&nbsp;расположилось в&nbsp;зданиях бывших придворных конюшен и&nbsp;конного манежа.</p>
+          <ul class="chap-facts">
+            <li><span>1919</span> Основание в&nbsp;Пулково</li>
+            <li><span>1921</span> Переезд в&nbsp;Детское&nbsp;Село</li>
+            <li><span>1923</span> Детскосельский ремонтно-механический завод</li>
+          </ul>
+        </div>
+        <figure class="chap-photo">
+          <img src="https://www.pmzspb.ru/media/images/249_hist-1.jpg" alt="Завод. Вид с улицы Коммунаров" loading="lazy" onerror="this.closest('figure').classList.add('no-img')" />
+          <figcaption>Вид с&nbsp;улицы Коммунаров · архив</figcaption>
+        </figure>
+      </article>
+
+      <article class="chap reveal flipped" data-order="02">
+        <div class="chap-meta">
+          <span class="chap-no">EP-02</span>
+          <span class="chap-period">1929 — 1940</span>
+        </div>
+        <div class="chap-body">
+          <h3>Первая отечественная техника</h3>
+          <p>Завод приступает к&nbsp;выпуску собственной техники: изготовлен первый в&nbsp;стране автогудронатор АГ-1&nbsp;на&nbsp;шасси автомобиля ЯГ-5, разработанный заводским инженером Обуховым. К&nbsp;1934&nbsp;году освоен выпуск автолетучек, гудронаторов, котлов для разогрева битума. Ремонт зарубежных автомобилей АМО-3, «Бьюик», «Линкольн», «Рено», тракторов ЧТЗ-60 и&nbsp;«Фордзон-Путиловец».</p>
+          <ul class="chap-facts">
+            <li><span>1929</span> Автогудронатор АГ-1 системы инженера Обухова</li>
+            <li><span>1934</span> Серийная дорожная техника</li>
+            <li><span>1940</span> Переезд на&nbsp;Новодеревенскую,&nbsp;17 — текущая площадка</li>
+          </ul>
+        </div>
+        <figure class="chap-photo">
+          <img src="https://www.pmzspb.ru/media/images/253_hist-3.jpg" alt="Открытый склад завода" loading="lazy" onerror="this.closest('figure').classList.add('no-img')" />
+          <figcaption>Открытый склад материалов · 1959–1984</figcaption>
+        </figure>
+      </article>
+
+      <article class="chap reveal" data-order="03">
+        <div class="chap-meta">
+          <span class="chap-no">EP-03</span>
+          <span class="chap-period">1941 — 1945</span>
+        </div>
+        <div class="chap-body">
+          <h3>Война. Эвакуация. Фронт.</h3>
+          <p>С&nbsp;началом Великой Отечественной завод перешёл в&nbsp;распоряжение Ленфронта и&nbsp;был эвакуирован в&nbsp;Ленинград, во&nbsp;Флюгов переулок. Все четыре года блокады предприятие не&nbsp;останавливалось ни&nbsp;на&nbsp;один день: ремонт танкеток и&nbsp;тракторов, сборка узлов для&nbsp;реактивных установок «Катюша», производство мостовых ферм и&nbsp;трейлеров. Походные мастерские завода обслуживали фронт.</p>
+          <ul class="chap-facts">
+            <li><span>1941</span> Эвакуация в&nbsp;Ленинград, во&nbsp;Флюгов переулок</li>
+            <li><span>1943</span> Мостовые фермы для&nbsp;разрушенного моста на&nbsp;реке&nbsp;Луге</li>
+            <li><span>1944</span> Возвращение производственных мощностей в&nbsp;Пушкин</li>
+          </ul>
+        </div>
+        <figure class="chap-photo">
+          <img src="https://www.pmzspb.ru/media/images/251_hist-2.jpg" alt="Мостовые фермы 1943 года" loading="lazy" onerror="this.closest('figure').classList.add('no-img')" />
+          <figcaption>3&nbsp;июля 1943 г. · мостовые фермы для&nbsp;моста, разрушенного на&nbsp;реке&nbsp;Луге</figcaption>
+        </figure>
+      </article>
+
+      <article class="chap reveal flipped" data-order="04">
+        <div class="chap-meta">
+          <span class="chap-no">EP-04</span>
+          <span class="chap-period">1953 — 1979</span>
+        </div>
+        <div class="chap-body">
+          <h3>Серийный выпуск. Вагоны и&nbsp;поливомоечные машины</h3>
+          <p>Завод выходит на&nbsp;серию: поливомоечные машины КПМ-1 в&nbsp;десяти модификациях, рельсформы, вибротранспортёры, передвижные маслозаправочные станции. В&nbsp;1960-е жилые вагоны достигают 80% производства. В&nbsp;1969 году открыто здание заводской школы коммунистического труда с&nbsp;актовым залом на&nbsp;300 мест, библиотекой и&nbsp;современной столовой.</p>
+          <ul class="chap-facts">
+            <li><span>1953</span> Серийный выпуск КПМ-1</li>
+            <li><span>1959</span> Завод № 26 (Минтрансстрой СССР)</li>
+            <li><span>1967</span> Пушкинский ремонтно-механический завод</li>
+            <li><span>1969</span> Заводская школа с&nbsp;актовым залом на&nbsp;300&nbsp;мест</li>
+          </ul>
+        </div>
+        <figure class="chap-photo">
+          <img src="https://www.pmzspb.ru/media/images/254_hist-4.jpg" alt="Гидравлический стенд" loading="lazy" onerror="this.closest('figure').classList.add('no-img')" />
+          <figcaption>Гидравлический стенд для&nbsp;испытания пружин и&nbsp;узлов</figcaption>
+        </figure>
+      </article>
+
+      <article class="chap reveal" data-order="05">
+        <div class="chap-meta">
+          <span class="chap-no">EP-05</span>
+          <span class="chap-period">1979 — 1994</span>
+        </div>
+        <div class="chap-body">
+          <h3>Автобетоносмесители. Выход на&nbsp;мировой рынок</h3>
+          <p>По&nbsp;решению Минтранстроя завод осваивает производство автобетоносмесителей по&nbsp;чертежам немецкой фирмы «Штеттер». К&nbsp;1986 году продукция становится конкурентоспособной на&nbsp;мировом рынке. Запущены универсальные станки для&nbsp;резки металла, сварочные полуавтоматы «Хобарт» и&nbsp;«Линкольн» — надёжные аппараты, поднявшие качество сварки.</p>
+          <ul class="chap-facts">
+            <li><span>1979</span> Автобетоносмесители «Штеттер»</li>
+            <li><span>1986</span> Выход на&nbsp;мировой рынок</li>
+            <li><span>1992</span> Полный переход на&nbsp;автобетоносмесители</li>
+            <li><span>1994</span> ЗАО «Пушкинский машиностроительный завод»</li>
+          </ul>
+        </div>
+        <figure class="chap-photo">
+          <img src="https://www.pmzspb.ru/media/images/255_hist-5.jpg" alt="Юбилей завода — 50 лет" loading="lazy" onerror="this.closest('figure').classList.add('no-img')" />
+          <figcaption>Празднование юбилейной даты · 50&nbsp;лет заводу</figcaption>
+        </figure>
+      </article>
+
+      <article class="chap reveal flipped" data-order="06">
+        <div class="chap-meta">
+          <span class="chap-no">EP-06</span>
+          <span class="chap-period">2011 — сегодня</span>
+        </div>
+        <div class="chap-body">
+          <h3>Полная модернизация. Mazak. ISO&nbsp;9001.</h3>
+          <p>Полномасштабная модернизация производства с&nbsp;установкой современного оборудования. Запущено серийное производство геотехнических систем и&nbsp;бурового инструмента, открыт новый цех анкерных систем с&nbsp;автоматизированной линией мощностью 350&nbsp;тыс.&nbsp;м в&nbsp;год. Завод проходит сертификацию ISO&nbsp;9001, в&nbsp;эксплуатацию введён 5-осевой обрабатывающий центр Mazak.</p>
+          <ul class="chap-facts">
+            <li><span>2012</span> Цех анкерных систем</li>
+            <li><span>2014</span> Сертификация ISO&nbsp;9001 · реорганизация в&nbsp;ООО</li>
+            <li><span>2015</span> Линия по&nbsp;производству анкеров, 350&nbsp;тыс.&nbsp;м в&nbsp;год</li>
+            <li><span>2016</span> Обрабатывающий центр Mazak (Япония)</li>
+            <li><span>2026</span> 62 единицы оборудования, 14&thinsp;200&nbsp;м², 68&nbsp;регионов поставок</li>
+          </ul>
+        </div>
+        <figure class="chap-photo">
+          <img src="https://www.pmzspb.ru/media/images/today.jpg" alt="Завод сегодня" loading="lazy" onerror="this.closest('figure').classList.add('no-img')" />
+          <figcaption>Производственная площадка · 2026</figcaption>
+        </figure>
+      </article>
+
+    </div>
+
+    <div class="hist-coda reveal">
+      <span class="coda-rule"></span>
+      <span class="coda-text">Продолжение&nbsp;— в&nbsp;каждой&nbsp;детали, которую&nbsp;мы&nbsp;отгружаем&nbsp;сегодня.</span>
+      <span class="coda-rule"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer id="contacts">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html" aria-label="ПМЗ">
+          <img class="brand-logo brand-logo-foot" src="img/logo-pmz.svg" alt="ПМЗ" />
+        </a>
+        <p>Производство геотехнических систем, бурового инструмента, металлоконструкций и тяжёлого машиностроения. Полный цикл от&nbsp;чертежа до отгрузки.</p>
+        <div class="foot-seal">сделано в Пушкине · с 1919</div>
+      </div>
+      <div class="foot-col">
+        <h4>Продукция</h4>
+        <ul>
+          <li><a href="index.html#directions">Геотехнические системы</a></li>
+          <li><a href="index.html#directions">Буровой инструмент</a></li>
+          <li><a href="index.html#directions">Металлоконструкции</a></li>
+          <li><a href="index.html#directions">Машиностроение</a></li>
+          <li><a href="index.html#services">Услуги металлообработки</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Компания</h4>
+        <ul>
+          <li><a href="about.html">О заводе</a></li>
+          <li><a href="history.html">История компании</a></li>
+          <li><a href="rukovodstvo.html">Руководство</a></li>
+          <li><a href="nagrady-sertifikaty.html">Сертификаты</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+78126407995">+7 (812) 640‑79‑95</a></li>
+          <li><a href="mailto:sales@pmz.spb.ru">sales@pmz.spb.ru</a></li>
+          <li><a href="#">196608, СПб, г. Пушкин,<br/>Новодеревенская ул., 17</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 1919–2026 ООО «Пушкинский машиностроительный завод»</span>
+      <span>ОГРН 1027810231142 · ИНН 7820300041</span>
+      <span>Политика конфиденциальности</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reveal-on-scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { rootMargin: '0px 0px -60px 0px', threshold: 0.05 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+<script>
+  // ============================ NAV SCRIPT ============================
+  // Highlight active page in primary nav
+  (function(){
+    const path = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    const map = {
+      'about.html': 'plant',
+      'history.html': 'history',
+    };
+    const key = map[path];
+    if (key) {
+      document.querySelectorAll('[data-nav="'+key+'"]').forEach(el => {
+        el.style.color = 'var(--ink)';
+        el.style.fontWeight = '600';
+      });
+    }
+  })();
+  // Mobile menu toggle
+  const menuBtn = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  function setMenu(open) {
+    document.body.classList.toggle('menu-open', open);
+    mobileMenu?.setAttribute('aria-hidden', open ? 'false' : 'true');
+    menuBtn?.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  menuBtn?.addEventListener('click', () => {
+    const open = !document.body.classList.contains('menu-open');
+    setMenu(open);
+  });
+  mobileMenu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // Mega menu hover
+  let megaTimer = null;
+  function openMega(item) {
+    clearTimeout(megaTimer);
+    document.querySelectorAll('.nav-item.is-open').forEach(n => { if (n !== item) n.classList.remove('is-open'); });
+    item.classList.add('is-open');
+  }
+  function closeMega() {
+    document.querySelectorAll('.nav-item.is-open').forEach(n => n.classList.remove('is-open'));
+  }
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('mouseenter', () => openMega(item));
+    item.addEventListener('focusin', () => openMega(item));
+  });
+  const headerEl = document.querySelector('.header');
+  headerEl?.addEventListener('mouseleave', () => { megaTimer = setTimeout(closeMega, 220); });
+  headerEl?.addEventListener('mouseenter', () => clearTimeout(megaTimer));
+  document.querySelectorAll('.nav > .nav-link').forEach(a => {
+    a.addEventListener('mouseenter', () => { clearTimeout(megaTimer); closeMega(); });
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMega(); });
+
+  // Stub modal
+  const stubModal = document.getElementById('stubModal');
+  const stubTarget = document.getElementById('stubTarget');
+  document.addEventListener('click', (e) => {
+    const stub = e.target.closest('[data-stub]');
+    if (!stub) return;
+    e.preventDefault();
+    closeMega();
+    setMenu(false);
+    if (stubTarget) stubTarget.textContent = stub.dataset.stub || 'этот раздел';
+    if (typeof stubModal?.showModal === 'function') stubModal.showModal();
+    else stubModal?.setAttribute('open', '');
+  });
+  document.getElementById('stubClose')?.addEventListener('click', () => stubModal?.close());
+  stubModal?.addEventListener('click', (e) => { if (e.target === stubModal) stubModal.close(); });
+</script>
+
+</body>
+</html>
