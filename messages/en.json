@@ -24,7 +24,9 @@
     "menu": "Menu",
     "request": "Request",
     "back": "back · to home",
-    "home": "Home"
+    "home": "Home",
+    "expand": "expand section",
+    "close": "collapse section"
   },
   "mega": {
     "plant": {

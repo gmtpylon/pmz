@@ -7,8 +7,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { ArrowIcon, BarsIcon, XIcon } from "./icons";
 import { MobileMenu } from "./MobileMenu";
 import { LangSwitcher } from "./LangSwitcher";
-
-type MegaKey = "plant" | "products" | "services" | "customers";
+import { MEGA_BLUEPRINT, FEAT_HREF, type MegaKey } from "@/lib/nav";
 
 const OPEN_DELAY_MS = 120; // hover-intent: ignore fly-by
 const CLOSE_DELAY_MS = 100; // short grace period; close feels snappy
@@ -253,101 +252,6 @@ function MegaItem({
 }
 
 type Col = { heading: string; items: { label: string; href: string }[] };
-
-const MEGA_BLUEPRINT: Record<
-  MegaKey,
-  {
-    headings: [string, string, string];
-    items: [string, string][][]; // 3 columns × n items × [linkKey, href]
-  }
-> = {
-  plant: {
-    headings: ["company", "quality", "contacts"],
-    items: [
-      [
-        ["about", "/about"],
-        ["history", "/history"],
-        ["leadership", "/rukovodstvo"],
-        ["social", "/socialnaya-otvetstvennost"],
-      ],
-      [
-        ["awards", "/nagrady-sertifikaty"],
-        ["qc", "/otk"],
-      ],
-      [
-        ["kontakty", "/kontakty"],
-        ["career", "/karyera"],
-        ["press", "/news"],
-      ],
-    ],
-  },
-  products: {
-    headings: ["geotech", "drilling", "machinery"],
-    items: [
-      [
-        ["anchors", "/ankernye-sistemy"],
-        ["rods", "/vintovye-shtangi"],
-        ["groundAnchors", "/gruntovye-ankery"],
-      ],
-      [
-        ["drillingEq", "/burovoe-oborudovanie"],
-        ["cfa", "/shneki-cfa"],
-        ["casing", "/obsadnye-truby"],
-      ],
-      [
-        ["custom", "/mashinostroenie-pod-zakaz"],
-        ["mbgu", "/mbgu-200"],
-        ["metalwork", "/metallokonstrukcii"],
-      ],
-    ],
-  },
-  services: {
-    headings: ["processing", "forming", "special"],
-    items: [
-      [
-        ["rolling", "/prokatka"],
-        ["machining", "/mehanicheskaya-obrabotka"],
-        ["cutting", "/rezka-metalla"],
-      ],
-      [
-        ["bending", "/gibka-valcovka"],
-        ["welding", "/svarochnye-raboty"],
-        ["metalwork", "/metalloobrabotka"],
-      ],
-      [
-        ["galvanizing", "/termodiffuzionnoe-cinkovanie"],
-        ["hf", "/termoobrabotka-tvch"],
-        ["tests", "/mehanicheskie-ispytaniya"],
-      ],
-    ],
-  },
-  customers: {
-    headings: ["industry", "infra", "flagship"],
-    items: [
-      [
-        ["oilgas", "/neftegaz"],
-        ["hydro", "/gidrotehnika"],
-        ["spec", "/specstroy"],
-      ],
-      [
-        ["roads", "/dorozhnoe"],
-        ["housing", "/zhilishnoe"],
-        ["health", "/zdravoohranenie"],
-      ],
-      [
-        ["space", "/rkosmos"],
-        ["sport", "/sport-turizm"],
-      ],
-    ],
-  },
-};
-
-const FEAT_HREF: Record<MegaKey, string> = {
-  plant: "/history",
-  products: "/#directions",
-  services: "/zayavka",
-  customers: "/#projects",
-};
 
 function MegaPanel({
   navKey,
