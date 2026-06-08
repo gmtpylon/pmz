@@ -109,7 +109,7 @@ export function Header() {
   return (
     <>
       <header
-        className={`header${compact && openMega === null ? " is-compact" : ""}`}
+        className={`header${compact && openMega === null && !mobileOpen ? " is-compact" : ""}`}
         onMouseLeave={requestClose}
         onMouseEnter={cancelClose}
       >

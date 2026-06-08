@@ -214,6 +214,7 @@ body.menu-open .icon-btn.menu-btn .xmark { display: block; }
   pointer-events: none;
   transition: transform 0.25s ease, opacity 0.2s ease;
   overflow-y: auto;
+  overscroll-behavior: contain;
 }
 @media (max-width: 600px) {
   .mobile-menu { inset: 60px 0 0 0; padding: 14px 16px; }
@@ -223,7 +224,10 @@ body.menu-open .mobile-menu {
   opacity: 1;
   pointer-events: auto;
 }
+/* Lock background scroll while the mobile menu is open. The root scroller is
+   <html> (it has overflow-x: clip), so locking <body> alone isn't enough. */
 body.menu-open { overflow: hidden; }
+html:has(body.menu-open) { overflow: hidden; }
 .mm-nav { display: flex; flex-direction: column; }
 
 /* Top-level row: standalone link (history/buy/contacts) or section header */
