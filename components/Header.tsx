@@ -25,19 +25,45 @@ export function Header() {
   // up, always full near the top. rAF-throttled + passive for smooth scrolling.
   useEffect(() => {
     const TOP_GUARD = 80; // always full above this point
-    const DELTA = 6; // ignore micro-jitter
+    // DELTA must exceed the header's own height change (72→56 = 16px). Toggling
+    // compact reflows the sticky header, and scroll anchoring nudges scrollY by
+    // ~that amount to keep content stable — a nudge smaller than DELTA can't be
+    // mistaken for a user scroll, which is what previously caused the header to
+    // oscillate (grow/shrink) with no real scrolling.
+    const DELTA = 24;
+    // Ignore direction while the height transition (0.28s) settles, so the
+    // reflow-induced scroll shift is absorbed as baseline, not read as input.
+    const SETTLE_MS = 320;
     let lastY = window.scrollY;
+    let current = false; // mirrors the `compact` state, initialised to useState
+    let lockUntil = 0;
     let ticking = false;
 
+    function apply(next: boolean) {
+      if (next === current) return;
+      current = next;
+      lockUntil = performance.now() + SETTLE_MS;
+      setCompact(next);
+    }
+
     function update() {
+      ticking = false;
       const y = window.scrollY;
+      if (y < TOP_GUARD) {
+        apply(false);
+        lastY = y;
+        return;
+      }
+      // During the settle window, keep the baseline current so neither the
+      // transition reflow nor its scroll-anchoring correction flips the state.
+      if (performance.now() < lockUntil) {
+        lastY = y;
+        return;
+      }
       if (Math.abs(y - lastY) >= DELTA) {
-        if (y < TOP_GUARD) setCompact(false);
-        else if (y > lastY) setCompact(true); // scrolling down
-        else setCompact(false); // scrolling up
+        apply(y > lastY); // scrolling down → compact
         lastY = y;
       }
-      ticking = false;
     }
 
     function onScroll() {
