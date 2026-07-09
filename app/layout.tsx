@@ -19,7 +19,8 @@ export async function generateMetadata(): Promise<Metadata> {
       alternateLocale: ["en_US"],
     },
     twitter: { card: "summary_large_image" },
-    icons: { icon: "/favicon.ico" },
+    // Icons are provided by the app/ file conventions:
+    // favicon.ico, icon.png, apple-icon.png
   };
 }
 
