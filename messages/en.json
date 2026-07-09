@@ -1,9 +1,9 @@
 {
   "site": {
-    "title": "PMZ — Pushkin Machine-Building Plant",
+    "title": "PMZ — Pushkin Metallurgical Plant",
     "tagline": "Manufacturing of ground anchor systems, drilling tools, steel structures and heavy machinery. Full cycle from drawing to shipment.",
     "seal": "made in Pushkin · since 1919",
-    "since": "© 1919–2026 LLC «Pushkin Machine-Building Plant»",
+    "since": "© 1919–2026 LLC «Pushkin Metallurgical Plant»",
     "regNumbers": "OGRN 1027810231142 · INN 7820300041",
     "privacy": "Privacy policy"
   },
@@ -1552,7 +1552,7 @@
     "about": {
       "eyebrow": "Company · About the plant",
       "title": "A modern Russian machine-building enterprise.",
-      "lead": "Pushkin Machine-Building Plant LLC combines large production capacity, qualified personnel and growth potential. One of Russia's leading producers of ground anchor systems, drilling equipment and tools, structural steelwork and machine-building assemblies.",
+      "lead": "Pushkin Metallurgical Plant LLC combines large production capacity, qualified personnel and growth potential. One of Russia's leading producers of ground anchor systems, drilling equipment and tools, structural steelwork and machine-building assemblies.",
       "sections": [
         {
           "kind": "items",
@@ -2577,7 +2577,7 @@
           "items": [
             {
               "ttl": "Legal name",
-              "dsc": "LLC «Pushkin Machine-Building Plant»."
+              "dsc": "LLC «Pushkin Metallurgical Plant»."
             },
             {
               "ttl": "OGRN · INN",
@@ -2691,7 +2691,7 @@
     "privacy": {
       "eyebrow": "/ Legal · Privacy",
       "title": "Privacy policy",
-      "lead": "How Pushkin Machine-Building Plant LLC processes personal data of site visitors and applicants. Compliant with Russian Federal Law No. 152-FZ «On personal data».",
+      "lead": "How Pushkin Metallurgical Plant LLC processes personal data of site visitors and applicants. Compliant with Russian Federal Law No. 152-FZ «On personal data».",
       "sections": [
         {
           "kind": "items",
@@ -2701,7 +2701,7 @@
           "items": [
             {
               "ttl": "Legal name",
-              "dsc": "Pushkin Machine-Building Plant LLC (hereinafter — the Operator)."
+              "dsc": "Pushkin Metallurgical Plant LLC (hereinafter — the Operator)."
             },
             {
               "ttl": "OGRN · INN",
@@ -2822,7 +2822,7 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Pushkin Machine-Building Plant",
+      "eyebrow": "Pushkin Metallurgical Plant",
       "titleMain": "Heavy metal and precision mechanics",
       "titleItal": "for your project.",
       "lead": "Geotechnical systems, drilling tools, steel structures and heavy machinery. Full cycle from drawing to shipment on a modern machine park with our own design bureau and quality control per GOST and ISO standards.",
@@ -3461,7 +3461,7 @@
           },
           {
             "yr": "1994",
-            "t": "JSC Pushkin Machine-Building Plant"
+            "t": "JSC Pushkin Metallurgical Plant"
           }
         ],
         "img": "/img/factory/hist-5.webp",

@@ -2,9 +2,9 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://pmz.example";
 
 export const ORG = {
-  name: "ООО «Пушкинский машиностроительный завод»",
-  legalName: "ООО «Пушкинский машиностроительный завод»",
-  legalNameEn: "Pushkin Machine-Building Plant LLC",
+  name: "ООО «Пушкинский металлургический завод»",
+  legalName: "ООО «Пушкинский металлургический завод»",
+  legalNameEn: "Pushkin Metallurgical Plant LLC",
   shortName: "ПМЗ",
   shortNameEn: "PMZ",
   founded: "1919",

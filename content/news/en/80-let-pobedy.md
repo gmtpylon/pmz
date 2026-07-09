@@ -6,7 +6,7 @@ lead: During the war the plant supplied the Leningrad front; today we remember a
 minutes: 2
 ---
 
-During the Great Patriotic War Pushkin Machine-Building Plant (back then «Detskoye Selo
+During the Great Patriotic War Pushkin Metallurgical Plant (back then «Detskoye Selo
 repair works») switched to producing for the Leningrad front: repairing bitumen sprayers
 and concrete mixers, manufacturing steel parts for defense needs, sending repair crews
 to the front lines.

@@ -8,7 +8,7 @@ minutes: 2
 
 On the last Sunday of September Russia celebrates Machine-Builder's Day — a holiday
 for people who design, build and service the equipment industry runs on.
-This year Pushkin Machine-Building Plant marked it on its own shop floor: certificates
+This year Pushkin Metallurgical Plant marked it on its own shop floor: certificates
 went to design engineers, process technologists, CNC operators and NAKS-certified welders.
 
 The certificates were handed out by the production director and representatives of the

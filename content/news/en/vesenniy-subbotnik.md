@@ -6,7 +6,7 @@ lead: Ahead of the May holidays the team helped tidy up the town of Pushkin.
 minutes: 2
 ---
 
-Ahead of the May holidays, employees of the Pushkin Machine-Building Plant took part
+Ahead of the May holidays, employees of the Pushkin Metallurgical Plant took part
 in a spring clean-up. The team helped tidy the area around the plant and public
 spaces in the town of Pushkin after winter.
 

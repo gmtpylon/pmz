@@ -6,7 +6,7 @@ lead: First-year mining students explored the production during their summer pra
 minutes: 2
 ---
 
-In July the Pushkin Machine-Building Plant hosted a tour for first-year students of
+In July the Pushkin Metallurgical Plant hosted a tour for first-year students of
 the St. Petersburg Mining University. The future mining engineers came to the plant
 as part of their summer practical training.
 

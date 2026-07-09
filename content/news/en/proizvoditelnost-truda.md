@@ -6,7 +6,7 @@ lead: A business game on the principles of lean manufacturing was held at the pl
 minutes: 3
 ---
 
-Pushkin Machine-Building Plant has joined the national "Labour Productivity" project.
+Pushkin Metallurgical Plant has joined the national "Labour Productivity" project.
 The project helps companies produce more without extra investment, through smarter
 organisation of work.
 
